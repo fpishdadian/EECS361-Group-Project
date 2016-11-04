@@ -1,63 +1,31 @@
--- This code implements a 6 to 1 AND gate
-
 library ieee;
 use ieee.std_logic_1164.all;
-use work.eecs361_gates.and_gate;
+use work.eecs361_gates.all;
 
 entity and_gate_6to1 is
-     port (
-         and_in: in std_logic_vector(5 downto 0);
-         and_out: out std_logic
-         );
+port(x : in std_logic_vector(5 downto 0);
+     z :out std_logic);
 end and_gate_6to1;
 
-architecture structural of and_gate_6to1 is
+architecture dataflows of and_gate_6to1 is
+component and_gate is
+port (
+    x   : in  std_logic;
+    y   : in  std_logic;
+    z   : out std_logic
+  );
+end component;
 
-component and_gate
-    port (
-      x : in std_logic;
-      y : in std_logic;
-      z : out std_logic
-    );
-end component and_gate;
-
-signal temp1,temp2,temp3,temp4: std_logic;
-
+signal level1 : std_logic_vector(2 downto 0);
+signal level2 : std_logic;
+ 
 begin
-u1: and_gate port map (
-    x => and_in(5),
-    y => and_in(4),
-    z => temp1
-    );
 
-u2: and_gate port map (
-    x => and_in(3),
-    y => and_in(2),
-    z => temp2
-    );
+and_gate_map0: and_gate port map(x=>x(0), y=>x(1), z=>level1(0));
+and_gate_map1: and_gate port map(x=>x(2), y=>x(3), z=>level1(1));
+and_gate_map2: and_gate port map(x=>x(4), y=>x(5), z=>level1(2));
+and_gate_map3: and_gate port map(x=>level1(0), y=>level1(1), z=>level2);
+and_gate_map4: and_gate port map(x=>level1(2), y=>level2, z=>z);
 
-u3: and_gate port map (
-    x => temp1,
-    y => temp2,
-    z => temp3
-    );
-
-u4: and_gate port map (
-    x => and_in(1),
-    y => and_in(0),
-    z => temp4
-    );
-
-u5: and_gate port map (
-    x => temp3,
-    y => temp4,
-    z => and_out
-    );
-
-end structural;
-
-
-
-
-
+end dataflows;
 
