@@ -1,10 +1,9 @@
-{Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd}
+{Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity not_gate
--- Compiling architecture dataflow of not_gate
+-- Compiling package eecs361_gates
 
 } {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -14,12 +13,13 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity or_gate
 -- Compiling architecture dataflow of or_gate
 
-} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd}
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling package eecs361_gates
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
 
 } {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -28,15 +28,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Compiling package eecs361
-
-} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Compiling entity or_gate_3to1
--- Compiling architecture structural of or_gate_3to1
 
 } {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015

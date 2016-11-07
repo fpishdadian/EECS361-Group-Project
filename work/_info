@@ -48,7 +48,7 @@ R10
 R11
 R12
 Eand_gate_6to1
-Z13 w1478154423
+Z13 w1478231607
 Z14 DPx4 work 13 eecs361_gates 0 22 Y`H6JLa]eolRP`lSh`[1R3
 R1
 R2
@@ -56,28 +56,28 @@ R3
 Z15 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/and_gate_6to1.vhd
 Z16 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/and_gate_6to1.vhd
 l0
-L7
-VS>fP8BgWR:0ZWIFlAF2=l0
-!s100 D@Nzc30X;B7hd7fUU]NlK1
+L5
+V]QOOOQTBaTjN=XOGQ8D>G3
+!s100 BV_9k]e[LCa2S7GI519ZQ0
 R6
 32
-Z17 !s110 1478190488
+Z17 !s110 1478486606
 !i10b 1
-Z18 !s108 1478190488.000000
+Z18 !s108 1478486606.000000
 Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/and_gate_6to1.vhd|
 Z20 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/and_gate_6to1.vhd|
 !i113 1
 R11
 R12
-Astructural
+Adataflows
 R14
 R1
 R2
-Z21 DEx4 work 13 and_gate_6to1 0 22 S>fP8BgWR:0ZWIFlAF2=l0
-l26
-L14
-V>Q]j>I]S8^?7V9E[QfTC83
-!s100 h4gI`BMAa6]Q5fmi6DPB`2
+DEx4 work 13 and_gate_6to1 0 22 ]QOOOQTBaTjN=XOGQ8D>G3
+l22
+L10
+VCH2@?OY@1mXaD2fooQB_92
+!s100 ZPi2JQUjbe2V>2@U6_DmO3
 R6
 32
 R17
@@ -88,6 +88,26 @@ R20
 !i113 1
 R11
 R12
+Astructural
+R14
+R1
+R2
+DEx4 work 13 and_gate_6to1 0 22 S>fP8BgWR:0ZWIFlAF2=l0
+l26
+L14
+V>Q]j>I]S8^?7V9E[QfTC83
+!s100 h4gI`BMAa6]Q5fmi6DPB`2
+R6
+32
+!s110 1478190488
+!i10b 1
+!s108 1478190488.000000
+R19
+R20
+!i113 1
+R11
+R12
+w1478154423
 Peecs361
 R14
 R1
@@ -132,26 +152,43 @@ R6
 R11
 R12
 Emain_control
-Z22 w1478190397
-Z23 DEx4 work 12 or_gate_3to1 0 22 X[G8S]POgmV2^]Zk]Pz5<2
+Z21 w1478231611
 R14
-R21
 R1
 R2
 R3
-Z24 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd
-Z25 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd
+Z22 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/main_control.vhd
+Z23 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/main_control.vhd
 l0
-L8
-VWez0:c0Ba:k=JjYa[jU3b1
-!s100 38?gQU2Dz?N4;U=J7FHLJ1
+L6
+V[c9[Beoj2V@J02;8KB2c80
+!s100 ^KQJ]lH1JDjYHCcDlXH;A1
 R6
 32
-Z26 !s110 1478190495
+Z24 !s110 1478486622
 !i10b 1
-Z27 !s108 1478190494.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd|
-Z29 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd|
+Z25 !s108 1478486622.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/main_control.vhd|
+Z27 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/main_control.vhd|
+!i113 1
+R11
+R12
+Adataflows
+R14
+R1
+R2
+DEx4 work 12 main_control 0 22 [c9[Beoj2V@J02;8KB2c80
+l57
+L19
+VPzAPjMUH^I9AgL]4MBkVV0
+!s100 X<bKE4hjDi7e:=5G`Pd[03
+R6
+32
+R24
+!i10b 1
+R25
+R26
+R27
 !i113 1
 R11
 R12
@@ -159,39 +196,42 @@ Astructural
 R14
 R1
 R2
-Z30 DEx4 work 12 main_control 0 22 Wez0:c0Ba:k=JjYa[jU3b1
+DEx4 work 12 main_control 0 22 Wez0:c0Ba:k=JjYa[jU3b1
 l57
 L23
-Z31 VGSJUWO:9:lU`c>[Ch^z@c0
-Z32 !s100 ^]HO<O:W1OODE>]QR<D]n2
+VGSJUWO:9:lU`c>[Ch^z@c0
+!s100 ^]HO<O:W1OODE>]QR<D]n2
 R6
 32
-R26
+!s110 1478190495
 !i10b 1
-R27
-R28
-R29
+!s108 1478190494.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd|
+!s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd|
 !i113 1
 R11
 R12
+FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd
+w1478190397
+8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd
 Enot_gate
 R0
 R1
 R2
 R3
-Z33 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
-Z34 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
+Z28 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
+Z29 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
 l0
 L5
 Va2jU0gU?ahMAOCzX>hcie3
 !s100 ZFL^eh?^CT8f=9?@;fY^P1
 R6
 32
-Z35 !s110 1478155453
+Z30 !s110 1478155453
 !i10b 1
-Z36 !s108 1478155453.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
-Z38 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
+Z31 !s108 1478155453.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
+Z33 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
 !i113 1
 R11
 R12
@@ -205,11 +245,11 @@ VSd>_hU>oSoTbK=><35n<J1
 !s100 0K4o_`::YhV<`CcAlY38V3
 R6
 32
-R35
+R30
 !i10b 1
-R36
-R37
-R38
+R31
+R32
+R33
 !i113 1
 R11
 R12
@@ -218,19 +258,19 @@ R0
 R1
 R2
 R3
-Z39 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
-Z40 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
+Z34 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
+Z35 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
 l0
 L5
 VI0bn=1KP2N19:Qz72M5BR3
 !s100 P4NBKo^c]hz<z`LINQA5?3
 R6
 32
-Z41 !s110 1478154343
+Z36 !s110 1478154343
 !i10b 1
-Z42 !s108 1478154342.000000
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
-Z44 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
+Z37 !s108 1478154342.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
+Z39 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
 !i113 1
 R11
 R12
@@ -244,33 +284,52 @@ VMWOz`KXoz4S7hV@cG3bY]1
 !s100 imjaYVkITBGK@1]KZ;:O?1
 R6
 32
-R41
+R36
 !i10b 1
-R42
-R43
-R44
+R37
+R38
+R39
 !i113 1
 R11
 R12
 Eor_gate_3to1
-Z45 w1478154683
+Z40 w1478231619
 R14
 R1
 R2
 R3
-Z46 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
-Z47 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
+Z41 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
+Z42 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
 l0
-L7
-VX[G8S]POgmV2^]Zk]Pz5<2
-!s100 K3X`0^^h>:bdBNfI9bMzo1
+L5
+VOlm9j6R:Fh828d?fQdYK81
+!s100 MFTHlfcV<JbIgWMjR1H0>2
 R6
 32
-Z48 !s110 1478154706
+Z43 !s110 1478486597
 !i10b 1
-Z49 !s108 1478154706.000000
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
-Z51 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
+Z44 !s108 1478486596.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
+Z46 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
+!i113 1
+R11
+R12
+Adataflows
+R14
+R1
+R2
+DEx4 work 12 or_gate_3to1 0 22 Olm9j6R:Fh828d?fQdYK81
+l21
+L10
+V0[emWmzJ[0J3>WQM_X88B2
+!s100 0TlOzZ`X9cz;D_YkY>X3W2
+R6
+32
+R43
+!i10b 1
+R44
+R45
+R46
 !i113 1
 R11
 R12
@@ -278,18 +337,19 @@ Astructural
 R14
 R1
 R2
-R23
+DEx4 work 12 or_gate_3to1 0 22 X[G8S]POgmV2^]Zk]Pz5<2
 l26
 L14
 VTRQ>8H<O;5ZJIUV_bbP762
 !s100 <J1FT>E^=SEo_V9bID68V0
 R6
 32
-R48
+!s110 1478154706
 !i10b 1
-R49
-R50
-R51
+!s108 1478154706.000000
+R45
+R46
 !i113 1
 R11
 R12
+w1478154683
