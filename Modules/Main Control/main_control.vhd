@@ -11,7 +11,6 @@ port(op : in std_logic_vector(5 downto 0);
 MemtoReg : out std_logic;
  MemWrt :out std_logic;
  branch :out std_logic;
-   jump :out std_logic;
   Extop :out std_logic;
   ALUop :out std_logic_vector(2 downto 0));
 end main_control;
@@ -87,8 +86,6 @@ or_gate_map3: or_gate port map(x=>sig_LW,y=>sig_LW,z=>MemtoReg);
 or_gate_map4: or_gate port map(x=>sig_SW,y=>sig_SW,z=>MemWrt);
 --branch
 or_gate_map5: or_gate_3to1 port map(x(0)=>sig_beq,x(1)=>sig_bne,x(2)=>sig_bgtz,z=>branch);
---jump
-or_gate_map6: or_gate port map(x=>'0',y=>'0',z=>jump);
 --Extop
 or_gate_map7: or_gate_3to1 port map(x(0)=>sig_LW,x(1)=>sig_SW,x(2)=>sig_addi,z=>Extop);
 --ALUop(2)
