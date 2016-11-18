@@ -1,0 +1,434 @@
+-- This script implements a signed arithmetic unit
+-- Operations: add, sub
+
+
+library ieee;
+use ieee.std_logic_1164.all;
+use work.add_32bit;
+use work.eecs361_gates.all;
+use work.eecs361.mux;
+
+entity arithmetic_sgn is
+       port(
+       arith_in0: in std_logic_vector(31 downto 0);
+       arith_in1: in std_logic_vector(31 downto 0);
+       op_code: in std_logic; 
+       arith_out: out std_logic_vector(31 downto 0);
+       c_out: out std_logic;
+       ovf: out std_logic;
+       zero_out: out std_logic
+       );
+end arithmetic_sgn;
+
+architecture structural of arithmetic_sgn is
+
+component not_gate
+     port (
+    x: in  std_logic;
+    z: out std_logic
+    );
+end component not_gate;
+
+component or_gate
+  port (
+    x   : in  std_logic;
+    y   : in  std_logic;
+    z   : out std_logic
+  );
+end component or_gate;
+
+component and_gate_6to1 
+     port (
+         and_in: in std_logic_vector(5 downto 0);
+         and_out: out std_logic
+         );
+end component and_gate_6to1;
+
+component or_gate_4to1 
+     port (
+         or_in: in std_logic_vector(3 downto 0);
+         or_out: out std_logic
+         );
+end component or_gate_4to1;
+
+component nor_32_to_1
+    port (
+     main_in: in std_logic_vector(31 downto 0);
+     main_out: out std_logic
+     );
+end component nor_32_to_1;
+
+component arithmetic_usgn
+       port(
+       arith_in0: in std_logic_vector(31 downto 0);
+       arith_in1: in std_logic_vector(31 downto 0);
+       op_code: in std_logic; 
+       arith_out: out std_logic_vector(31 downto 0);
+       c_out: out std_logic;
+       ovf: out std_logic;
+       zero_out: out std_logic
+       );
+end component arithmetic_usgn;
+
+component mux_32_4to1 
+     port (
+     sel: in std_logic_vector(1 downto 0);
+     src00: in std_logic_vector(31 downto 0);
+     src01: in std_logic_vector(31 downto 0);
+     src10: in std_logic_vector(31 downto 0);
+     src11: in std_logic_vector(31 downto 0);
+     z: out std_logic_vector(31 downto 0)
+     );
+end component mux_32_4to1;
+
+
+signal A_msb, B_msb,CoutApB,CoutAmB,CoutBmA: std_logic;
+signal notOp,notAmsb,notBmsb,notCAB,notCBA: std_logic;
+signal tempA, tempB,tempApB,tempAmB,tempBmA: std_logic_vector(31 downto 0);
+signal ctrlApB,ctrlAmB,ctrlBmA,ctrl0: std_logic_vector(3 downto 0);
+signal or_out,not_or_out: std_logic_vector(3 downto 0);
+signal sel_temp: std_logic_vector(1 downto 0);
+signal result_temp,result_temp2: std_logic_vector(31 downto 0);
+signal msb_temp: std_logic_vector (4 downto 0);
+
+begin
+
+-- read the most signnificat bits of inputs
+A_msb <= arith_in0(31);
+B_msb <= arith_in1(31);
+
+-- compute absolute values of the inputs
+tempA <= "0" & arith_in0(30 downto 0);
+tempB <= "0" & arith_in1(30 downto 0);
+
+-- compute |A|+|B|
+u0: arithmetic_usgn port map(
+    arith_in0 => tempA,
+    arith_in1 => tempB,
+    op_code => '0',
+    arith_out => tempApB,
+    c_out => CoutApB
+    );
+
+-- compute |A|-|B|
+u1: arithmetic_usgn port map(
+    arith_in0 => tempA,
+    arith_in1 => tempB,
+    op_code => '1',
+    arith_out => tempAmB,
+    c_out => CoutAmB
+    );
+
+-- compute |B|-|A|
+u2: arithmetic_usgn port map(
+    arith_in0 => tempB,
+    arith_in1 => tempA,
+    op_code => '1',
+    arith_out => tempBmA,
+    c_out => CoutBmA
+    );
+
+-- compute 'not' of control signals
+u3: not_gate port map(
+    x => op_code,
+    z => notOp
+    );
+
+u4: not_gate port map(
+    x => A_msb,
+    z => notAmsb
+    );
+
+u5: not_gate port map(
+    x => B_msb,
+    z => notBmsb
+    );
+
+u6: not_gate port map(
+    x => CoutAmB,
+    z => notCAB
+    );
+
+u7: not_gate port map(
+    x => CoutBmA,
+    z => notCBA
+    );
+
+-- control for |A|+|B|
+u8: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>notAmsb,
+    and_in(3)=>notBmsb,
+    and_in(2)=>'1',
+    and_in(1)=>'1',
+    and_in(0)=>'1',
+    and_out => ctrlApB(3)
+    );
+
+u9: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>A_msb,
+    and_in(3)=>B_msb,
+    and_in(2)=>'1',
+    and_in(1)=>'1',
+    and_in(0)=>'1',
+    and_out => ctrlApB(2)
+    );
+
+u10: and_gate_6to1 port map (
+     and_in(5)=> op_code,
+     and_in(4)=>notAmsb,
+     and_in(3)=>B_msb,
+     and_in(2)=>'1',
+     and_in(1)=>'1',
+     and_in(0)=>'1',
+     and_out => ctrlApB(1)
+     );
+
+u11: and_gate_6to1 port map(
+     and_in(5)=> op_code,
+     and_in(4)=>A_msb,
+     and_in(3)=>notBmsb,
+     and_in(2)=>'1',
+     and_in(1)=>'1',
+     and_in(0)=>'1',
+     and_out => ctrlApB(0)
+     );
+
+u12: or_gate_4to1 port map(
+     or_in=>ctrlApB,
+     or_out=> or_out(3)
+     );
+
+u13: not_gate port map(
+     x=> or_out(3),
+     z=> not_or_out(3)
+     );
+
+-- control for |A|-|B|
+u14: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>notAmsb,
+    and_in(3)=>B_msb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>notCBA,
+    and_in(0)=>'1',
+    and_out => ctrlAmB(3)
+    );
+
+u15: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>A_msb,
+    and_in(3)=>notBmsb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>notCBA,
+    and_in(0)=>'1',
+    and_out => ctrlAmB(2)
+    );
+
+u16: and_gate_6to1 port map (
+    and_in(5)=> op_code,
+    and_in(4)=>notAmsb,
+    and_in(3)=>notBmsb,
+    and_in(2)=>notCAB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrlAmB(1)
+    );
+
+u17: and_gate_6to1 port map (
+    and_in(5)=> op_code,
+    and_in(4)=>A_msb,
+    and_in(3)=>B_msb,
+    and_in(2)=>notCAB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrlAmB(0)
+    );
+
+u18: or_gate_4to1 port map(
+     or_in=>ctrlAmB,
+     or_out=> or_out(2)
+     );
+
+u19: not_gate port map(
+     x=> or_out(2),
+     z=> not_or_out(2)
+     );
+
+
+-- control for |B|-|A|
+u20: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>notAmsb,
+    and_in(3)=>B_msb,
+    and_in(2)=>notCAB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrlBmA(3)
+    );
+
+u21: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>A_msb,
+    and_in(3)=>notBmsb,
+    and_in(2)=>notCAB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrlBmA(2)
+    );
+
+u22: and_gate_6to1 port map (
+    and_in(5)=> op_code,
+    and_in(4)=>notAmsb,
+    and_in(3)=>notBmsb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>notCBA,
+    and_in(0)=>'1',
+    and_out => ctrlBmA(1)
+    );
+
+u23: and_gate_6to1 port map (
+    and_in(5)=> op_code,
+    and_in(4)=>A_msb,
+    and_in(3)=>B_msb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>notCBA,
+    and_in(0)=>'1',
+    and_out => ctrlBmA(0)
+    );
+
+u24: or_gate_4to1 port map(
+     or_in=>ctrlBmA,
+     or_out=> or_out(1)
+     );
+
+u25: not_gate port map(
+     x=> or_out(1),
+     z=> not_or_out(1)
+     );
+
+-- control for 0
+u26: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>notAmsb,
+    and_in(3)=>B_msb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrl0(3)
+    );
+
+u27: and_gate_6to1 port map (
+    and_in(5)=> notOp,
+    and_in(4)=>A_msb,
+    and_in(3)=>notBmsb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrl0(2)
+    );
+
+u28: and_gate_6to1 port map (
+    and_in(5)=> op_code,
+    and_in(4)=>notAmsb,
+    and_in(3)=>notBmsb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrl0(1)
+    );
+
+u29: and_gate_6to1 port map (
+    and_in(5)=> op_code,
+    and_in(4)=>A_msb,
+    and_in(3)=>B_msb,
+    and_in(2)=>CoutAmB,
+    and_in(1)=>CoutBmA,
+    and_in(0)=>'1',
+    and_out => ctrl0(0)
+    );
+
+u30: or_gate_4to1 port map(
+     or_in=>ctrl0,
+     or_out=> or_out(0)
+     );
+
+u31: not_gate port map(
+     x=> or_out(0),
+     z=> not_or_out(0)
+     );
+
+-- select signal for 32-bit, 4 to 1 multiplexer
+u32: or_gate port map(
+     x => or_out(3),
+     y => or_out(1),
+     z => sel_temp(1)
+     );
+
+u33: or_gate port map(
+     x => or_out(3),
+     y => or_out(2),
+     z => sel_temp(0)
+     );
+
+u34: mux_32_4to1 port map(
+     sel => sel_temp,
+     src00 => x"00000000",
+     src01 => tempAmB,
+     src10 => tempBmA,
+     src11 => tempApB,
+     z => result_temp
+     );
+
+-- carry out
+c_out <= result_temp(31);
+
+-- sign (MSB) of result
+
+u35: or_gate port map(
+     x => ctrlApB(2),
+     y => ctrlApB(0),
+     z => msb_temp(4)
+     );
+
+u36: or_gate port map(
+     x => ctrlAmB(2),
+     y => ctrlBmA(0),
+     z => msb_temp(3)
+     );
+
+u37: or_gate port map(
+     x => ctrlBmA(3),
+     y => ctrlBmA(1),
+     z => msb_temp(2) 
+     );
+
+u38: or_gate port map(
+     x => msb_temp(4),
+     y => msb_temp(3),
+     z => msb_temp(1)
+     );
+
+u39: or_gate port map(
+     x => msb_temp(2),
+     y => msb_temp(1),
+     z => msb_temp(0)
+     );
+
+result_temp2(31) <= msb_temp(0);
+result_temp2(30 downto 0) <= result_temp(30 downto 0); 
+
+-- overflow
+
+-- zero_out
+u40: nor_32_to_1 port map (
+    main_in => result_temp2,
+    main_out => zero_out
+    );
+
+-- output with MSB
+arith_out <= result_temp2;
+
+
+end structural;

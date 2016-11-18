@@ -1,0 +1,18 @@
+-- This script implements the conditional unit of the ALU
+-- Operations: slt, sltu
+
+library ieee;
+use ieee.std_logic_1164.all;
+use work.eecs361_gates.all;
+use work.eecs361.all;
+
+entity Conditional_Unit is
+       port (
+       cond_in0: in std_logic_vector(31 downto 0);
+       cond_in1: in std_logic_vector(31 downto 0);
+       op_code: in std_logic;
+       cond_out: out std_logic_vector(31 downto 0)
+       );
+end Conditional_Unit;
+
+architecture structural of Conditional_Unit is

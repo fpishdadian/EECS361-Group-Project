@@ -1,0 +1,43 @@
+-- This script implements the logic unit of the ALU
+-- Operations: and, or, sll
+
+library ieee;
+use ieee.std_logic_1164.all;
+use work.eecs361_gates.all;
+use work.eecs361.all;
+use work.mux_32_4to1;
+
+entity Logic_Unit is
+    port(
+    log_in0: in std_logic_vector(31 downto 0);
+    log_in1: in std_logic_vector(31 downto 0);
+    op_code: in std_logic_vector(1 downto 0);
+    log_out: out std_logic_vector(31 downto 0)
+    );
+end Logic_Unit;
+
+architecture structural of Logic_Unit is
+
+component and_gate_32
+    port (
+      x : in std_logic_vector(31 downto 0);
+      y : in std_logic_vector(31 downto 0);
+      z : out std_logic_vector(31 downto 0)
+    );
+end component and_gate_32;
+
+component or_gate_32
+    port (
+      x : in std_logic_vector(31 downto 0);
+      y : in std_logic_vector(31 downto 0);
+      z : out std_logic_vector(31 downto 0)
+    );
+end component or_gate_32;
+
+component sll_32
+port(x : in std_logic_vector(31 downto 0);
+ shift : in std_logic_vector(31 downto 0);
+     z :out std_logic_vector(31 downto 0));
+end component sll_32;
+
+

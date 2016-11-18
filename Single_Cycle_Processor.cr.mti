@@ -1,17 +1,212 @@
-{Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd}
+{Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux_32_4to1
+-- Compiling entity Logic_Unit
+-- Compiling architecture structural of Logic_Unit
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Compiling entity arithmetic_usgn
+-- Compiling architecture structural of arithmetic_usgn
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity set_lt_usgn
+-- Compiling architecture structural of set_lt_usgn
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity sll_32
+-- Compiling architecture dataflows of sll_32
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/add_8bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/add_8bit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Compiling entity add_8bit
+-- Compiling architecture structural of add_8bit
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_16
+-- Compiling architecture structural of or_gate_16
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity or_gate_4to1
+-- Compiling architecture structural of or_gate_4to1
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_8
+-- Compiling architecture structural of or_gate_8
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/add_1bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/add_1bit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity add_1bit
+-- Compiling architecture structural of add_1bit
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Compiling entity Arithmetic_Unit
+-- Compiling architecture structural of Arithmetic_Unit
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Compiling entity arithmetic_sgn
+-- Compiling architecture structural of arithmetic_sgn
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling package eecs361_gates
 
-} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd}
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity or_gate
--- Compiling architecture dataflow of or_gate
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity and_gate_6to1
+-- Compiling architecture structural of and_gate_6to1
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/add_32bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/add_32bit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Compiling entity add_32bit
+-- Compiling architecture structural of add_32bit
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32_4to1
+-- Compiling architecture structral of mux_32_4to1
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity nor_32_to_1
+-- Compiling architecture structural of nor_32_to_1
 
 } {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -21,6 +216,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity not_gate
 -- Compiling architecture dataflow of not_gate
 
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
 } {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -29,12 +232,76 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package eecs361_gates
 -- Compiling package eecs361
 
-} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd}
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity and_gate
--- Compiling architecture dataflow of and_gate
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity set_lt_sgn
+-- Compiling architecture structural of set_lt_sgn
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_2
+-- Compiling architecture structural of or_gate_2
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity Conditional_Unit
+-- Compiling architecture structural of Conditional_Unit
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32_3to1
+-- Compiling architecture structral of mux_32_3to1
+
+} {} {}} {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_4
+-- Compiling architecture structural of or_gate_4
 
 } {} {}}

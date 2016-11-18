@@ -1,19 +1,22 @@
+-- This script implements the logic unit of the ALU
+-- Operations: and, or, sll
+
 library ieee;
 use ieee.std_logic_1164.all;
 use work.eecs361_gates.all;
 use work.eecs361.all;
 use work.mux_32_4to1;
 
-entity Logic_32bit is
+entity Logic_Unit is
     port(
     log_in0: in std_logic_vector(31 downto 0);
     log_in1: in std_logic_vector(31 downto 0);
     op_code: in std_logic_vector(1 downto 0);
     log_out: out std_logic_vector(31 downto 0)
     );
-end Logic_32bit;
+end Logic_Unit;
 
-architecture structural of Logic_32bit is
+architecture structural of Logic_Unit is
 
 component and_gate_32
     port (
@@ -31,13 +34,11 @@ component or_gate_32
     );
 end component or_gate_32;
 
-component xor_gate_32
-    port (
-      x : in std_logic_vector(31 downto 0);
-      y : in std_logic_vector(31 downto 0);
-      z : out std_logic_vector(31 downto 0)
-    );
-end component xor_gate_32;
+component sll_32
+port(x : in std_logic_vector(31 downto 0);
+ shift : in std_logic_vector(31 downto 0);
+     z :out std_logic_vector(31 downto 0));
+end component sll_32;
 
 component mux_32_3to1
     port (
@@ -48,7 +49,6 @@ component mux_32_3to1
      z: out std_logic_vector(31 downto 0)
      );
 end component mux_32_3to1;
-
 
 signal temp0,temp1,temp2: std_logic_vector(31 downto 0);
 
@@ -65,9 +65,9 @@ u1: or_gate_32 port map (
     z => temp1
     );
 
-u2: xor_gate_32 port map (
+u2: sll_32 port map (
     x => log_in0,
-    y => log_in1,
+    shift => log_in1,
     z => temp2
     );
 
@@ -80,32 +80,6 @@ u3: mux_32_3to1 port map (
     );
 
 end structural;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
