@@ -2,7 +2,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use work.eecs361_gates.all;
-use work.data_type.all;
+use work.data_type.all;--this is the file which defined a new datatype.
 
 entity mux_reg_file is
 port(sel : in std_logic_vector(4 downto 0);
