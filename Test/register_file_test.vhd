@@ -57,14 +57,14 @@ Rw<="11111";
 data_in<=x"00000000";
 wait for 5 ns;
 
---still in clk_1: write x"00011111" to register(31);
+--still in clk_1: write x"0000001F" to register(31);
 clk<='0';
 arst<='0';
 write_enable<='1';
 Ra<="11110";
 Rb<="11111";
 Rw<="11111";
-data_in<=x"00011111";
+data_in<=x"0000001F";
 wait for 5 ns;
 
 --clk_2: read data from register(30) and register(31) to BusA and BusB respectively;
@@ -77,14 +77,14 @@ Rw<="11110";
 data_in<=x"00011110";
 wait for 5 ns;
 
---still in clk_2, write x"00011110" to register(30);
+--still in clk_2, write x"0000001E" to register(30);
 clk<='0';
 arst<='0';
 write_enable<='1';
 Ra<="11110";
 Rb<="11111";
 Rw<="11110";
-data_in<=x"00011110";
+data_in<=x"0000001E";
 wait for 5 ns;
 
 --clk_3: read data from register(30) and register(31) to BusA and BusB respectively;
@@ -96,6 +96,28 @@ Rb<="11111";
 Rw<="11101";
 data_in<=x"00011101";
 wait for 5 ns;
+
+--Still in clk_3, write x"0000001D" to register(29);
+clk<='0';
+arst<='0';
+write_enable<='1';
+Ra<="11101";
+Rb<="11111";
+Rw<="11101";
+data_in<=x"0000001D";
+wait for 5 ns;
+
+--clk_3: read data from register(29) and register(31) to BusA and BusB respectively;
+clk<='1';
+arst<='0';
+write_enable<='1';
+Ra<="11101";
+Rb<="11111";
+Rw<="11101";
+data_in<=x"00011101";
+wait for 5 ns;
+
+
 
 end process;
 end behave;
