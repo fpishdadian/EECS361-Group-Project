@@ -29,15 +29,16 @@ component and_gate_9to1
          );
 end component and_gate_9to1;
 
-component or_gate_4to1
+component or_gate_6to1
      port (
-         or_in: in std_logic_vector(3 downto 0);
+         or_in: in std_logic_vector(5 downto 0);
          or_out: out std_logic
          );
-end component or_gate_4to1;
+end component or_gate_6to1;
 
 signal add_temp,addu_temp,sub_temp,subu_temp: std_logic;
 signal and_temp,or_temp,sll_temp,slt_temp,sltu_temp: std_logic;
+signal I_add,I_sub: std_logic;
 signal not_aluop: std_logic_vector(2 downto 0);
 signal not_func: std_logic_vector(5 downto 0);
 
@@ -53,7 +54,8 @@ end generate not2;
 
 -- add operation
 u1: and_gate_9to1 port map(
-    and_in(8 downto 6)=>not_aluop(2 downto 0),
+    and_in(8) => ALUop(2),
+    and_in(7 downto 6)=>not_aluop(1 downto 0),
     and_in(5) => func(5),
     and_in(4 downto 0) => not_func(4 downto 0),
     and_out => add_temp
@@ -61,7 +63,8 @@ u1: and_gate_9to1 port map(
 
 -- addu operation
 u2: and_gate_9to1 port map(
-    and_in(8 downto 6)=>not_aluop(2 downto 0),
+    and_in(8) => ALUop(2),
+    and_in(7 downto 6)=>not_aluop(1 downto 0),
     and_in(5) => func(5),
     and_in(4 downto 1) => not_func(4 downto 1),
     and_in(0)=>func(0),
@@ -70,8 +73,8 @@ u2: and_gate_9to1 port map(
 
 -- sub operation
 u3: and_gate_9to1 port map(
-    and_in(8 downto 7)=>not_aluop(2 downto 1),
-    and_in(6)=> ALUop(0),
+    and_in(8) => ALUop(2),
+    and_in(7 downto 6)=>not_aluop(1 downto 0),
     and_in(5) => func(5),
     and_in(4 downto 2) => not_func(4 downto 2),
     and_in(1) => func(1),
@@ -81,8 +84,8 @@ u3: and_gate_9to1 port map(
 
 -- subu operation
 u4: and_gate_9to1 port map(
-    and_in(8 downto 7)=>not_aluop(2 downto 1),
-    and_in(6)=> ALUop(0),
+    and_in(8) => ALUop(2),
+    and_in(7 downto 6)=>not_aluop(1 downto 0),
     and_in(5) => func(5),
     and_in(4 downto 2) => not_func(4 downto 2),
     and_in(1 downto 0) => func(1 downto 0),
@@ -145,38 +148,60 @@ u9: and_gate_9to1 port map(
     and_out => sltu_temp
     );
 
+-- I-type add
+u10: and_gate_9to1 port map(
+     and_in(8 downto 6) => not_aluop(2 downto 0),
+     and_in(5 downto 0) => "111111",
+     and_out => I_add
+     );
+
+-- I-type sub
+u11: and_gate_9to1 port map(
+     and_in(8 downto 7) => not_aluop(2 downto 1),
+     and_in(6) => ALUop(0),
+     and_in(5 downto 0) => "111111",
+     and_out => I_sub
+     );
+      
+
 -- ALUctr(3)
-u10: or_gate_4to1 port map(
-     or_in(3)=> slt_temp,
-     or_in(2)=> sltu_temp,
-     or_in(1 downto 0) => "00",
+u12: or_gate_6to1 port map(
+     or_in(5)=> slt_temp,
+     or_in(4)=> sltu_temp,
+     or_in(3)=> I_add,
+     or_in(2)=> I_sub,
+     or_in(1 downto 0)=>"00",
      or_out => ALUctr(3)
      ); 
 
 --ALUctr(2)
-u11: or_gate_4to1 port map(
-     or_in(3)=> and_temp,
-     or_in(2)=> or_temp,
-     or_in(1)=> sll_temp,
-     or_in(0) => '0',
+u13: or_gate_6to1 port map(
+     or_in(5)=> and_temp,
+     or_in(4)=> or_temp,
+     or_in(3)=> sll_temp,
+     or_in(2 downto 0) => "000",
      or_out => ALUctr(2)
      ); 
 
 -- ALU(1)
-u12: or_gate_4to1 port map(
-     or_in(3)=> sub_temp,
-     or_in(2)=> subu_temp,
-     or_in(1)=> sll_temp,
+u14: or_gate_6to1 port map(
+     or_in(5)=> sub_temp,
+     or_in(4)=> subu_temp,
+     or_in(3)=> sll_temp,
+     or_in(2)=> I_add,
+     or_in(1)=> I_sub,
      or_in(0) => '0',
      or_out => ALUctr(1)
      ); 
 
 -- ALU(0)
-u13: or_gate_4to1 port map(
-     or_in(3)=> addu_temp,
-     or_in(2)=> subu_temp,
-     or_in(1)=> or_temp,
-     or_in(0) => sltu_temp,
+u15: or_gate_6to1 port map(
+     or_in(5)=> addu_temp,
+     or_in(4)=> subu_temp,
+     or_in(3)=> or_temp,
+     or_in(2) => sltu_temp,
+     or_in(1) => I_sub,
+     or_in(0) => '0',
      or_out => ALUctr(0)
      ); 
 

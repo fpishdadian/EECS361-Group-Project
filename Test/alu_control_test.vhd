@@ -34,28 +34,28 @@ begin
    begin
    
    -- add signed
-      ALUop <= "000";
+      ALUop <= "100";
       func <= "100000";
       wait for 5 ns;
       assert ALUctr = x"0" report "ALUctr = x0" severity error;
       wait for 5 ns;
 
    -- add unsigned
-      ALUop <= "000";
+      ALUop <= "100";
       func <= "100001";
       wait for 5 ns;
       assert ALUctr = x"1" report "ALUctr = x1" severity error;
       wait for 5 ns;
 
    -- sub signed
-      ALUop <= "001";
+      ALUop <= "100";
       func <= "100010";
       wait for 5 ns;
       assert ALUctr = x"2" report "ALUctr = x2" severity error;
       wait for 5 ns;
    
     -- sub unsigned
-      ALUop <= "001";
+      ALUop <= "100";
       func <= "100011";
       wait for 5 ns;
       assert ALUctr = x"3" report "ALUctr = x3" severity error;
@@ -95,7 +95,18 @@ begin
       wait for 5 ns;
       assert ALUctr = x"9" report "ALUctr = x9" severity error;
       wait for 5 ns;
+ 
+     -- I_add
+      ALUop <= "000";
+      wait for 5 ns;
+      assert ALUctr = x"a" report "ALUctr = xa" severity error;
+      wait for 5 ns;
 
+    -- I_sub
+      ALUop <= "001";
+      wait for 5 ns;
+      assert ALUctr = x"b" report "ALUctr = xb" severity error;
+      wait for 5 ns;
 
   wait;
   end process;
