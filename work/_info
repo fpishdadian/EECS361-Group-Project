@@ -183,24 +183,153 @@ R35
 !i113 1
 R13
 R14
-Eand_gate
-Z37 w1447354224
+Ealu_control
+Z37 w1479487678
+Z38 DEx4 work 12 or_gate_4to1 0 22 l?;o8U<e]=<jdd3Un9>nP0
+R2
+Z39 DEx4 work 13 and_gate_9to1 0 22 U>V1POeige>87^jTXU7N51
 R3
 R4
 R5
-Z38 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd
-Z39 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd
+Z40 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/alu_control.vhd
+Z41 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/alu_control.vhd
+l0
+L8
+VQl[;bGfcLA;i6cXfl4Jhj1
+!s100 `=1DMVkNZDgo0lP:z@W941
+R8
+32
+Z42 !s110 1479487683
+!i10b 1
+Z43 !s108 1479487682.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/alu_control.vhd|
+Z45 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/alu_control.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+Z46 DEx4 work 11 alu_control 0 22 Ql[;bGfcLA;i6cXfl4Jhj1
+l44
+L16
+VSc3bzeXbjN?gBG>C;=Z941
+!s100 <Ykj3Wf9Fz4<2gzJ1ZKkL3
+R8
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R13
+R14
+Ealu_control_test
+Z47 w1479530508
+R2
+R46
+R3
+R4
+R5
+Z48 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/alu_control_test.vhd
+Z49 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/alu_control_test.vhd
+l0
+L7
+Vn?j_HE:PDY225]`H^<:zY0
+!s100 Tka[MlCQ2Q3aH_iFYV5zG2
+R8
+32
+Z50 !s110 1479530513
+!i10b 1
+Z51 !s108 1479530513.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/alu_control_test.vhd|
+Z53 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/alu_control_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+Z54 DEx4 work 16 alu_control_test 0 22 n?j_HE:PDY225]`H^<:zY0
+l25
+L10
+V>QCWL?zEOTmXN2[BO[jU[3
+!s100 25jnkC9<IT<FNgR5[UEMk1
+R8
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R13
+R14
+Ealu_test
+Z55 w1479529125
+R1
+R2
+R36
+R3
+R4
+R5
+Z56 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/ALU_test.vhd
+Z57 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/ALU_test.vhd
+l0
+L7
+VFWIJNgJ3]62ZUOjUUl]5@2
+!s100 o9l7k]b8:EbPdUGEEg2ab2
+R8
+32
+Z58 !s110 1479529878
+!i10b 1
+Z59 !s108 1479529878.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/ALU_test.vhd|
+Z61 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Test/ALU_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 8 alu_test 0 22 FWIJNgJ3]62ZUOjUUl]5@2
+l32
+L10
+V^`_:H>@O`gNiU_PPzdROW1
+!s100 :EV`gDUZ1d;<Sg34_]TmZ3
+R8
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R13
+R14
+Eand_gate
+Z62 w1447354224
+R3
+R4
+R5
+Z63 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd
+Z64 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd
 l0
 L5
 VU_Y]TlgZX3N<gl1:ZjH622
 !s100 9zM?`;meNomBE;big9UG12
 R8
 32
-Z40 !s110 1479447384
+Z65 !s110 1479447384
 !i10b 1
-Z41 !s108 1479447384.000000
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd|
-Z43 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd|
+Z66 !s108 1479447384.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd|
+Z68 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate.vhd|
 !i113 1
 R13
 R14
@@ -214,32 +343,32 @@ Vd[k?[?OzHDKLB[j[<6]@h0
 !s100 Wc2cnMoUL`Rn2T[ECHYDg0
 R8
 32
-R40
+R65
 !i10b 1
-R41
-R42
-R43
+R66
+R67
+R68
 !i113 1
 R13
 R14
 Eand_gate_32
-R37
+R62
 R3
 R4
 R5
-Z44 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd
-Z45 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd
+Z69 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd
+Z70 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd
 l0
 L5
 Ve3_4FiC7KKo76^^ZW`RA;2
 !s100 KSRcRaLU>DVF[looI[MAB1
 R8
 32
-Z46 !s110 1479474365
+Z71 !s110 1479474365
 !i10b 1
-Z47 !s108 1479474365.000000
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd|
-Z49 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd|
+Z72 !s108 1479474365.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd|
+Z74 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/and_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -253,33 +382,33 @@ V<bAJA9cz_Xj[EEH5NMD^Y0
 !s100 7eGi4aE3j0c6RNWj8;hYn2
 R8
 32
-R46
+R71
 !i10b 1
-R47
-R48
-R49
+R72
+R73
+R74
 !i113 1
 R13
 R14
 Eand_gate_6to1
-Z50 w1479398472
+Z75 w1479398472
 R2
 R3
 R4
 R5
-Z51 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd
-Z52 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd
+Z76 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd
+Z77 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd
 l0
 L7
 VS>fP8BgWR:0ZWIFlAF2=l0
 !s100 D@Nzc30X;B7hd7fUU]NlK1
 R8
 32
-Z53 !s110 1479447382
+Z78 !s110 1479447382
 !i10b 1
-Z54 !s108 1479447382.000000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd|
-Z56 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd|
+Z79 !s108 1479447382.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd|
+Z81 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/and_gate_6to1.vhd|
 !i113 1
 R13
 R14
@@ -294,11 +423,11 @@ VUeeSjl1d@FkhO4KS0znFm0
 !s100 1XLF0a>LJL4bQOXo17n6C1
 R8
 32
-R53
+R78
 !i10b 1
-R54
-R55
-R56
+R79
+R80
+R81
 !i113 1
 R13
 R14
@@ -324,27 +453,68 @@ R14
 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/and_gate_6to1.vhd
 w1478231607
 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/and_gate_6to1.vhd
+Eand_gate_9to1
+Z82 w1479486001
+R2
+R3
+R4
+R5
+Z83 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/and_gate_9to1.vhd
+Z84 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/and_gate_9to1.vhd
+l0
+L7
+VU>V1POeige>87^jTXU7N51
+!s100 Vdid>B3jIF3>Zn]Kn_D;h2
+R8
+32
+Z85 !s110 1479486004
+!i10b 1
+Z86 !s108 1479486004.000000
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/and_gate_9to1.vhd|
+Z88 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU Control/and_gate_9to1.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+R39
+l26
+L14
+Vo;SH__4IXfMf=ajYaHzk51
+!s100 lOCQPQiLla@`GmELKjizz1
+R8
+32
+R85
+!i10b 1
+R86
+R87
+R88
+!i113 1
+R13
+R14
 Earithmetic_sgn
-Z57 w1479441911
+Z89 w1479441911
 R1
 R2
 R23
 R3
 R4
 R5
-Z58 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd
-Z59 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd
+Z90 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd
+Z91 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd
 l0
 L11
 VU]aTQ_^a]S[h3:X5]SM971
 !s100 FzeKc:o4Q8<6h<2TOVz:O2
 R8
 32
-Z60 !s110 1479447383
+Z92 !s110 1479447383
 !i10b 1
-Z61 !s108 1479447383.000000
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd|
-Z63 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd|
+Z93 !s108 1479447383.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd|
+Z95 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_sgn.vhd|
 !i113 1
 R13
 R14
@@ -360,35 +530,35 @@ VTDHTYOR=aDO@HCVUXi^KK3
 !s100 kHPi[mWL@`@i^RNB;OaZK1
 R8
 32
-R60
+R92
 !i10b 1
-R61
-R62
-R63
+R93
+R94
+R95
 !i113 1
 R13
 R14
 Earithmetic_unit
-Z64 w1479450903
+Z96 w1479450903
 R1
 R2
 R23
 R3
 R4
 R5
-Z65 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd
-Z66 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd
+Z97 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd
+Z98 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd
 l0
 L10
 V00[2C3dJn>YbUZ2BFV0882
 !s100 a`>>IH`3EM7he5]jb9`hM1
 R8
 32
-Z67 !s110 1479450907
+Z99 !s110 1479450907
 !i10b 1
-Z68 !s108 1479450907.000000
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd|
-Z70 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd|
+Z100 !s108 1479450907.000000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd|
+Z102 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Arithmetic_Unit.vhd|
 !i113 1
 R13
 R14
@@ -404,35 +574,35 @@ V4MNR2KEL82d8MK742E>ea0
 !s100 koV0ShZzgSmHUFCF_;8lT1
 R8
 32
-R67
+R99
 !i10b 1
-R68
-R69
-R70
+R100
+R101
+R102
 !i113 1
 R13
 R14
 Earithmetic_usgn
-Z71 w1479447622
+Z103 w1479447622
 R1
 R2
 R23
 R3
 R4
 R5
-Z72 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd
-Z73 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd
+Z104 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd
+Z105 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd
 l0
 L11
 V^R0_L11RK[0>T^@9nT9?k3
 !s100 `lQ8TbQ2kjU:VaZ?e<inC0
 R8
 32
-Z74 !s110 1479447629
+Z106 !s110 1479447629
 !i10b 1
-Z75 !s108 1479447629.000000
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd|
-Z77 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd|
+Z107 !s108 1479447629.000000
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd|
+Z109 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/arithmetic_usgn.vhd|
 !i113 1
 R13
 R14
@@ -448,34 +618,34 @@ VkX>U6e[_04kjf`?lGfQ5d3
 !s100 gk2[FkH^?=1==Z[KekWKB2
 R8
 32
-R74
+R106
 !i10b 1
-R75
-R76
-R77
+R107
+R108
+R109
 !i113 1
 R13
 R14
 Econditional_unit
-Z78 w1479474939
+Z110 w1479474939
 R1
 R2
 R3
 R4
 R5
-Z79 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd
-Z80 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd
+Z111 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd
+Z112 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd
 l0
 L9
 VK^O9M0^[Z6^lQ>3kTRESI1
 !s100 C:i4MR_5R4dgOHZ[:_[Ym0
 R8
 32
-Z81 !s110 1479475672
+Z113 !s110 1479475672
 !i10b 1
-Z82 !s108 1479475672.000000
-Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd|
-Z84 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd|
+Z114 !s108 1479475672.000000
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd|
+Z116 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Conditional_Unit.vhd|
 !i113 1
 R13
 R14
@@ -491,32 +661,32 @@ VG<?<jaQHn>zDQB9SCjMk_3
 !s100 ETJ=2F8DG`e]GU>KnIR<T3
 R8
 32
-R81
+R113
 !i10b 1
-R82
-R83
-R84
+R114
+R115
+R116
 !i113 1
 R13
 R14
 Edff
-R37
+R62
 R3
 R4
 R5
-Z85 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd
-Z86 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd
+Z117 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd
+Z118 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd
 l0
 L4
 VmKZ>[LGJ@mPeC8i@F[]]G1
 !s100 6RF6aKO;bLUdc^Uo1TlJA1
 R8
 32
-Z87 !s110 1478496352
+Z119 !s110 1478496352
 !i10b 1
-Z88 !s108 1478496351.000000
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd|
-Z90 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd|
+Z120 !s108 1478496351.000000
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd|
+Z122 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dff.vhd|
 !i113 1
 R13
 R14
@@ -530,32 +700,32 @@ V?G=X8dlZ@2I_O[J]5HOIT1
 !s100 YQ?Mf61<mPk;FAfQWmbPe2
 R8
 32
-R87
+R119
 !i10b 1
-R88
-R89
-R90
+R120
+R121
+R122
 !i113 1
 R13
 R14
 Edffr
-R37
+R62
 R3
 R4
 R5
-Z91 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd
-Z92 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd
+Z123 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd
+Z124 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd
 l0
 L4
 VJ64Bn0^0_^0mUSU<ZOo591
 !s100 8^h72ccPiicFMoll6;?B^1
 R8
 32
-Z93 !s110 1478496876
+Z125 !s110 1478496876
 !i10b 1
-Z94 !s108 1478496876.000000
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd|
-Z96 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd|
+Z126 !s108 1478496876.000000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd|
+Z128 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr.vhd|
 !i113 1
 R13
 R14
@@ -569,50 +739,50 @@ V_Uhmck]XK8N?fUm1<]knZ2
 !s100 [jSDjV[;ooEXI1fbj<kQH2
 R8
 32
-R93
+R125
 !i10b 1
-R94
-R95
-R96
+R126
+R127
+R128
 !i113 1
 R13
 R14
 Edffr_a
-R37
+R62
 R3
 R4
 R5
-Z97 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd
-Z98 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd
+Z129 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd
+Z130 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd
 l0
 L4
 VdP=DD7z<d9h=O[o6XL5N11
 !s100 Ae06@YlEN>^ZBC[J]R^j?2
 R8
 32
-Z99 !s110 1478496882
+Z131 !s110 1478496882
 !i10b 1
-Z100 !s108 1478496881.000000
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd|
-Z102 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd|
+Z132 !s108 1478496881.000000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd|
+Z134 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/dffr_a.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R3
 R4
-Z103 DEx4 work 6 dffr_a 0 22 dP=DD7z<d9h=O[o6XL5N11
+Z135 DEx4 work 6 dffr_a 0 22 dP=DD7z<d9h=O[o6XL5N11
 l17
 L16
 VI62cMXNa9hMQ88?5;TBh:2
 !s100 18jIoW:5CWgj6bjeXK^2W3
 R8
 32
-R99
+R131
 !i10b 1
-R100
-R101
-R102
+R132
+R133
+R134
 !i113 1
 R13
 R14
@@ -620,7 +790,7 @@ Peecs361
 R2
 R3
 R4
-R37
+R62
 R5
 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd
 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd
@@ -630,9 +800,9 @@ VI4EfZSWkki@;bjbI6[:m13
 !s100 8=Z1E6VmQF7PkYgUc4XzU2
 R8
 32
-Z104 !s110 1479447378
+Z136 !s110 1479447378
 !i10b 1
-Z105 !s108 1479447378.000000
+Z137 !s108 1479447378.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd|
 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361.vhd|
 !i113 1
@@ -641,7 +811,7 @@ R14
 Peecs361_gates
 R3
 R4
-R37
+R62
 R5
 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd
 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd
@@ -651,35 +821,35 @@ VY`H6JLa]eolRP`lSh`[1R3
 !s100 EFJF``Kkcd:<4LI@jVAPI3
 R8
 32
-R104
+R136
 !i10b 1
-R105
+R137
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd|
 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/eecs361_gates.vhd|
 !i113 1
 R13
 R14
 Elogic_unit
-Z106 w1479474150
-Z107 DEx4 work 11 mux_32_4to1 0 22 JWTV4Nf:^0_6aE0ojWhdO1
+Z138 w1479474150
+Z139 DEx4 work 11 mux_32_4to1 0 22 JWTV4Nf:^0_6aE0ojWhdO1
 R1
 R2
 R3
 R4
 R5
-Z108 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd
-Z109 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd
+Z140 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd
+Z141 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd
 l0
 L10
 VJi`mnST`0BCSbL9]_K7mZ2
 !s100 <n1Oa:MF3fHD5fhIfGN9O0
 R8
 32
-Z110 !s110 1479474197
+Z142 !s110 1479474197
 !i10b 1
-Z111 !s108 1479474197.000000
-Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd|
-Z113 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd|
+Z143 !s108 1479474197.000000
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd|
+Z145 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/Logic_Unit.vhd|
 !i113 1
 R13
 R14
@@ -695,33 +865,33 @@ VoAe<84A3H5bJVO[VFA8;P3
 !s100 Tz<BE>^P4ckDZ:zGWD<bR2
 R8
 32
-R110
+R142
 !i10b 1
-R111
-R112
-R113
+R143
+R144
+R145
 !i113 1
 R13
 R14
 Emain_control
-Z114 w1478231611
+Z146 w1478231611
 R2
 R3
 R4
 R5
-Z115 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd
-Z116 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd
+Z147 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd
+Z148 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd
 l0
 L6
 V[c9[Beoj2V@J02;8KB2c80
 !s100 ^KQJ]lH1JDjYHCcDlXH;A1
 R8
 32
-Z117 !s110 1478494501
+Z149 !s110 1478494501
 !i10b 1
-Z118 !s108 1478494501.000000
-Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd|
-Z120 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd|
+Z150 !s108 1478494501.000000
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd|
+Z152 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main Control/main_control.vhd|
 !i113 1
 R13
 R14
@@ -736,11 +906,11 @@ VPzAPjMUH^I9AgL]4MBkVV0
 !s100 X<bKE4hjDi7e:=5G`Pd[03
 R8
 32
-R117
+R149
 !i10b 1
-R118
-R119
-R120
+R150
+R151
+R152
 !i113 1
 R13
 R14
@@ -767,25 +937,25 @@ FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/pro
 w1478190397
 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/Main_Control.vhd
 Emux
-R37
+R62
 R2
 R1
 R3
 R4
 R5
-Z121 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd
-Z122 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd
+Z153 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd
+Z154 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd
 l0
 L5
 VzB3mFn]^WO1Q5f;oa5<:i1
 !s100 R7SGh1UNzgRXkDgUzi0Dn0
 R8
 32
-Z123 !s110 1479449700
+Z155 !s110 1479449700
 !i10b 1
-Z124 !s108 1479449700.000000
-Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd|
-Z126 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd|
+Z156 !s108 1479449700.000000
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd|
+Z158 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux.vhd|
 !i113 1
 R13
 R14
@@ -801,34 +971,34 @@ V>1PeESFaHClS=zBGFdF772
 !s100 TMbaX=C3aUF9Pl?TK_bl20
 R8
 32
-R123
+R155
 !i10b 1
-R124
-R125
-R126
+R156
+R157
+R158
 !i113 1
 R13
 R14
 Emux_32
-R37
+R62
 R2
 R1
 R3
 R4
 R5
-Z127 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd
-Z128 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd
+Z159 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd
+Z160 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd
 l0
 L5
 VOlZhk[`?`GZQTV3Y4L@ZX0
 !s100 ciE_BzZP_7gaALUfNcf3V2
 R8
 32
-Z129 !s110 1479447379
+Z161 !s110 1479447379
 !i10b 1
-Z130 !s108 1479447379.000000
-Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd|
-Z132 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd|
+Z162 !s108 1479447379.000000
+Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd|
+Z164 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_32.vhd|
 !i113 1
 R13
 R14
@@ -844,34 +1014,34 @@ V7UHP=BdYn]NVWnMkCOB[F3
 !s100 iiT]gRaJ0BGA@1c7lKGZ;1
 R8
 32
-R129
+R161
 !i10b 1
-R130
-R131
-R132
+R162
+R163
+R164
 !i113 1
 R13
 R14
 Emux_32_3to1
-Z133 w1477520680
+Z165 w1477520680
 R1
 R2
 R3
 R4
 R5
-Z134 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd
-Z135 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd
+Z166 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd
+Z167 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd
 l0
 L6
 VEkgBlXRKNFOf3?U74Dbi`1
 !s100 g:XWoNE_VSTf^Fd@i_]Wm1
 R8
 32
-Z136 !s110 1479474477
+Z168 !s110 1479474477
 !i10b 1
-Z137 !s108 1479474477.000000
-Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd|
-Z139 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd|
+Z169 !s108 1479474477.000000
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd|
+Z171 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_3to1.vhd|
 !i113 1
 R13
 R14
@@ -887,34 +1057,34 @@ V@o;V04Uf1hj3[h`AzVF3M1
 !s100 >bNQ44lNZjcE[aG?6]bF;2
 R8
 32
-R136
+R168
 !i10b 1
-R137
-R138
-R139
+R169
+R170
+R171
 !i113 1
 R13
 R14
 Emux_32_4to1
-Z140 w1477519882
+Z172 w1477519882
 R1
 R2
 R3
 R4
 R5
-Z141 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd
-Z142 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd
+Z173 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd
+Z174 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd
 l0
 L6
 VJWTV4Nf:^0_6aE0ojWhdO1
 !s100 P@YS8FP9;m=69BTO1`HCX3
 R8
 32
-R60
+R92
 !i10b 1
-R54
-Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd|
-Z144 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd|
+R79
+Z175 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd|
+Z176 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/mux_32_4to1.vhd|
 !i113 1
 R13
 R14
@@ -923,39 +1093,39 @@ R1
 R2
 R3
 R4
-R107
+R139
 l30
 L17
 Vgfl71HjCLNQC]<TdR@P<o0
 !s100 0GYY`g^QJRZee3OVQ`fQj2
 R8
 32
-R60
+R92
 !i10b 1
-R54
-R143
-R144
+R79
+R175
+R176
 !i113 1
 R13
 R14
 Emux_n
-R37
+R62
 R3
 R4
 R5
-Z145 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd
-Z146 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd
+Z177 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd
+Z178 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd
 l0
 L4
 V?KK90]`1?K3cYmaZ@2ZiU2
 !s100 DhH_dWUkhZScmPX0PShL>1
 R8
 32
-Z147 !s110 1479447380
+Z179 !s110 1479447380
 !i10b 1
-Z148 !s108 1479447380.000000
-Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd|
-Z150 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd|
+Z180 !s108 1479447380.000000
+Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd|
+Z182 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/mux_n.vhd|
 !i113 1
 R13
 R14
@@ -969,33 +1139,33 @@ Vc:nT1[O:OUd7C:kd0;RQm2
 !s100 VOPJAGmKhfQ>L9L:P_FXf0
 R8
 32
-R147
+R179
 !i10b 1
-R148
-R149
-R150
+R180
+R181
+R182
 !i113 1
 R13
 R14
 Enor_32_to_1
-Z151 w1477628345
+Z183 w1477628345
 R2
 R3
 R4
 R5
-Z152 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd
-Z153 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd
+Z184 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd
+Z185 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd
 l0
 L7
 V3Mb8DlB_aa^oUNR_X5Cnc0
 !s100 Yij@[3nEW@WTRK6>Jz>[H2
 R8
 32
-R104
+R136
 !i10b 1
 R20
-Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd|
-Z155 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd|
+Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd|
+Z187 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/nor_32_to_1.vhd|
 !i113 1
 R13
 R14
@@ -1010,32 +1180,32 @@ VWAQg:58DFRJHmGM>jnaUL1
 !s100 N`QC[hW@ESLXP:Z2VMWVV0
 R8
 32
-R104
+R136
 !i10b 1
 R20
-R154
-R155
+R186
+R187
 !i113 1
 R13
 R14
 Enor_gate
-R37
+R62
 R3
 R4
 R5
-Z156 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd
-Z157 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd
+Z188 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd
+Z189 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd
 l0
 L5
 Vl4NcfXKNiThldYNcnP5;o2
 !s100 Uz[KW04m>JL2N=<Ae_26A3
 R8
 32
-R53
+R78
 !i10b 1
-Z158 !s108 1479447381.000000
-Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd|
-Z160 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd|
+Z190 !s108 1479447381.000000
+Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd|
+Z192 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate.vhd|
 !i113 1
 R13
 R14
@@ -1049,32 +1219,32 @@ VKa[[7jgRMIb1_iK<QKz2R3
 !s100 kE2E`N:jBl`5f7h@CAkLc3
 R8
 32
-R53
+R78
 !i10b 1
-R158
-R159
-R160
+R190
+R191
+R192
 !i113 1
 R13
 R14
 Enor_gate_32
-R37
+R62
 R3
 R4
 R5
-Z161 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd
-Z162 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd
+Z193 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd
+Z194 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd
 l0
 L5
 V]Ta:lVnBf>1l]Wn18fddR1
 !s100 3mdJRKLJ_1Z1ih<o1WC>A3
 R8
 32
-Z163 !s110 1479139416
+Z195 !s110 1479139416
 !i10b 1
-Z164 !s108 1479139416.000000
-Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd|
-Z166 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd|
+Z196 !s108 1479139416.000000
+Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd|
+Z198 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/nor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1088,32 +1258,32 @@ VO2Pz=mOESO?_VkSnX;2[h1
 !s100 4C[N[o;dbNU?^;JAFz8P@0
 R8
 32
-R163
+R195
 !i10b 1
-R164
-R165
-R166
+R196
+R197
+R198
 !i113 1
 R13
 R14
 Enot_gate
-R37
+R62
 R3
 R4
 R5
-Z167 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
-Z168 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
+Z199 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
+Z200 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd
 l0
 L5
 Va2jU0gU?ahMAOCzX>hcie3
 !s100 ZFL^eh?^CT8f=9?@;fY^P1
 R8
 32
-R40
+R65
 !i10b 1
-R41
-Z169 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
-Z170 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
+R66
+Z201 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
+Z202 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate.vhd|
 !i113 1
 R13
 R14
@@ -1127,32 +1297,32 @@ VSd>_hU>oSoTbK=><35n<J1
 !s100 0K4o_`::YhV<`CcAlY38V3
 R8
 32
-R40
+R65
 !i10b 1
-R41
-R169
-R170
+R66
+R201
+R202
 !i113 1
 R13
 R14
 Enot_gate_32
-R37
+R62
 R3
 R4
 R5
-Z171 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd
-Z172 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd
+Z203 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd
+Z204 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd
 l0
 L5
 Vbc@1G6Pn;1QIPj9N?dX;R3
 !s100 MlQa>L3D?j3YTME?WDA^I3
 R8
 32
-R129
+R161
 !i10b 1
-R130
-Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd|
-Z174 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd|
+R162
+Z205 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd|
+Z206 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/not_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1166,32 +1336,32 @@ Vi3iP4D6`igl`ehm^d4^co2
 !s100 SZ]KSd]7=<``cT7UO3c^32
 R8
 32
-R129
+R161
 !i10b 1
-R130
-R173
-R174
+R162
+R205
+R206
 !i113 1
 R13
 R14
 Eor_gate
-R37
+R62
 R3
 R4
 R5
-Z175 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
-Z176 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
+Z207 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
+Z208 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd
 l0
 L5
 VI0bn=1KP2N19:Qz72M5BR3
 !s100 P4NBKo^c]hz<z`LINQA5?3
 R8
 32
-R60
+R92
 !i10b 1
-R61
-Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
-Z178 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
+R93
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
+Z210 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate.vhd|
 !i113 1
 R13
 R14
@@ -1205,32 +1375,32 @@ VMWOz`KXoz4S7hV@cG3bY]1
 !s100 imjaYVkITBGK@1]KZ;:O?1
 R8
 32
-R60
+R92
 !i10b 1
-R61
-R177
-R178
+R93
+R209
+R210
 !i113 1
 R13
 R14
 Eor_gate_16
-Z179 w1477357384
+Z211 w1477357384
 R3
 R4
 R5
-Z180 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd
-Z181 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd
+Z212 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd
+Z213 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd
 l0
 L5
 VZBhdMP;b2106U3k<C[M7>3
 !s100 aIng<;DBGPg=D==Rom0<?3
 R8
 32
-R147
+R179
 !i10b 1
-R148
-Z182 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd|
-Z183 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd|
+R180
+Z214 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd|
+Z215 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_16.vhd|
 !i113 1
 R13
 R14
@@ -1244,32 +1414,32 @@ VggnN`IckDbQ1E0K@miVD23
 !s100 XTAe?mBQV4d7`S<i18X6W2
 R8
 32
-R147
+R179
 !i10b 1
-R148
-R182
-R183
+R180
+R214
+R215
 !i113 1
 R13
 R14
 Eor_gate_2
-Z184 w1477356999
+Z216 w1477356999
 R3
 R4
 R5
-Z185 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd
-Z186 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd
+Z217 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd
+Z218 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd
 l0
 L5
 Vk4>dhSD7:U[A]OTE24IH<1
 !s100 BD6CII0aIGI_Wmbd^<=Lb1
 R8
 32
-Z187 !s110 1479447381
+Z219 !s110 1479447381
 !i10b 1
-R148
-Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd|
-Z189 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd|
+R180
+Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd|
+Z221 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_2.vhd|
 !i113 1
 R13
 R14
@@ -1283,32 +1453,32 @@ VYIDZL]?m=QjCf4Lk]]3f82
 !s100 Dig94>7W5z0f4<iP>KLo10
 R8
 32
-R187
+R219
 !i10b 1
-R148
-R188
-R189
+R180
+R220
+R221
 !i113 1
 R13
 R14
 Eor_gate_32
-R37
+R62
 R3
 R4
 R5
-Z190 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd
-Z191 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd
+Z222 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd
+Z223 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd
 l0
 L5
 V62h?8Mlfl`WN<[W?cCkTI0
 !s100 XkkR6QF?Vl4ZJYEZjo;0l2
 R8
 32
-Z192 !s110 1479474359
+Z224 !s110 1479474359
 !i10b 1
-Z193 !s108 1479474358.000000
-Z194 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd|
-Z195 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd|
+Z225 !s108 1479474358.000000
+Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd|
+Z227 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/or_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1322,33 +1492,33 @@ Vl1M<aAZJ1D^S3_3^W_^IR3
 !s100 K:BE?onG;^0[1Z5dkfcRR0
 R8
 32
-R192
+R224
 !i10b 1
-R193
-R194
-R195
+R225
+R226
+R227
 !i113 1
 R13
 R14
 Eor_gate_3to1
-Z196 w1478231619
+Z228 w1478231619
 R2
 R3
 R4
 R5
-Z197 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
-Z198 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
+Z229 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
+Z230 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd
 l0
 L5
 VOlm9j6R:Fh828d?fQdYK81
 !s100 MFTHlfcV<JbIgWMjR1H0>2
 R8
 32
-Z199 !s110 1478486597
+Z231 !s110 1478486597
 !i10b 1
-Z200 !s108 1478486596.000000
-Z201 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
-Z202 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
+Z232 !s108 1478486596.000000
+Z233 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
+Z234 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/project_code_git/Modules/or_gate_3to1.vhd|
 !i113 1
 R13
 R14
@@ -1363,11 +1533,11 @@ V0[emWmzJ[0J3>WQM_X88B2
 !s100 0TlOzZ`X9cz;D_YkY>X3W2
 R8
 32
-R199
+R231
 !i10b 1
-R200
-R201
-R202
+R232
+R233
+R234
 !i113 1
 R13
 R14
@@ -1385,30 +1555,30 @@ R8
 !s110 1478154706
 !i10b 1
 !s108 1478154706.000000
-R201
-R202
+R233
+R234
 !i113 1
 R13
 R14
 w1478154683
 Eor_gate_4
-Z203 w1477357177
+Z235 w1477357177
 R3
 R4
 R5
-Z204 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd
-Z205 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd
+Z236 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd
+Z237 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd
 l0
 L5
 V^>nO=_a:WVclVkSIUF]Qg3
 !s100 ifaRMPfI=Wa_[VDK6nZkc0
 R8
 32
-R187
+R219
 !i10b 1
-R158
-Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd|
-Z207 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd|
+R190
+Z238 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd|
+Z239 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4.vhd|
 !i113 1
 R13
 R14
@@ -1422,33 +1592,33 @@ VoP`^8k6XPziSLef;VDcC<0
 !s100 b8bF<<nXDCd`H0EK>Ki4L1
 R8
 32
-R187
+R219
 !i10b 1
-R158
-R206
-R207
+R190
+R238
+R239
 !i113 1
 R13
 R14
 Eor_gate_4to1
-Z208 w1479362896
+Z240 w1479362896
 R2
 R3
 R4
 R5
-Z209 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd
-Z210 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd
+Z241 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd
+Z242 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd
 l0
 L7
 Vl?;o8U<e]=<jdd3Un9>nP0
 !s100 :bW0GES0l;c3n9WF?NkOn1
 R8
 32
-R53
+R78
 !i10b 1
-R54
-Z211 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd|
-Z212 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd|
+R79
+Z243 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd|
+Z244 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_4to1.vhd|
 !i113 1
 R13
 R14
@@ -1456,39 +1626,39 @@ Astructural
 R2
 R3
 R4
-DEx4 work 12 or_gate_4to1 0 22 l?;o8U<e]=<jdd3Un9>nP0
+R38
 l26
 L14
 VXA0:Io<@lEW_6_S217cBS2
 !s100 AUQgiQ3UZbTekoXh1cYFz0
 R8
 32
-R53
+R78
 !i10b 1
-R54
-R211
-R212
+R79
+R243
+R244
 !i113 1
 R13
 R14
 Eor_gate_8
-Z213 w1477357353
+Z245 w1477357353
 R3
 R4
 R5
-Z214 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd
-Z215 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd
+Z246 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd
+Z247 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd
 l0
 L5
 VQo[YCnP;5Wk<dV5`P3iKl3
 !s100 Vf>1=b5bl_N@g;`o@0E=<2
 R8
 32
-R187
+R219
 !i10b 1
-R158
-Z216 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd|
-Z217 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd|
+R190
+Z248 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd|
+Z249 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/or_gate_8.vhd|
 !i113 1
 R13
 R14
@@ -1502,33 +1672,33 @@ ViPRiS?n;ONc];EbZALj>;3
 !s100 LE9lO9;]B=zWH>J@6j7j?3
 R8
 32
-R187
+R219
 !i10b 1
-R158
-R216
-R217
+R190
+R248
+R249
 !i113 1
 R13
 R14
 Eregister_basic_32
-Z218 w1478498874
-R103
+Z250 w1478498874
+R135
 R3
 R4
 R5
-Z219 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd
-Z220 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd
+Z251 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd
+Z252 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd
 l0
 L7
 VAG<fo1eJ5I[9DZQEgfg_L3
 !s100 >@VZeP1YPck@>;_R_adaH2
 R8
 32
-Z221 !s110 1478498878
+Z253 !s110 1478498878
 !i10b 1
-Z222 !s108 1478498878.000000
-Z223 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd|
-Z224 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd|
+Z254 !s108 1478498878.000000
+Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd|
+Z256 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/Register/register_basic_32.vhd|
 !i113 1
 R13
 R14
@@ -1542,34 +1712,34 @@ VKfZ_iI>Y=^oY?19S;dffL0
 !s100 5:Zo]]dUV<=E>^?z0G^=33
 R8
 32
-R221
+R253
 !i10b 1
-R222
-R223
-R224
+R254
+R255
+R256
 !i113 1
 R13
 R14
 Eset_lt_sgn
-Z225 w1479475562
+Z257 w1479475562
 R1
 R2
 R3
 R4
 R5
-Z226 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd
-Z227 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd
+Z258 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd
+Z259 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd
 l0
 L6
 V2iVoEka:3o]F5U[jT11[C3
 !s100 RUUjSOH_zB2f7=i83T26i1
 R8
 32
-Z228 !s110 1479475566
+Z260 !s110 1479475566
 !i10b 1
-Z229 !s108 1479475566.000000
-Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd|
-Z231 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd|
+Z261 !s108 1479475566.000000
+Z262 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd|
+Z263 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_sgn.vhd|
 !i113 1
 R13
 R14
@@ -1585,32 +1755,32 @@ VVPg8X1=?;[;IMOS=aA69G1
 !s100 eJf>FTn2^BjnUXLcR==J50
 R8
 32
-R228
+R260
 !i10b 1
-R229
-R230
-R231
+R261
+R262
+R263
 !i113 1
 R13
 R14
 Eset_lt_usgn
-Z232 w1479475512
+Z264 w1479475512
 R3
 R4
 R5
-Z233 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd
-Z234 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd
+Z265 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd
+Z266 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd
 l0
 L4
 V<PNhQeKPml4k@c0aaih1K0
 !s100 e@R8UdLUn:YG?oVa]z=4n0
 R8
 32
-Z235 !s110 1479475520
+Z267 !s110 1479475520
 !i10b 1
-Z236 !s108 1479475520.000000
-Z237 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd|
-Z238 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd|
+Z268 !s108 1479475520.000000
+Z269 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd|
+Z270 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/set_lt_usgn.vhd|
 !i113 1
 R13
 R14
@@ -1624,33 +1794,33 @@ VZJ?`4_o?<S>^Zoe7Ub_7Q0
 !s100 i3JUKa4X_zm>LQlPX28QL2
 R8
 32
-R235
+R267
 !i10b 1
-R236
-R237
-R238
+R268
+R269
+R270
 !i113 1
 R13
 R14
 Esll_32
-Z239 w1478231623
+Z271 w1478231623
 R2
 R3
 R4
 R5
-Z240 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd
-Z241 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd
+Z272 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd
+Z273 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd
 l0
 L5
 VGCfTo;4XekNcKjL=NAI1D1
 !s100 dMc<Lb4J6<RGzIDoJ`1<o2
 R8
 32
-Z242 !s110 1479473099
+Z274 !s110 1479473099
 !i10b 1
-Z243 !s108 1479473099.000000
-Z244 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd|
-Z245 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd|
+Z275 !s108 1479473099.000000
+Z276 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd|
+Z277 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/VHDL code/Modules/ALU_new/sll_32.vhd|
 !i113 1
 R13
 R14
@@ -1665,32 +1835,32 @@ VNeSi[gdBY`TRz]?eSnbe50
 !s100 VE][_eINO9NCBMZfnYod_3
 R8
 32
-R242
+R274
 !i10b 1
-R243
-R244
-R245
+R275
+R276
+R277
 !i113 1
 R13
 R14
 Exor_gate
-R37
+R62
 R3
 R4
 R5
-Z246 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd
-Z247 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd
+Z278 8Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd
+Z279 FZ:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd
 l0
 L5
 V>:0of;3?<Db:J2P]bLRRE1
 !s100 K_6H3f?zAK@4`dnkC2j[K2
 R8
 32
-R129
+R161
 !i10b 1
-R130
-Z248 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd|
-Z249 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd|
+R162
+Z280 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd|
+Z281 !s107 Z:/Users/fatemeh/Dropbox/MyDocuments/EECS361-Computer Architecture/Project2/eecs361/lib/xor_gate.vhd|
 !i113 1
 R13
 R14
@@ -1704,11 +1874,11 @@ V?CjQI0YRXW2fDDWch@MCZ2
 !s100 e;mL^F4ENl;O2f_Ae@3MU2
 R8
 32
-R129
+R161
 !i10b 1
-R130
-R248
-R249
+R162
+R280
+R281
 !i113 1
 R13
 R14
