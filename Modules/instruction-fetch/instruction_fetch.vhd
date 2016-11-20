@@ -8,12 +8,11 @@ use ieee.std_logic_textio.all;
 use work.eecs361_gates.all;
 
 entity instruction_fetch is
-  port( --addr   : in std_logic_vector(31 downto 0); --address
+  port( 
         clk    : in std_logic;
         branch : in std_logic;
 		zero   : in std_logic;
 		arst   : in std_logic;	
-		--jump   : in std_logic;
 		instr  : out std_logic_vector(31 downto 0)
   );
 end instruction_fetch;
@@ -30,9 +29,8 @@ signal instr_32  : std_logic_vector(31 downto 0);
 signal add_1     : std_logic_vector(29 downto 0);
 signal add_2     : std_logic_vector(29 downto 0);
 signal ctrl_1    : std_logic;
---signal mux_0     : std_logic_vector(29 downto 0);
 signal mux_1     : std_logic_vector(29 downto 0);
---signal mux_2     : std_logic_vector(29 downto 0);
+
 
 component pc_32
   port(  clk: in std_logic;
@@ -112,11 +110,5 @@ add2: full_adder30 port map(A => add_1, B => imm_ext30,
 mux1_1: and_gate port map(x => branch, y => zero, z => ctrl_1);
 mux1_2: mux_30 port map(sel => ctrl_1, src0 => add_1, src1 => add_2, z => addr);
 
---mux_0(29 downto 26) <= addr_30(31 downto 28);
---mux_0(25 downto 0) <= instr_32(25 downto 0);
---mux2: mux_30 port map (sel => jump, src0 => mux_0, src1 => mux_1, z => mux_2);
-
---pc_end: register_basic_32 port map(clk => clk_n, arst => '1', 
-  --           write_enable => '1', data_in => mux_1, data_out => addr_30n);
 
 end structural;
