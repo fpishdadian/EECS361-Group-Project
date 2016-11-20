@@ -167,6 +167,22 @@ begin
      assert Result = x"00000001" report "Result = x00000001" severity error;
      wait for 5 ns;
 
+    -- add immediate
+    A <= x"00000007";
+    B <= x"00000005";
+    m <= x"a";
+    wait for 5 ns;
+    assert Result = x"0000000c" report "Result = x0000000c" severity error;
+    wait for 5 ns;
+
+   -- sub immediate
+    A <= x"00000007";
+    B <= x"00000005";
+    m <= x"b";
+    wait for 5 ns;
+    assert Result = x"00000002" report "Result = x00000002" severity error;
+    wait for 5 ns;
+
     
 
   
