@@ -33,7 +33,9 @@ signal Extop    : std_logic;
 signal ALUctr   : std_logic_vector(3 downto 0);
 
 begin
-map0: control port map(op=>op, func=>func, RegWrt=>RegWrt, ALUsrc=>ALUsrc, RegDst=>RegDst, MemtoReg=>MemtoReg, MemWrt=>MemWrt, branch=>branch, Extop=>Extop, ALUctr=>ALUctr);
+map0: control port map(op=>op, func=>func, RegWrt=>RegWrt, ALUsrc=>ALUsrc, 
+             RegDst=>RegDst, MemtoReg=>MemtoReg, MemWrt=>MemWrt, 
+branch=>branch, Extop=>Extop, ALUctr=>ALUctr);
 
 process
 begin

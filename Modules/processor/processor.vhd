@@ -14,7 +14,9 @@ port(  instr   : in std_logic_vector(31 downto 0);
 	   data_in : in std_logic_vector(31 downto 0);
 	   instr_addr  : out std_logic_vector(29 downto 0);
 	   data_addr   : out std_logic_vector(31 downto 0);
-	   data_out    : out std_logic_vector(31 downto 0)
+	   data_out    : out std_logic_vector(31 downto 0);
+	   MemtoReg  : out std_logic;
+	   MemWrt  : out std_logic
 );
 end processor;
 
@@ -71,7 +73,8 @@ datapath_map: datapath port map(instr => instr, clk => clk,  arst => arst,
 					data_out => data_out);
 control_map: control port map(op => instr(31 downto 26), func => instr(5 downto 0),
                     RegWrt => sig_RegWrt, ALUsrc => sig_ALUsrc, RegDst => sig_RegDst,
-					branch => sig_branch, Extop => sig_Extop, ALUctr => sig_ALUctr);
+					branch => sig_branch, Extop => sig_Extop, ALUctr => sig_ALUctr,
+					MemWrt => MemWrt, MemtoReg => MemtoReg);
 end structural;
 					
 					
