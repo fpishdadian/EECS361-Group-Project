@@ -44,14 +44,14 @@ component Logic_Unit
     );
 end component Logic_Unit;
 
-component Conditional_Unit
+component Cond_Imm_Unit
      port (
-       cond_in0: in std_logic_vector(31 downto 0);
-       cond_in1: in std_logic_vector(31 downto 0);
-       op_code: in std_logic;
-       cond_out: out std_logic_vector(31 downto 0)
+       cond_imm_in0: in std_logic_vector(31 downto 0);
+       cond_imm_in1: in std_logic_vector(31 downto 0);
+       op_code: in std_logic_vector(1 downto 0);
+       cond_imm_out: out std_logic_vector(31 downto 0)
        );
-end component Conditional_Unit;
+end component Cond_Imm_Unit;
 
 component mux_32_3to1
     port (
@@ -84,11 +84,11 @@ u1: Logic_Unit port map(
       log_out => temp1
       );
 
-u2: Conditional_Unit port map(
-     cond_in0 => A,
-     cond_in1 => B,
-     op_code => m(0),
-     cond_out => temp2
+u2: Cond_Imm_Unit port map(
+     cond_imm_in0 => A,
+     cond_imm_in1 => B,
+     op_code => m(1 downto 0),
+     cond_imm_out => temp2
      );
 
 u3: mux_32_3to1 port map(
