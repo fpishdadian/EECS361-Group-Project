@@ -24,8 +24,8 @@ architecture structural of processor is
 signal      sig_RegWrt   :  std_logic;
 signal	   sig_ALUsrc   :  std_logic;
  signal     sig_RegDst   :  std_logic;
- signal     sig_MemtoReg :  std_logic;
- signal     sig_MemWrt   :  std_logic;
+ --signal     sig_MemtoReg :  std_logic;
+ --signal     sig_MemWrt   :  std_logic;
  signal     sig_branch   :  std_logic;
  signal     sig_Extop    :  std_logic;
 signal      sig_ALUctr   :  std_logic_vector(3 downto 0);
@@ -66,15 +66,16 @@ port (op       : in std_logic_vector(5 downto 0);
 end component;
 
 begin
+
+control_map: control port map(op => instr(31 downto 26), func => instr(5 downto 0),
+                    RegWrt => sig_RegWrt, ALUsrc => sig_ALUsrc, RegDst => sig_RegDst,
+					branch => sig_branch, Extop => sig_Extop, ALUctr => sig_ALUctr,
+					MemWrt => MemWrt, MemtoReg => MemtoReg);
 datapath_map: datapath port map(instr => instr, clk => clk,  arst => arst,
                     data_in => data_in, RegWrt => sig_RegWrt, ALUsrc => sig_ALUsrc,
 					RegDst => sig_RegDst, branch => sig_branch, Extop => sig_Extop,
 					ALUctr => sig_ALUctr, instr_addr => instr_addr, data_addr => data_addr,
 					data_out => data_out);
-control_map: control port map(op => instr(31 downto 26), func => instr(5 downto 0),
-                    RegWrt => sig_RegWrt, ALUsrc => sig_ALUsrc, RegDst => sig_RegDst,
-					branch => sig_branch, Extop => sig_Extop, ALUctr => sig_ALUctr,
-					MemWrt => MemWrt, MemtoReg => MemtoReg);
 end structural;
 					
 					

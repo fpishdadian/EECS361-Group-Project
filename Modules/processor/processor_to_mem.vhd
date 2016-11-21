@@ -22,6 +22,7 @@ signal sig_data_addr : std_logic_vector(31 downto 0);
 signal sig_data_out  : std_logic_vector(31 downto 0);
 signal sig_mux  : std_logic_vector(31 downto 0);
 signal sig_data_in : std_logic_vector(31 downto 0);
+--signal clk_n : std_logic;
 
 component processor
 port(  instr   : in std_logic_vector(31 downto 0);
@@ -62,7 +63,16 @@ port (
   );
 end component;
 
+component not_gate is
+  port (
+    x   : in  std_logic;   
+    z   : out std_logic
+  );
+end component;
+
 begin
+--inv_clock: not_gate port map(x => clk, z => clk_n);
+
 instr_memory_map: instr_memory port map(addr => sig_instr_addr, instr => sig_instr);
 
 mux_map1: mux_32 port map(sel => sig_MemtoReg, src0 => sig_data_addr, src1 => sig_data_out,
@@ -71,7 +81,7 @@ processor_map: processor port map( instr => sig_instr, clk => clk, arst => arst,
                    data_in => sig_mux,  instr_addr => sig_instr_addr,
 				   data_addr => sig_data_addr, data_out => sig_data_in,
 				   MemtoReg => sig_MemtoReg, MemWrt => sig_MemWrt);
-data_memory_map: data_memory port map(data_in => sig_data_in, clk=>clk,
+data_memory_map: data_memory port map(data_in => sig_data_in, clk => clk,
                    addr => sig_data_addr, we => sig_MemWrt, 
 				   data_out => sig_data_out);
 				   
