@@ -47,6 +47,7 @@ signal sig_BusA  : std_logic_vector(31 downto 0);
 signal sig_BusB  : std_logic_vector(31 downto 0);
 signal sig_null1  : std_logic_vector(2 downto 0);
 signal sig_null2  : std_logic;
+signal clkn  : std_logic;
 
 component register_basic_128 is
      port(
@@ -94,13 +95,21 @@ port (op       : in std_logic_vector(5 downto 0);
       ALUctr   : out std_logic_vector(3 downto 0));
 end component;
 
+component not_gate
+port (
+    x   : in  std_logic;
+    z   : out std_logic
+  );
+end component;
+
 
 begin
+clk_inv: not_gate port map(x => clk, z=> clkn);
 control_map: control port map(op => instr(31 downto 26), func => instr(5 downto 0), 
                RegWrt => sig_RegWrt, ALUsrc => sig_ALUsrc, RegDst => sig_RegDst,
 			   MemtoReg => sig_MemtoReg, MemWrt => sig_MemWrt, branch => sig_branch,
 			   Extop => sig_Extop, ALUctr => sig_ALUctr);
-register16_map: register_basic_16 port map(clk => clk, arst => arst, write_enable => '1',
+register16_map: register_basic_16 port map(clk => clkn, arst => arst, write_enable => '1',
                data_in(15 downto 13) => sig_null1,
 			   data_in(12 downto 11) => instr(27 downto 26),
                data_in(10) => sig_Extop, data_in(9) => sig_ALUsrc, 
@@ -117,7 +126,7 @@ register_file_map : register_file port map(clk => clk, arst => arst, write_enabl
                Ra => instr(25 downto 21), Rb => instr(20 downto 16), Rw => Rw,
 			   data_in => data_in, BusA => sig_BusA, BusB => sig_BusB);
 			  
-register128_map: register_basic_128 port map( clk => clk, arst => arst, write_enable => '1',
+register128_map: register_basic_128 port map( clk => clkn, arst => arst, write_enable => '1',
                data_in(127 downto 96) => pc_add4_in, data_in(95 downto 64) => sig_BusA,
 			   data_in(63 downto 32) => sig_BusB, data_in(31 downto 16) => instr(15 downto 0),
 			   data_in(15 downto 11) => instr(20 downto 16), 

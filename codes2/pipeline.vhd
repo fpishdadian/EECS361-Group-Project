@@ -195,7 +195,7 @@ reg_dec_map: reg_dec_unit port map(instr => sig_instr_1, RegWr => RegWrt_4,
 		   branch => branch_2, Extop => Extop_2, ALUctr => ALUctr_2, Op => Op_2,
 		   shift => sig_shift);
 ex_unit_map: ex_unit port map(BusA =>sig_BusA_2, BusB_in => sig_BusB_2,
-           imm => sig_imm_2, pc_add4 => sig_pc_add4_out_2, Rt => Rd_2, Rd => Rd_2,
+           imm => sig_imm_2, pc_add4 => sig_pc_add4_out_2, Rt => Rt_2, Rd => Rd_2,
 		   RegWrt => RegWrt_2, ALUsrc => ALUsrc_2,
 		   RegDst => RegDst_2, MemtoReg => MemtoReg_2, MemWrt => MemWrt_2,
 		   branch => branch_2, Extop => Extop_2, ALUctr => ALUctr_2, Op => Op_2 ,

@@ -47,6 +47,7 @@ signal sig_zeron : std_logic;
 signal sig_data_out : std_logic_vector(31 downto 0);
 signal sig_null1  : std_logic_vector(2 downto 0);
 signal sig_null2 : std_logic_vector(58 downto 0);
+signal clkn  : std_logic;
 
 component register_basic_16 is
      port(
@@ -104,7 +105,8 @@ component register_basic_128 is
 end component;
 
 begin
-controlregister: register_basic_16 port map(clk => clk, arst => arst, write_enable => '1',
+clk_inv: not_gate port map(x => clk, z=> clkn);
+controlregister: register_basic_16 port map(clk => clkn, arst => arst, write_enable => '1',
              data_in(0) => RegWrt, data_in(1) => MemtoReg, data_in(2) => branch,
 			 data_in(3) => MemWrt, data_in(4) => RegDst, data_in(8 downto 5) => ALUctr,
              data_in(9) => ALUsrc, data_in(10) => ExtOp, data_in(12 downto 11) => Op,
@@ -121,7 +123,7 @@ mux_3to1map: mux_3to1 port map(sel => Op, src00 => sig_beq, src01 => sig_bne,
               src11 => sig_bgtz, z => branch_pc);
 datamem_map: data_memory port map(data_in => BusB, clk => clk, addr => result_in,
              we => MemWrt, data_out => sig_data_out);
-register128: register_basic_128 port map(clk => clk, arst => arst, write_enable => '1',
+register128: register_basic_128 port map(clk => clkn, arst => arst, write_enable => '1',
              data_in(31 downto 0) => sig_data_out, data_in(63 downto 32) => result_in,
              data_in(68 downto 64) => Rw_in,
 			 data_in(127 downto 69) => sig_null2,
