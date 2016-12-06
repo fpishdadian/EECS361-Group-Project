@@ -62,6 +62,7 @@ signal sig_shiftop : std_logic;
 signal sig_immshift : std_logic_vector(15 downto 0);
 signal sig_shift : std_logic_vector(31 downto 0);
 signal sig_R  : std_logic_vector(31 downto 0);
+signal clkn  : std_logic;
 
 component extender is
   port ( imm     : in std_logic_vector(15 downto 0);
@@ -149,6 +150,7 @@ port (
 end component;
 	
 begin 
+clk_inv: not_gate port map(x => clk, z=> clkn);
 adder_map: full_adder_32 port map(A => pc_add4, B(31 downto 2) => sig_ext(29 downto 0),
               B(1 downto 0) => "00", ctrlsig => "00",sum => sig_adder);
 			  
@@ -167,7 +169,7 @@ mux_32_map: mux_32 port map(sel => AlUsrc, src0 => sig_R, src1 =>sig_ext, z => s
 ALU_map: ALU port map(A => BusA, B => sig_mux32_out, m => ALUctr, Result => sig_result,
              zero_out => sig_zero);
 mux_5_map: mux_5 port map(sel => RegDst, src0 => Rt, src1 => Rd, z => sig_mux5_out);
-register128_map: register_basic_128 port map(clk => clk, arst => arst, write_enable => '1',
+register128_map: register_basic_128 port map(clk => clkn, arst => arst, write_enable => '1',
              data_in(26) => sig_zero, data_in(31 downto 27) => sig_mux5_out, 
 			 data_in(63 downto 32) => BusB_in, data_in(95 downto 64) => sig_result,
 			 data_in(127 downto 96) => sig_adder,
@@ -176,7 +178,7 @@ register128_map: register_basic_128 port map(clk => clk, arst => arst, write_ena
 			 data_out(63 downto 32) => BusB_out, data_out(95 downto 64) => result,
 			 data_out(127 downto 96) => pc_add4imm_out,
 			 data_out(25 downto 0) => sig_null2);
-control_register: register_basic_16 port map(clk => clk, arst => arst, write_enable => '1',
+control_register: register_basic_16 port map(clk => clkn, arst => arst, write_enable => '1',
              data_in(0) => RegWrt, data_in(1) => MemtoReg, data_in(2) => branch,
 			 data_in(3) => MemWrt, data_in(4) => RegDst, data_in(8 downto 5) => ALUctr,
              data_in(9) => ALUsrc, data_in(10) => ExtOp, data_in(12 downto 11) => Op,
