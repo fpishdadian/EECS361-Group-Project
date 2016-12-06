@@ -17,11 +17,11 @@ architecture behavioral of dffr_a is
 begin
   proc : process (clk, arst, aload)
   begin
-    if arst = '1' then             -- If reset=1, reset the output to '0';
+    if arst = '1' then
       q <= '0';
-    elsif aload = '1' then         -- If aload=1, give the adata to output;
+    elsif aload = '1' then
       q <= adata;
-    elsif rising_edge(clk) then    -- If clk rises and WrEn=1, write the input to output;
+    elsif falling_edge(clk) then
       if enable = '1' then
 	    q <= d;
       end if;
