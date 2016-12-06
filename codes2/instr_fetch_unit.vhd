@@ -20,9 +20,9 @@ end instr_fetch_unit;
 architecture structural of instr_fetch_unit is
 signal sig_pc : std_logic_vector(31 downto 0);
 signal sig_pc_add4  : std_logic_vector(31 downto 0);
-signal sig_instr : std_logic_vector(31 downto 0);
+--signal sig_instr : std_logic_vector(31 downto 0);
 signal sig_mux  : std_logic_vector(31 downto 0);
-signal clkn  : std_logic;
+
 
 component mux_32 is
   port (
@@ -77,15 +77,17 @@ port (
 end component;
 
 begin
-clk_inv: not_gate port map(x => clk, z=> clkn);
+
 pc_map: pc_32 port map(clk => clk, arst => arst, write_enable => '1',
                  data_in => sig_mux, data_out => sig_pc);
 adder_map: full_adder_32 port map(A => sig_pc, B => x"00000004", 
                  ctrlsig => "00", sum => sig_pc_add4);
-instr_memory_map : instr_memory port map(addr => sig_pc(31 downto 2), instr => sig_instr);
-register_map: register_basic_64 port map(clk => clkn, arst => arst, write_enable => '1',
-                 data_in(31 downto 0) => sig_instr, data_in(63 downto 32) => sig_pc_add4,
-				 data_out(31 downto 0) => instr, data_out(63 downto 32) => pc_add4);
+instr_memory_map : instr_memory port map(addr => sig_pc(31 downto 2), instr => instr);
+-- register_map: register_basic_64 port map(clk => clkn, arst => arst, write_enable => '1',
+                 -- data_in(31 downto 0) => sig_instr, data_in(63 downto 32) => sig_pc_add4,
+				 -- data_out(31 downto 0) => instr, data_out(63 downto 32) => pc_add4);
 mux_map: mux_32 port map(sel => branch, src0 => sig_pc_add4, src1 =>pc_add4_addimm,
                  z => sig_mux);
+pc_add4 <= sig_pc_add4;
+
 end structural;				 

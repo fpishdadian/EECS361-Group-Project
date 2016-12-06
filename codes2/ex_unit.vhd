@@ -14,16 +14,16 @@ port(  BusA  : in std_logic_vector(31 downto 0);
 	   pc_add4  : in std_logic_vector(31 downto 0);
 	   Rt  : in std_logic_vector(4 downto 0);
 	   Rd  : in std_logic_vector(4 downto 0);
-	   RegWrt   : in std_logic;
+	   --RegWrt   : in std_logic;
 	   ALUsrc   : in std_logic;
        RegDst   : in std_logic;
-       MemtoReg : in std_logic;
-       MemWrt   : in std_logic;
-       branch   : in std_logic;
+       --MemtoReg : in std_logic;
+       --MemWrt   : in std_logic;
+       --branch   : in std_logic;
        Extop    : in std_logic;
        ALUctr   : in std_logic_vector(3 downto 0);
-	   Op       : in std_logic_vector(1 downto 0);
-	   arst  : in std_logic;
+	   --Op       : in std_logic_vector(1 downto 0);
+	   --arst  : in std_logic;
 	   clk  : in std_logic;
 	   shift : in std_logic_vector(4 downto 0);
 	   
@@ -31,16 +31,16 @@ port(  BusA  : in std_logic_vector(31 downto 0);
 	   result  : out std_logic_vector(31 downto 0);
 	   zero  : out std_logic;
 	   pc_add4imm_out  : out std_logic_vector(31 downto 0);
-	   Rw  : out std_logic_vector(4 downto 0);
-	   RegWrt_out   : out std_logic;
-	   ALUsrc_out   : out std_logic;
-       RegDst_out   : out std_logic;
-       MemtoReg_out : out std_logic;
-       MemWrt_out   : out std_logic;
-       branch_out   : out std_logic;
-       Extop_out    : out std_logic;
-       ALUctr_out   : out std_logic_vector(3 downto 0);
-       Op_out       : out std_logic_vector(1 downto 0)	  
+	   Rw  : out std_logic_vector(4 downto 0)
+	   --RegWrt_out   : out std_logic;
+	   --ALUsrc_out   : out std_logic;
+       --RegDst_out   : out std_logic;
+       --MemtoReg_out : out std_logic;
+       --MemWrt_out   : out std_logic;
+       --branch_out   : out std_logic;
+       --Extop_out    : out std_logic;
+       --ALUctr_out   : out std_logic_vector(3 downto 0);
+       --Op_out       : out std_logic_vector(1 downto 0)	  
 	   
 );
 end ex_unit;
@@ -48,11 +48,11 @@ end ex_unit;
 architecture structural of ex_unit is
 signal sig_ext : std_logic_vector(31 downto 0);
 signal sig_mux32_out : std_logic_vector(31 downto 0);
-signal sig_result : std_logic_vector(31 downto 0);
-signal sig_zero : std_logic;
-signal sig_mux5_out : std_logic_vector(4 downto 0);
-signal sig_null1  : std_logic_vector(2 downto 0);
-signal sig_null2  : std_logic_vector(25 downto 0);
+--signal sig_result : std_logic_vector(31 downto 0);
+--signal sig_zero : std_logic;
+--signal sig_mux5_out : std_logic_vector(4 downto 0);
+--signal sig_null1  : std_logic_vector(2 downto 0);
+--signal sig_null2  : std_logic_vector(25 downto 0);
 signal sig_adder  : std_logic_vector(31 downto 0);
 signal ALUctr3_n  : std_logic;
 signal ALUctr0_n  : std_logic;
@@ -166,25 +166,29 @@ mux_map1: mux_32 port map(sel => sig_shiftop, src0 => BusB_in, src1 => sig_shift
                       z => sig_R);
 extender_map2: extender port map(imm => imm, ExtOp => ExtOp, result => sig_ext);
 mux_32_map: mux_32 port map(sel => AlUsrc, src0 => sig_R, src1 =>sig_ext, z => sig_mux32_out);
-ALU_map: ALU port map(A => BusA, B => sig_mux32_out, m => ALUctr, Result => sig_result,
-             zero_out => sig_zero);
-mux_5_map: mux_5 port map(sel => RegDst, src0 => Rt, src1 => Rd, z => sig_mux5_out);
-register128_map: register_basic_128 port map(clk => clkn, arst => arst, write_enable => '1',
-             data_in(26) => sig_zero, data_in(31 downto 27) => sig_mux5_out, 
-			 data_in(63 downto 32) => BusB_in, data_in(95 downto 64) => sig_result,
-			 data_in(127 downto 96) => sig_adder,
-			 data_in(25 downto 0) => sig_null2,
-			 data_out(26) => zero, data_out(31 downto 27) => Rw, 
-			 data_out(63 downto 32) => BusB_out, data_out(95 downto 64) => result,
-			 data_out(127 downto 96) => pc_add4imm_out,
-			 data_out(25 downto 0) => sig_null2);
-control_register: register_basic_16 port map(clk => clkn, arst => arst, write_enable => '1',
-             data_in(0) => RegWrt, data_in(1) => MemtoReg, data_in(2) => branch,
-			 data_in(3) => MemWrt, data_in(4) => RegDst, data_in(8 downto 5) => ALUctr,
-             data_in(9) => ALUsrc, data_in(10) => ExtOp, data_in(12 downto 11) => Op,
-			 data_in(15 downto 13) => sig_null1,
-			 data_out(0) => RegWrt_out, data_out(1) => MemtoReg_out, data_out(2) => branch_out,
-			 data_out(3) => MemWrt_out, data_out(4) => RegDst_out, data_out(8 downto 5) => ALUctr_out,
-             data_out(9) => ALUsrc_out, data_out(10) => ExtOp_out, data_out(12 downto 11) => Op_out,
-			 data_out(15 downto 13) => sig_null1);
+ALU_map: ALU port map(A => BusA, B => sig_mux32_out, m => ALUctr, Result => result,
+             zero_out => zero);
+mux_5_map: mux_5 port map(sel => RegDst, src0 => Rt, src1 => Rd, z => Rw);
+
+BusB_out <= BusB_in;
+pc_add4imm_out <= pc_add4;
+
+-- register128_map: register_basic_128 port map(clk => clkn, arst => arst, write_enable => '1',
+             -- data_in(26) => sig_zero, data_in(31 downto 27) => sig_mux5_out, 
+			 -- data_in(63 downto 32) => BusB_in, data_in(95 downto 64) => sig_result,
+			 -- data_in(127 downto 96) => sig_adder,
+			 -- data_in(25 downto 0) => sig_null2,
+			 -- data_out(26) => zero, data_out(31 downto 27) => Rw, 
+			 -- data_out(63 downto 32) => BusB_out, data_out(95 downto 64) => result,
+			 -- data_out(127 downto 96) => pc_add4imm_out,
+			 -- data_out(25 downto 0) => sig_null2);
+-- control_register: register_basic_16 port map(clk => clkn, arst => arst, write_enable => '1',
+             -- data_in(0) => RegWrt, data_in(1) => MemtoReg, data_in(2) => branch,
+			 -- data_in(3) => MemWrt, data_in(4) => RegDst, data_in(8 downto 5) => ALUctr,
+             -- data_in(9) => ALUsrc, data_in(10) => ExtOp, data_in(12 downto 11) => Op,
+			 -- data_in(15 downto 13) => sig_null1,
+			 -- data_out(0) => RegWrt_out, data_out(1) => MemtoReg_out, data_out(2) => branch_out,
+			 -- data_out(3) => MemWrt_out, data_out(4) => RegDst_out, data_out(8 downto 5) => ALUctr_out,
+             -- data_out(9) => ALUsrc_out, data_out(10) => ExtOp_out, data_out(12 downto 11) => Op_out,
+			 -- data_out(15 downto 13) => sig_null1);
 end structural;
