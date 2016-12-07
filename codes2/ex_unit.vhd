@@ -164,7 +164,7 @@ shiftop_gen5: and_gate port map(x => ALUctr1, y => ALUctr2, z => sig_shiftop);
 extend_map1: extender port map(imm => sig_immshift, ExtOp => '0', result => sig_shift);
 mux_map1: mux_32 port map(sel => sig_shiftop, src0 => BusB_in, src1 => sig_shift,
                       z => sig_R);
-extender_map2: extender port map(imm => imm, ExtOp => ExtOp, result => sig_ext);
+extender_map2: extender port map(imm => imm, ExtOp => '1', result => sig_ext);
 mux_32_map: mux_32 port map(sel => AlUsrc, src0 => sig_R, src1 =>sig_ext, z => sig_mux32_out);
 ALU_map: ALU port map(A => BusA, B => sig_mux32_out, m => ALUctr, Result => result,
              zero_out => zero);

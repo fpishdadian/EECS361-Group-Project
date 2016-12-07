@@ -78,7 +78,7 @@ signal sig_result_out_6 : std_logic_vector(31 downto 0);
 signal	   Rw_6 :  std_logic_vector(4 downto 0);
 signal      branch_6  :  std_logic;
 signal RegWrt_5  : std_logic;
-signal  sig_null3  : std_logic_vector(87 downto 0);
+signal  sig_null3  : std_logic_vector(86 downto 0);
 
 signal sig_data_out_7 : std_logic_vector(31 downto 0);
 signal sig_result_out_7 : std_logic_vector(31 downto 0);
@@ -86,6 +86,7 @@ signal	   Rw_7 :  std_logic_vector(4 downto 0);
 signal      MemtoReg_7 :  std_logic;
 signal branch_7 : std_logic;
 signal branch_7n : std_logic;
+signal branch_8  : std_logic;
 
 signal	   sig_Rw_8 :  std_logic_vector(4 downto 0);
 signal sig_data_out_8 : std_logic_vector(31 downto 0);
@@ -100,6 +101,7 @@ signal sig_sel_B  : std_logic_vector(1 downto 0);
 signal sig_ALU_A  : std_logic_vector(31 downto 0);
 signal sig_ALU_B  : std_logic_vector(31 downto 0);
 signal sig_Memread : std_logic;
+signal sig_arst  : std_logic;
 
 component register_basic_64 is
      port(
@@ -260,8 +262,8 @@ port(  Rt_ID_EX  : in std_logic_vector(4 downto 0);
        Rs_IF_ID  : in std_logic_vector(4 downto 0);
 	   Rt_IF_ID  : in std_logic_vector(4 downto 0);
 	   Memread_ID_EX  : in std_logic;
-	   PCsrc_MEM_WB : in std_logic;
-	   op  : in std_logic_vector(5 downto 0);
+	   --PCsrc_MEM_WB : in std_logic;
+	   --op  : in std_logic_vector(5 downto 0);
 	   ctr_sel  : out std_logic;
 	   PC_wrt  : out std_logic;
 	   RegWrt_IF_ID  : out std_logic);
@@ -303,12 +305,22 @@ port(  Op  : in std_logic_vector(5 downto 0);
        Memread  : out std_logic);
 end component;
 
+component mux is
+  port (
+	sel	  : in	std_logic;
+	src0  :	in	std_logic;
+	src1  :	in	std_logic;
+	z	  : out std_logic
+  );
+end component;
+
 begin
 clk_inv: not_gate port map(x => clk, z=> clkn);
+mux_map: mux port map(sel => branch_8, src0 => arst, src1 => '1', z => sig_arst);
 instr_fetch_map: instr_fetch_unit port map(clk => clk, arst => arst, PC_wrt => sig_PC_wrt, 
           branch => branch_6, pc_add4_addimm => sig_pc_add4imm_5, instr => sig_instr,
 		  pc_add4 => sig_pc_add4);
-register_instr_map: register_basic_64 port map(clk => clk, arst => arst,
+register_instr_map: register_basic_64 port map(clk => clk, arst => sig_arst,
           write_enable => sig_RegWrt_IF_ID, data_in(31 downto 0) => sig_instr,
 		  data_in(63 downto 32) => sig_pc_add4,
 		  data_out(31 downto 0) => sig_instr_1,
@@ -317,12 +329,12 @@ register_instr_map: register_basic_64 port map(clk => clk, arst => arst,
 reg_dec_map: reg_dec_unit port map(instr => sig_instr_1, RegWr => RegWrt_5, 
            clk => clk, arst => arst, data_in => sig_data_out_8, Rw => sig_Rw_8,
 		   pc_add4_in => sig_pc_add4_1, pc_add4_out => sig_pc_add4_out_2,
-		   imm => sig_imm_2, BusA =>sig_BusA_2, BusB => sig_BusB_2,
+		   imm => sig_imm_2, BusA => sig_BusA_2, BusB => sig_BusB_2,
 		   Rt => Rt_2, Rd => Rd_2, RegWrt => RegWrt_2, ALUsrc => ALUsrc_2,
 		   RegDst => RegDst_2, MemtoReg => MemtoReg_2, MemWrt => MemWrt_2,
 		   branch => branch_2, Extop => Extop_2, ALUctr => ALUctr_2, Op => Op_2,
 		   shift => shift_2);
-register_dec_map: register_basic_160 port map(clk => clk, arst => arst, write_enable => '1',
+register_dec_map: register_basic_160 port map(clk => clk, arst => sig_arst, write_enable => '1',
            data_in(4 downto 0) => Rd_2, data_in(9 downto 5) => Rt_2, 
 		   data_in(25 downto 10) => sig_imm_2, data_in(57 downto 26) => sig_BusB_2,
 		   data_in(89 downto 58) => sig_BusA_2, data_in(121 downto 90) => sig_pc_add4_out_2,
@@ -346,7 +358,6 @@ register_dec_map: register_basic_160 port map(clk => clk, arst => arst, write_en
 not_map: not_gate port map(x => branch_7, z => branch_7n);		   
 hazard_map: hazard_unit port map(Rt_ID_EX => Rt_3, Rs_IF_ID => sig_instr_1(25 downto 21),
            Rt_IF_ID => sig_instr_1(20 downto 16), Memread_ID_EX => sig_Memread,
-		   PCsrc_MEM_WB => branch_7n, op => sig_instr_1(31 downto 26),
 		   ctr_sel => sig_ctr_sel, PC_wrt => sig_PC_wrt, RegWrt_IF_ID => sig_RegWrt_IF_ID);
 
 sig_src0(0) <= RegWrt_2; sig_src0(1) <= ALUsrc_2; sig_src0(2) <= RegDst_2;
@@ -364,7 +375,7 @@ ex_map: ex_unit port map(BusA => sig_ALU_A, BusB_in => sig_ALU_B,
 		   ALUctr => ALUctr_3, clk => clk, shift => shift_3,
 		   BusB_out => sig_BusB_4, result => sig_result_4, zero => sig_zero_4,
 		   pc_add4imm_out => sig_pc_add4imm_4, Rw => Rw_4);
-register_ex_map: register_basic_160 port map(clk => clk, arst => arst, write_enable => '1',
+register_ex_map: register_basic_160 port map(clk => clk, arst => sig_arst, write_enable => '1',
            data_in(0) => sig_zero_4, data_in(5 downto 1) => Rw_4, 
 		   data_in(37 downto 6) => sig_BusB_4, data_in(69 downto 38) => sig_result_4,
 		   data_in(101 downto 70) => sig_pc_add4imm_4, data_in(102) => MemWrt_3,
@@ -396,12 +407,12 @@ mem_map: mem_unit port map( zero => sig_zero_5, result_in => sig_result_5,
 reg_mem_map: register_basic_160 port map(clk => clk, arst => arst, write_enable => '1',
            data_in(31 downto 0) => sig_data_out_6, data_in(63 downto 32) => sig_result_out_6,
 		   data_in(68 downto 64) => Rw_6, data_in(69) => MemtoReg_5,
-		   data_in(70) => RegWrt_4, data_in(71) => branch_5,
-		   data_in(159 downto 72) => sig_null3,
+		   data_in(70) => RegWrt_4, data_in(71) => branch_5, data_in(72) => branch_6,
+		   data_in(159 downto 73) => sig_null3,
 		   data_out(31 downto 0) => sig_data_out_7, data_out(63 downto 32) => sig_result_out_7,
 		   data_out(68 downto 64) => Rw_7, data_out(69) => MemtoReg_7,
-		   data_out(70) => RegWrt_5, data_out(71) => branch_7,
-		   data_out(159 downto 72) => sig_null3);
+		   data_out(70) => RegWrt_5, data_out(71) => branch_7, data_out(72) => branch_8,
+		   data_out(159 downto 73) => sig_null3);
 		   
 		   
 wb_map: wb_unit port map(data_in => sig_data_out_7, result_in => sig_result_out_7,
