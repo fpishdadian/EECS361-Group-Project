@@ -10,6 +10,7 @@ use work.eecs361_gates.all;
 entity instr_fetch_unit is
 port(    clk : in std_logic;
          arst : in std_logic;
+		 PC_wrt : in std_logic;
          branch : in std_logic;
 		 pc_add4_addimm : in std_logic_vector(31 downto 0);
 		 instr  : out std_logic_vector(31 downto 0);
@@ -78,7 +79,7 @@ end component;
 
 begin
 
-pc_map: pc_32 port map(clk => clk, arst => arst, write_enable => '1',
+pc_map: pc_32 port map(clk => clk, arst => arst, write_enable => PC_wrt,
                  data_in => sig_mux, data_out => sig_pc);
 adder_map: full_adder_32 port map(A => sig_pc, B => x"00000004", 
                  ctrlsig => "00", sum => sig_pc_add4);

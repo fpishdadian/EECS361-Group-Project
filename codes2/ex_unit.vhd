@@ -171,7 +171,8 @@ ALU_map: ALU port map(A => BusA, B => sig_mux32_out, m => ALUctr, Result => resu
 mux_5_map: mux_5 port map(sel => RegDst, src0 => Rt, src1 => Rd, z => Rw);
 
 BusB_out <= BusB_in;
-pc_add4imm_out <= pc_add4;
+pc_add4imm_out <= sig_adder;
+
 
 -- register128_map: register_basic_128 port map(clk => clkn, arst => arst, write_enable => '1',
              -- data_in(26) => sig_zero, data_in(31 downto 27) => sig_mux5_out, 

@@ -49,6 +49,7 @@ signal sig_zeron : std_logic;
 --signal sig_null2 : std_logic_vector(58 downto 0);
 signal clkn  : std_logic;
 signal sig_we  : std_logic;
+signal msb_n  : std_logic;
 
 component register_basic_16 is
      port(
@@ -119,7 +120,8 @@ clk_inv: not_gate port map(x => clk, z=> clkn);
 not1: not_gate port map(x => zero, z => sig_zeron);
 and1: and_gate port map(x => zero, y => branch, z => sig_beq);
 and2: and_gate port map(x => sig_zeron, y => branch, z => sig_bne);
-and3: and_gate port map(x => sig_bne, y => result_in(31), z => sig_bgtz );
+not2: not_gate port map(x => result_in(31), z => msb_n);
+and3: and_gate port map(x => sig_bne, y => msb_n, z => sig_bgtz );
 mux_3to1map: mux_3to1 port map(sel => Op, src00 => sig_beq, src01 => sig_bne, 
               src11 => sig_bgtz, z => branch_pc);
 

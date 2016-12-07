@@ -1,0 +1,1424 @@
+C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_a_32bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_a_32bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a_32bit
+-- Compiling architecture behavioral of dffr_a_32bit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_128.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_128.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity dffr_a
+-- Compiling entity register_basic_128
+-- Compiling architecture structural of register_basic_128
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity dffr_a
+-- Compiling entity register_basic_32
+-- Compiling architecture structural of register_basic_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/and_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/and_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/sram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/sram.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture behavioral of sram
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xnor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xnor_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/dec_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/dec_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n
+-- Compiling architecture behavioral of dec_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Conditional_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Conditional_Unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity Conditional_Unit
+-- Compiling architecture structural of Conditional_Unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/forwarding_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/forwarding_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity forwarding_unit
+-- Compiling architecture structural of forwarding_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xor_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity main_control
+-- Compiling architecture dataflows of main_control
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/full_adder30.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/full_adder30.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity full_adder30
+-- Compiling architecture structral of full_adder30
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/mux_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/mux_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_16.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity dffr_a
+-- Compiling entity register_basic_16
+-- Compiling architecture structural of register_basic_16
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_usgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_usgn.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Compiling entity arithmetic_usgn
+-- Compiling architecture structural of arithmetic_usgn
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_8bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_8bit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Compiling entity add_8bit
+-- Compiling architecture structural of add_8bit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/load_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/load_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity load_unit
+-- Compiling architecture structural of load_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/eecs361.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/eecs361.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nor_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_type.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_type.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package data_type
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_6to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_6to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity and_gate_6to1
+-- Compiling architecture dataflows of and_gate_6to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity main_control_test
+-- Compiling architecture behave of main_control_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity test_datapath
+-- Compiling architecture test of test_datapath
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd(127): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd(138): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/pipeline.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Shuyue\Desktop\Fall 2016\EECS 361\Group5_2\codes2\pipeline.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity pipeline
+-- Compiling architecture structural of pipeline
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/full_adder_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/full_adder_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity full_adder_32
+-- Compiling architecture structral of full_adder_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dffr.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dffr.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity dffr_a
+-- Compiling entity register_basic_32_test
+-- Compiling architecture behave of register_basic_32_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_64.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_64.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity dffr_a
+-- Compiling entity register_basic_64
+-- Compiling architecture structural of register_basic_64
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Loading entity ALU
+-- Compiling entity ALU_test
+-- Compiling architecture behavioral of ALU_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading entity and_gate_9to1
+-- Loading entity or_gate_4to1
+-- Compiling entity control
+-- Compiling architecture structural of control
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/reg_dec_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/reg_dec_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity reg_dec_unit
+-- Compiling architecture structural of reg_dec_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/instr_fetch_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/instr_fetch_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity instr_fetch_unit
+-- Compiling architecture structural of instr_fetch_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_2
+-- Compiling architecture structural of or_gate_2
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package data_type
+-- Loading entity dffr_a
+-- Compiling entity register_file_test
+-- Compiling architecture behave of register_file_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/syncram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/syncram.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity syncram
+-- Compiling architecture behavioral of syncram
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nand_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nand_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/eecs361_gates.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package eecs361_gates
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_4
+-- Compiling architecture structural of or_gate_4
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Logic_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Logic_Unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux_32_4to1
+-- Compiling entity Logic_Unit
+-- Compiling architecture structural of Logic_Unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/extender.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/extender.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity extender
+-- Compiling architecture structural of extender
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_8.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_8
+-- Compiling architecture structural of or_gate_8
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n
+-- Compiling architecture behavioral of dec_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/wb_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/wb_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity wb_unit
+-- Compiling architecture structural of wb_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_6to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_6to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity or_gate_6to1
+-- Compiling architecture structural of or_gate_6to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nor_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_32bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_32bit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Compiling entity add_32bit
+-- Compiling architecture structural of add_32bit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/not_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/not_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/or_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/or_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} {C:/GitHub/EECS361-Group-Project/Modules/Register File/dffr_a.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/GitHub/EECS361-Group-Project/Modules/Register File/dffr_a.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/nor_32_to_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/nor_32_to_1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity nor_32_to_1
+-- Compiling architecture structural of nor_32_to_1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_5.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_5
+-- Compiling architecture behavioral of mux_5
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dffr_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dffr_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_32
+-- Compiling architecture behavioral of dffr_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/and_gate_6to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/and_gate_6to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity and_gate_6to1
+-- Compiling architecture dataflows of and_gate_6to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_160.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_160.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity dffr_a
+-- Compiling entity register_basic_160
+-- Compiling architecture structural of register_basic_160
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity test_ptom
+-- Compiling architecture test of test_ptom
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_22.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_22.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_22
+-- Compiling architecture structural of mux_22
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/comparison_5bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/comparison_5bit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity comparison_5bit
+-- Compiling architecture structural of comparison_5bit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nand_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nand_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/mux.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_n
+-- Compiling architecture dataflow of and_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_sgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_sgn.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity set_lt_sgn
+-- Compiling architecture structural of set_lt_sgn
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instruction_fetch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instruction_fetch.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity instruction_fetch
+-- Compiling architecture structural of instruction_fetch
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_30.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_30.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_30
+-- Compiling architecture structural of mux_30
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xor_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
+
+} {} {}} C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/mux_32to1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/mux_32to1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32to1
+-- Compiling architecture structural of mux_32to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/and_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/and_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_32_3to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_32_3to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32_3to1
+-- Compiling architecture structral of mux_32_3to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_16.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_16
+-- Compiling architecture structural of or_gate_16
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/sll_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/sll_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity sll_32
+-- Compiling architecture dataflows of sll_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_n
+-- Compiling architecture dataflow of not_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity or_gate_4to1
+-- Compiling architecture structural of or_gate_4to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity processor
+-- Compiling architecture structural of processor
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dec_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dec_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n
+-- Compiling architecture behavioral of dec_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/not_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/not_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/or_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/or_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Arithmetic_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Arithmetic_Unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Compiling entity Arithmetic_Unit
+-- Compiling architecture structural of Arithmetic_Unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading entity and_gate_9to1
+-- Loading entity or_gate_4to1
+-- Compiling entity alu_control
+-- Compiling architecture structural of alu_control
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/harzard_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/harzard_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity hazard_unit
+-- Compiling architecture structural of hazard_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package std_logic_arith
+-- Loading package data_type
+-- Compiling entity mux_reg_file_test
+-- Compiling architecture behave of mux_reg_file_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_4to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32_4to1
+-- Compiling architecture structral of mux_32_4to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/mux_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/mux_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_n
+-- Compiling architecture dataflow of xnor_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/ex_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/ex_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity ex_unit
+-- Compiling architecture structural of ex_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361_gates.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package eecs361_gates
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/datapath.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/datapath.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity datapath
+-- Compiling architecture structural of datapath
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_3to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_3to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity or_gate_3to1
+-- Compiling architecture dataflows of or_gate_3to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dff.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dff.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture behavioral of dff
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_n
+-- Compiling architecture dataflow of nand_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_3to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_3to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_3to1
+-- Compiling architecture structral of mux_3to1
+
+} {} {}} C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/RegFile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/RegFile.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity RegFile
+-- Compiling architecture structural of RegFile
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Loading package NUMERIC_STD
+-- Loading entity syncram
+-- Compiling entity data_memory
+-- Compiling architecture structural of data_memory
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xnor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xnor_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_n
+-- Compiling architecture dataflow of xnor_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_3to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_3to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32_3to1
+-- Compiling architecture structral of mux_32_3to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package data_type
+-- Loading entity dffr_a
+-- Compiling entity register_file
+-- Compiling architecture structural of register_file
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nand_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/nand_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_n
+-- Compiling architecture dataflow of nand_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity test_extender
+-- Compiling architecture test of test_extender
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_9to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_9to1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity and_gate_9to1
+-- Compiling architecture structural of and_gate_9to1
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_usgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_usgn.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity set_lt_usgn
+-- Compiling architecture structural of set_lt_usgn
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/and_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/and_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_n
+-- Compiling architecture dataflow of and_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mem_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mem_unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity mem_unit
+-- Compiling architecture structural of mem_unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading entity and_gate_9to1
+-- Loading entity or_gate_4to1
+-- Compiling entity control_test
+-- Compiling architecture behave of control_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_1bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_1bit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity add_1bit
+-- Compiling architecture structural of add_1bit
+
+} {} {}} C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_32bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_32bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_32bit
+-- Compiling architecture behavioral of dffr_32bit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_sgn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_sgn.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity add_1bit
+-- Loading entity add_8bit
+-- Loading entity add_32bit
+-- Compiling entity arithmetic_sgn
+-- Compiling architecture structural of arithmetic_sgn
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading entity and_gate_9to1
+-- Loading entity or_gate_4to1
+-- Loading entity alu_control
+-- Compiling entity alu_control_test
+-- Compiling architecture behavioral of alu_control_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/pc_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/pc_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity pc_32
+-- Compiling architecture structural of pc_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity test_data_memory
+-- Compiling architecture test of test_data_memory
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity test_instruction_fetch
+-- Compiling architecture test of test_instruction_fetch
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/not_gate_30.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/not_gate_30.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_30
+-- Compiling architecture dataflow of not_gate_30
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Cond_Imm_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Cond_Imm_Unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity Cond_Imm_Unit
+-- Compiling architecture structural of Cond_Imm_Unit
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/not_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/not_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_n
+-- Compiling architecture dataflow of not_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/or_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/or_gate_n.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package data_type
+-- Compiling entity mux_reg_file
+-- Compiling architecture dataflows of mux_reg_file
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xnor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/xnor_gate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_32.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity test_instr_memory
+-- Compiling architecture test of test_instr_memory
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity test_processor
+-- Compiling architecture test of test_processor
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instr_memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instr_memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading entity sram
+-- Compiling entity instr_memory
+-- Compiling architecture structural of instr_memory
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n_test
+-- Compiling architecture behave of dec_n_test
+
+} {} {}} {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor_to_mem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor_to_mem.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package eecs361_gates
+-- Compiling entity processor_to_mem
+-- Compiling architecture structural of processor_to_mem
+
+} {} {}}

@@ -1,0 +1,4859 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2
+Eadd_1bit
+Z0 w1479483127
+Z1 DPx4 work 7 eecs361 0 22 WG44PlKDC`<:h;<cTT`on1
+Z2 DPx4 work 13 eecs361_gates 0 22 Y`H6JLa]eolRP`lSh`[1R3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2
+Z6 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_1bit.vhd
+Z7 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_1bit.vhd
+l0
+L6
+VENSffN4dGXHUlPglkemYN0
+!s100 OThcl^I>gMeAJgVl2^mV92
+Z8 OP;C;10.4a;61
+32
+Z9 !s110 1481068569
+!i10b 1
+Z10 !s108 1481068569.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_1bit.vhd|
+Z12 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_1bit.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+Astructural
+R1
+R2
+R3
+R4
+Z15 DEx4 work 8 add_1bit 0 22 ENSffN4dGXHUlPglkemYN0
+l45
+L17
+VZ871?:^SbzcNBbgBC8]I00
+!s100 29>hb>LHH?ASzShOLZG200
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eadd_32bit
+R0
+R1
+R2
+Z16 DEx4 work 8 add_8bit 0 22 AD?BSn8F4Qm?nD0M`^3=23
+R3
+R4
+R5
+Z17 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_32bit.vhd
+Z18 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_32bit.vhd
+l0
+L5
+VKMH:SCCJeoc06>C6Tf7T90
+!s100 bo@I>ff2?FYY`S6b]UJ<13
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_32bit.vhd|
+Z20 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_32bit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+Z21 DEx4 work 9 add_32bit 0 22 KMH:SCCJeoc06>C6Tf7T90
+l31
+L16
+VJG6Uh[ihDhZ1i^zQHNE<n3
+!s100 ?HRH]Jn4fh5^8<9=Y?j8z1
+R8
+32
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Eadd_8bit
+R0
+R1
+R2
+R15
+R3
+R4
+R5
+Z22 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_8bit.vhd
+Z23 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_8bit.vhd
+l0
+L5
+VAD?BSn8F4Qm?nD0M`^3=23
+!s100 Vd57C9l<fMIK@dTcJ3LSN0
+R8
+32
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_8bit.vhd|
+Z25 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/add_8bit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+R16
+l27
+L16
+V<37Rokb7mAz9JAOZnJzL01
+!s100 efO5=g0TzlUk1fbMo@;PK3
+R8
+32
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R13
+R14
+Ealu
+Z26 w1479604295
+R1
+R2
+R21
+R3
+R4
+R5
+Z27 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU.vhd
+Z28 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU.vhd
+l0
+L12
+VC:S1JjioEX<32hTLLNdhA1
+!s100 f:k0^9jMnde<FF@_>;iVl2
+R8
+32
+Z29 !s110 1481068570
+!i10b 1
+Z30 !s108 1481068570.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU.vhd|
+Z32 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+Z33 DEx4 work 3 alu 0 22 C:S1JjioEX<32hTLLNdhA1
+l68
+L24
+VWzPQ`HKCU]1MN:ILbj?5n2
+!s100 eL[=ajhCf[cCOa;;OjRIc3
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Ealu_control
+R26
+Z34 DEx4 work 12 or_gate_4to1 0 22 l?;o8U<e]=<jdd3Un9>nP0
+R2
+Z35 DEx4 work 13 and_gate_9to1 0 22 U>V1POeige>87^jTXU7N51
+R3
+R4
+R5
+Z36 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control.vhd
+Z37 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control.vhd
+l0
+L8
+VQl[;bGfcLA;i6cXfl4Jhj1
+!s100 `=1DMVkNZDgo0lP:z@W941
+R8
+32
+R29
+!i10b 1
+R30
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control.vhd|
+Z39 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+Z40 DEx4 work 11 alu_control 0 22 Ql[;bGfcLA;i6cXfl4Jhj1
+l45
+L16
+Vd6maK5@iY1h944`K^mU2@2
+!s100 Aj0Y6faS9zoML2ngcjk3[3
+R8
+32
+R29
+!i10b 1
+R30
+R38
+R39
+!i113 1
+R13
+R14
+Ealu_control_test
+R26
+R2
+R40
+R3
+R4
+R5
+Z41 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control_test.vhd
+Z42 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control_test.vhd
+l0
+L7
+Vn?j_HE:PDY225]`H^<:zY0
+!s100 Tka[MlCQ2Q3aH_iFYV5zG2
+R8
+32
+R29
+!i10b 1
+R30
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control_test.vhd|
+Z44 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/alu_control_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+DEx4 work 16 alu_control_test 0 22 n?j_HE:PDY225]`H^<:zY0
+l25
+L10
+V@V9N:2FMT;j6WihSDdZ9b2
+!s100 F8zo0HzcCj`Lc?9C<XIHL1
+R8
+32
+R29
+!i10b 1
+R30
+R43
+R44
+!i113 1
+R13
+R14
+Ealu_test
+R26
+R1
+R2
+R33
+R3
+R4
+R5
+Z45 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU_test.vhd
+Z46 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU_test.vhd
+l0
+L7
+VFWIJNgJ3]62ZUOjUUl]5@2
+!s100 o9l7k]b8:EbPdUGEEg2ab2
+R8
+32
+R29
+!i10b 1
+R30
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU_test.vhd|
+Z48 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/ALU_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 8 alu_test 0 22 FWIJNgJ3]62ZUOjUUl]5@2
+l32
+L10
+V3>0^VPAz@074z0Gme[I@@0
+!s100 eH9ZZ03`L5TNG^f1e]1]V0
+R8
+32
+R29
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R13
+R14
+Eand_gate
+Z49 w1445360837
+R3
+R4
+R5
+Z50 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate.vhd
+Z51 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate.vhd
+l0
+L5
+VU_Y]TlgZX3N<gl1:ZjH622
+!s100 9zM?`;meNomBE;big9UG12
+R8
+32
+Z52 !s110 1481068581
+!i10b 1
+Z53 !s108 1481068581.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate.vhd|
+Z55 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 8 and_gate 0 22 U_Y]TlgZX3N<gl1:ZjH622
+l14
+L13
+Vd[k?[?OzHDKLB[j[<6]@h0
+!s100 Wc2cnMoUL`Rn2T[ECHYDg0
+R8
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R13
+R14
+Eand_gate_32
+R49
+R3
+R4
+R5
+Z56 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_32.vhd
+Z57 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_32.vhd
+l0
+L5
+Ve3_4FiC7KKo76^^ZW`RA;2
+!s100 KSRcRaLU>DVF[looI[MAB1
+R8
+32
+R52
+!i10b 1
+R53
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_32.vhd|
+Z59 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 11 and_gate_32 0 22 e3_4FiC7KKo76^^ZW`RA;2
+l14
+L13
+V<bAJA9cz_Xj[EEH5NMD^Y0
+!s100 7eGi4aE3j0c6RNWj8;hYn2
+R8
+32
+R52
+!i10b 1
+R53
+R58
+R59
+!i113 1
+R13
+R14
+Eand_gate_6to1
+R26
+R2
+R3
+R4
+R5
+Z60 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/and_gate_6to1.vhd
+Z61 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/and_gate_6to1.vhd
+l0
+L5
+V]QOOOQTBaTjN=XOGQ8D>G3
+!s100 BV_9k]e[LCa2S7GI519ZQ0
+R8
+32
+Z62 !s110 1481068586
+!i10b 1
+Z63 !s108 1481068586.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/and_gate_6to1.vhd|
+Z65 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/and_gate_6to1.vhd|
+!i113 1
+R13
+R14
+Adataflows
+R2
+R3
+R4
+DEx4 work 13 and_gate_6to1 0 22 ]QOOOQTBaTjN=XOGQ8D>G3
+l22
+L10
+VCH2@?OY@1mXaD2fooQB_92
+!s100 ZPi2JQUjbe2V>2@U6_DmO3
+R8
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R13
+R14
+Eand_gate_9to1
+R26
+R2
+R3
+R4
+R5
+Z66 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_9to1.vhd
+Z67 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_9to1.vhd
+l0
+L7
+VU>V1POeige>87^jTXU7N51
+!s100 Vdid>B3jIF3>Zn]Kn_D;h2
+R8
+32
+R29
+!i10b 1
+R30
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_9to1.vhd|
+Z69 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/and_gate_9to1.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+R35
+l26
+L14
+Vo;SH__4IXfMf=ajYaHzk51
+!s100 lOCQPQiLla@`GmELKjizz1
+R8
+32
+R29
+!i10b 1
+R30
+R68
+R69
+!i113 1
+R13
+R14
+Eand_gate_n
+R49
+R3
+R4
+R5
+Z70 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_n.vhd
+Z71 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_n.vhd
+l0
+L5
+VZDz=h^?4N8=QG_lZb8Y^N3
+!s100 BgW1<b848=U4b0Fm5IB4V0
+R8
+32
+R52
+!i10b 1
+R53
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_n.vhd|
+Z73 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/and_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 10 and_gate_n 0 22 ZDz=h^?4N8=QG_lZb8Y^N3
+l17
+L16
+VcdaRWB<_e`=84b7fYYV0b0
+!s100 TlhKh<Ln2>7=AINQTiM_c3
+R8
+32
+R52
+!i10b 1
+R53
+R72
+R73
+!i113 1
+R13
+R14
+Earithmetic_sgn
+R0
+R1
+R2
+R21
+R3
+R4
+R5
+Z74 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_sgn.vhd
+Z75 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_sgn.vhd
+l0
+L11
+VU]aTQ_^a]S[h3:X5]SM971
+!s100 FzeKc:o4Q8<6h<2TOVz:O2
+R8
+32
+R29
+!i10b 1
+R30
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_sgn.vhd|
+Z77 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_sgn.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 14 arithmetic_sgn 0 22 U]aTQ_^a]S[h3:X5]SM971
+l71
+L23
+VTDHTYOR=aDO@HCVUXi^KK3
+!s100 kHPi[mWL@`@i^RNB;OaZK1
+R8
+32
+R29
+!i10b 1
+R30
+R76
+R77
+!i113 1
+R13
+R14
+Earithmetic_unit
+R0
+R1
+R2
+R21
+R3
+R4
+R5
+Z78 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Arithmetic_Unit.vhd
+Z79 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Arithmetic_Unit.vhd
+l0
+L10
+V00[2C3dJn>YbUZ2BFV0882
+!s100 a`>>IH`3EM7he5]jb9`hM1
+R8
+32
+Z80 !s110 1481068571
+!i10b 1
+R30
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Arithmetic_Unit.vhd|
+Z82 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Arithmetic_Unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 15 arithmetic_unit 0 22 00[2C3dJn>YbUZ2BFV0882
+l70
+L22
+V4MNR2KEL82d8MK742E>ea0
+!s100 koV0ShZzgSmHUFCF_;8lT1
+R8
+32
+R80
+!i10b 1
+R30
+R81
+R82
+!i113 1
+R13
+R14
+Earithmetic_usgn
+R0
+R1
+R2
+R21
+R3
+R4
+R5
+Z83 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_usgn.vhd
+Z84 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_usgn.vhd
+l0
+L11
+V^R0_L11RK[0>T^@9nT9?k3
+!s100 `lQ8TbQ2kjU:VaZ?e<inC0
+R8
+32
+R80
+!i10b 1
+Z85 !s108 1481068571.000000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_usgn.vhd|
+Z87 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/arithmetic_usgn.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 15 arithmetic_usgn 0 22 ^R0_L11RK[0>T^@9nT9?k3
+l88
+L23
+VkX>U6e[_04kjf`?lGfQ5d3
+!s100 gk2[FkH^?=1==Z[KekWKB2
+R8
+32
+R80
+!i10b 1
+R85
+R86
+R87
+!i113 1
+R13
+R14
+Ecomparison_5bit
+Z88 w1481053038
+R2
+Z89 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z90 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z91 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+R5
+Z92 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/comparison_5bit.vhd
+Z93 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/comparison_5bit.vhd
+l0
+L8
+VP`jF?MljagHDVZ9f<imWW0
+!s100 TC>2`LMNiDEiOn]A9@`2@1
+R8
+32
+Z94 !s110 1481068585
+!i10b 1
+Z95 !s108 1481068585.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/comparison_5bit.vhd|
+Z97 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/comparison_5bit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 15 comparison_5bit 0 22 P`jF?MljagHDVZ9f<imWW0
+l37
+L14
+V_Wdg?]Th0k;`nWnReGPob3
+!s100 N=P_9Mf=[e[5HLaFX]mW30
+R8
+32
+R94
+!i10b 1
+R95
+R96
+R97
+!i113 1
+R13
+R14
+Econd_imm_unit
+R26
+R1
+R2
+R3
+R4
+R5
+Z98 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Cond_Imm_Unit.vhd
+Z99 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Cond_Imm_Unit.vhd
+l0
+L9
+VX3nf5@42POoWFHVdg:_Bk2
+!s100 TH1:^G<[cl9hJMb4@mHaQ3
+R8
+32
+R80
+!i10b 1
+R85
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Cond_Imm_Unit.vhd|
+Z101 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Cond_Imm_Unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 13 cond_imm_unit 0 22 X3nf5@42POoWFHVdg:_Bk2
+l61
+L18
+VDI1bGWd[3g3Ml3^3?9FR[0
+!s100 ezVR@BOT]zKJCGIEJPoaW0
+R8
+32
+R80
+!i10b 1
+R85
+R100
+R101
+!i113 1
+R13
+R14
+Econditional_unit
+R0
+R1
+R2
+R3
+R4
+R5
+Z102 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Conditional_Unit.vhd
+Z103 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Conditional_Unit.vhd
+l0
+L9
+VK^O9M0^[Z6^lQ>3kTRESI1
+!s100 C:i4MR_5R4dgOHZ[:_[Ym0
+R8
+32
+R80
+!i10b 1
+R85
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Conditional_Unit.vhd|
+Z105 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Conditional_Unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 16 conditional_unit 0 22 K^O9M0^[Z6^lQ>3kTRESI1
+l47
+L18
+VG<?<jaQHn>zDQB9SCjMk_3
+!s100 ETJ=2F8DG`e]GU>KnIR<T3
+R8
+32
+R80
+!i10b 1
+R85
+R104
+R105
+!i113 1
+R13
+R14
+Econtrol
+R26
+R34
+R35
+R2
+R3
+R4
+R5
+Z106 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control.vhd
+Z107 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control.vhd
+l0
+L7
+V77Pb6_HA7bMWL8m6c_UfR0
+!s100 =nYB7DEoD3TEAALCcCMmN3
+R8
+32
+R80
+!i10b 1
+R85
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control.vhd|
+Z109 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+DEx4 work 7 control 0 22 77Pb6_HA7bMWL8m6c_UfR0
+l43
+L20
+VH8i<9OH2F8PgO9z<PF=2k2
+!s100 Z11fUX2h4T8f^?gYC]KSM3
+R8
+32
+R80
+!i10b 1
+R85
+R108
+R109
+!i113 1
+R13
+R14
+Econtrol_test
+Z110 w1479612288
+R34
+R35
+R2
+R3
+R4
+R5
+Z111 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control_test.vhd
+Z112 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control_test.vhd
+l0
+L7
+VAlg:IOP:_L2K73K_9Od?71
+!s100 WXLYF>YU:O8]F_igzMCMR2
+R8
+32
+R80
+!i10b 1
+R85
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control_test.vhd|
+Z114 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/control_test.vhd|
+!i113 1
+R13
+R14
+Abehave
+R2
+R3
+R4
+DEx4 work 12 control_test 0 22 Alg:IOP:_L2K73K_9Od?71
+l35
+L10
+V@9l1U_[iNTIJI<B9>AlYB0
+!s100 V:VhUCc9601`6YF[FCbO=1
+R8
+32
+R80
+!i10b 1
+R85
+R113
+R114
+!i113 1
+R13
+R14
+Edata_memory
+Z115 w1481068541
+Z116 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z117 DEx4 work 7 syncram 0 22 9SF6a]cFn[EkodD;4OT_h0
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z118 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_memory.vhd
+Z119 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_memory.vhd
+l0
+L11
+VVNX1a2WLAF=Nemkaf;Xf93
+!s100 8I96dFXV2W=k@dzR^BlNL2
+R8
+32
+R80
+!i10b 1
+R85
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_memory.vhd|
+Z121 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_memory.vhd|
+!i113 1
+R13
+R14
+Astructural
+R116
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 11 data_memory 0 22 VNX1a2WLAF=Nemkaf;Xf93
+l45
+L22
+VHmYCCn;RP`Egj2PL5f=JS0
+!s100 HHXaLXe3on]eJZFBmf=nE2
+R8
+32
+R80
+!i10b 1
+R85
+R120
+R121
+!i113 1
+R13
+R14
+Pdata_type
+R2
+R3
+R4
+R0
+R5
+8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_type.vhd
+FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_type.vhd
+l0
+L6
+V5=02[`<[m@:z^W>IUL86c2
+!s100 LBi6`2I_2@0Bg:80E1TQY0
+R8
+32
+Z122 !s110 1481068572
+!i10b 1
+R85
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_type.vhd|
+!s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/data_type.vhd|
+!i113 1
+R13
+R14
+Edatapath
+Z123 w1479698860
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z124 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/datapath.vhd
+Z125 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/datapath.vhd
+l0
+L10
+VH>GE^R7=b]Je64YdCDC4i3
+!s100 Y<74HVFhR4gehcGLQ@FgN1
+R8
+32
+R122
+!i10b 1
+Z126 !s108 1481068572.000000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/datapath.vhd|
+Z128 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/datapath.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 8 datapath 0 22 H>GE^R7=b]Je64YdCDC4i3
+l156
+L32
+V>fjSf1jE_F>al9WbZSWKm0
+!s100 d?55d_B^]HnJVT7KeDi_N1
+R8
+32
+R122
+!i10b 1
+R126
+R127
+R128
+!i113 1
+R13
+R14
+Edec_n
+R49
+R116
+R3
+R4
+R5
+Z129 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/dec_n.vhd
+Z130 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/dec_n.vhd
+l0
+L5
+V7iJ?jPYN_emZ4:^;hN;]G2
+!s100 TFYiE@E?[zcS;UYZJZ]e]0
+R8
+32
+R52
+!i10b 1
+R53
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/dec_n.vhd|
+Z132 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/dec_n.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R116
+R3
+R4
+DEx4 work 5 dec_n 0 22 7iJ?jPYN_emZ4:^;hN;]G2
+l16
+L15
+V@Fb=@53n>MNEImDCn?Ze>0
+!s100 55g?PRCWKJcmYh6jzUGZ80
+R8
+32
+R52
+!i10b 1
+R53
+R131
+R132
+!i113 1
+R13
+R14
+Edec_n_test
+Z133 w1479588210
+R116
+R3
+R4
+R5
+Z134 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n_test.vhd
+Z135 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n_test.vhd
+l0
+L5
+VGJD:N[30NED]dh7FMePn62
+!s100 EJn^X<V7Y8`L6JE9obgWX2
+R8
+32
+R122
+!i10b 1
+R126
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n_test.vhd|
+Z137 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dec_n_test.vhd|
+!i113 1
+R13
+R14
+Abehave
+R116
+R3
+R4
+DEx4 work 10 dec_n_test 0 22 GJD:N[30NED]dh7FMePn62
+l22
+L8
+V0oFh:HE_KM`Yao5oiO<3J0
+!s100 a:o;9;5e=o0cjfHS5[TT]3
+R8
+32
+R122
+!i10b 1
+R126
+R136
+R137
+!i113 1
+R13
+R14
+Edff
+Z138 w1447354224
+R3
+R4
+R5
+Z139 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dff.vhd
+Z140 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dff.vhd
+l0
+L4
+VmKZ>[LGJ@mPeC8i@F[]]G1
+!s100 6RF6aKO;bLUdc^Uo1TlJA1
+R8
+32
+Z141 !s110 1481068578
+!i10b 1
+Z142 !s108 1481068578.000000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dff.vhd|
+Z144 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dff.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 3 dff 0 22 mKZ>[LGJ@mPeC8i@F[]]G1
+l13
+L12
+V?G=X8dlZ@2I_O[J]5HOIT1
+!s100 YQ?Mf61<mPk;FAfQWmbPe2
+R8
+32
+R141
+!i10b 1
+R142
+R143
+R144
+!i113 1
+R13
+R14
+Edffr
+R138
+R3
+R4
+R5
+Z145 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dffr.vhd
+Z146 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dffr.vhd
+l0
+L4
+VJ64Bn0^0_^0mUSU<ZOo591
+!s100 8^h72ccPiicFMoll6;?B^1
+R8
+32
+R141
+!i10b 1
+R142
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dffr.vhd|
+Z148 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/dffr.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 4 dffr 0 22 J64Bn0^0_^0mUSU<ZOo591
+l13
+L12
+V_Uhmck]XK8N?fUm1<]knZ2
+!s100 [jSDjV[;ooEXI1fbj<kQH2
+R8
+32
+R141
+!i10b 1
+R142
+R147
+R148
+!i113 1
+R13
+R14
+Edffr_32
+Z149 w1479441064
+R3
+R4
+R5
+Z150 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dffr_32.vhd
+Z151 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dffr_32.vhd
+l0
+L4
+Vmc_mYHPieXz529?Sc_dRc3
+!s100 RQgkUm[YnAEJUkBW8A;380
+R8
+32
+R122
+!i10b 1
+R126
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dffr_32.vhd|
+Z153 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/dffr_32.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 7 dffr_32 0 22 mc_mYHPieXz529?Sc_dRc3
+l17
+L16
+V@Tca_iX3fAH4eSYGiK[7L1
+!s100 AS0bYUhjG:6KJ@n5KB<S^0
+R8
+32
+R122
+!i10b 1
+R126
+R152
+R153
+!i113 1
+R13
+R14
+Edffr_32bit
+Z154 w1480995017
+R3
+R4
+R5
+Z155 8C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_32bit.vhd
+Z156 FC:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_32bit.vhd
+l0
+L4
+VM@TM`FbBeEzHHg4TfYZa`1
+!s100 `YL<n;k40YQ7R9SRllSz@0
+R8
+32
+Z157 !s110 1481068584
+!i10b 1
+Z158 !s108 1481068584.000000
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_32bit.vhd|
+Z160 !s107 C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_32bit.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 10 dffr_32bit 0 22 M@TM`FbBeEzHHg4TfYZa`1
+l13
+L12
+Vg0ZMe:S_kP9g5jo_L^f:02
+!s100 T14:Z=BDOhT<cJU9ALK0^3
+R8
+32
+R157
+!i10b 1
+R158
+R159
+R160
+!i113 1
+R13
+R14
+Edffr_a
+Z161 w1481040249
+R3
+R4
+R5
+Z162 8C:/GitHub/EECS361-Group-Project/Modules/Register File/dffr_a.vhd
+Z163 FC:/GitHub/EECS361-Group-Project/Modules/Register File/dffr_a.vhd
+l0
+L4
+VdP=DD7z<d9h=O[o6XL5N11
+!s100 Ae06@YlEN>^ZBC[J]R^j?2
+R8
+32
+R94
+!i10b 1
+R95
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/GitHub/EECS361-Group-Project/Modules/Register File/dffr_a.vhd|
+Z165 !s107 C:/GitHub/EECS361-Group-Project/Modules/Register File/dffr_a.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+Z166 DEx4 work 6 dffr_a 0 22 dP=DD7z<d9h=O[o6XL5N11
+l17
+L16
+VBlGXzRAje2<fL<e=fPL`?3
+!s100 68S]i;kj021F15elIQMHX0
+R8
+32
+R94
+!i10b 1
+R95
+R164
+R165
+!i113 1
+R13
+R14
+Edffr_a_32bit
+R154
+R3
+R4
+R5
+Z167 8C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_a_32bit.vhd
+Z168 FC:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_a_32bit.vhd
+l0
+L4
+V=Ko1[]GV[kJE]`GmeL5_I0
+!s100 5<[ESi3h^7mE<MAHo8anz3
+R8
+32
+R94
+!i10b 1
+R95
+Z169 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_a_32bit.vhd|
+Z170 !s107 C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/dffr_a_32bit.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 12 dffr_a_32bit 0 22 =Ko1[]GV[kJE]`GmeL5_I0
+l17
+L16
+Vab4nRQLgO>1FO]fL9^d;e3
+!s100 Fi?M:d:`iTf1Ok`4KAoB@2
+R8
+32
+R94
+!i10b 1
+R95
+R169
+R170
+!i113 1
+R13
+R14
+Peecs361
+R2
+R3
+R4
+R49
+R5
+8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361.vhd
+FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361.vhd
+l0
+L8
+VWG44PlKDC`<:h;<cTT`on1
+!s100 RL:OHGN=6g5OZokGof@_O0
+R8
+32
+Z171 !s110 1481068582
+!i10b 1
+Z172 !s108 1481068582.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361.vhd|
+!s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361.vhd|
+!i113 1
+R13
+R14
+Peecs361_gates
+R3
+R4
+R49
+R5
+8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361_gates.vhd
+FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361_gates.vhd
+l0
+L4
+VY`H6JLa]eolRP`lSh`[1R3
+!s100 EFJF``Kkcd:<4LI@jVAPI3
+R8
+32
+R171
+!i10b 1
+R172
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361_gates.vhd|
+!s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/eecs361_gates.vhd|
+!i113 1
+R13
+R14
+Eex_unit
+Z173 w1481083876
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z174 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/ex_unit.vhd
+Z175 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/ex_unit.vhd
+l0
+L10
+V5O=n=9EazYCX3o7[HYY3S3
+!s100 :]Z6gAAGGd@P:fL9dP<hE0
+R8
+32
+Z176 !s110 1481083912
+!i10b 1
+Z177 !s108 1481083912.000000
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/ex_unit.vhd|
+Z179 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/ex_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 7 ex_unit 0 22 5O=n=9EazYCX3o7[HYY3S3
+l152
+L48
+VaeEo4ZV]AM8M=If93Omm<1
+!s100 O^RYVGl?_=i1QF]jM6WMb0
+R8
+32
+R176
+!i10b 1
+R177
+R178
+R179
+!i113 1
+R13
+R14
+Eextender
+Z180 w1479317850
+R1
+R2
+R3
+R4
+R5
+Z181 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/extender.vhd
+Z182 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/extender.vhd
+l0
+L8
+VPlf;1a@maBK`DJcOagQn?2
+!s100 VZR:48:knUSFG]46L?6D52
+R8
+32
+R122
+!i10b 1
+R126
+Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/extender.vhd|
+Z184 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/extender.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 8 extender 0 22 Plf;1a@maBK`DJcOagQn?2
+l31
+L15
+VPWmMaa8DJ81CHzFXfEGfc1
+!s100 :hB[lA_>4;igCMWZZO`hX1
+R8
+32
+R122
+!i10b 1
+R126
+R183
+R184
+!i113 1
+R13
+R14
+Eforwarding_unit
+Z185 w1481056204
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z186 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/forwarding_unit.vhd
+Z187 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/forwarding_unit.vhd
+l0
+L8
+Vg4ce3d3Vi[oCPB2C=9YRc1
+!s100 Y73bzGF>dQd[K_Sgz_]3n1
+R8
+32
+R94
+!i10b 1
+R95
+Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/forwarding_unit.vhd|
+Z189 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/forwarding_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 15 forwarding_unit 0 22 g4ce3d3Vi[oCPB2C=9YRc1
+l65
+L20
+V<_SiPJ9E>UjjlRPXfIKC62
+!s100 KTh?eabP_Z5c>A6?gQNn:2
+R8
+32
+R94
+!i10b 1
+R95
+R188
+R189
+!i113 1
+R13
+R14
+Efull_adder30
+Z190 w1479318660
+R2
+R3
+R4
+R5
+Z191 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/full_adder30.vhd
+Z192 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/full_adder30.vhd
+l0
+L8
+VBV9T<Ji=]fYbd[TV3_=0T1
+!s100 i`Y:_KddjVRI^=g]1X9]21
+R8
+32
+R122
+!i10b 1
+R126
+Z193 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/full_adder30.vhd|
+Z194 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/full_adder30.vhd|
+!i113 1
+R13
+R14
+Astructral
+R2
+R3
+R4
+DEx4 work 12 full_adder30 0 22 BV9T<Ji=]fYbd[TV3_=0T1
+l70
+L17
+V2=Ae@8SKgDE]K=0dmlhc[3
+!s100 HT353L;g3nF6zmkgWDRBM3
+R8
+32
+R122
+!i10b 1
+R126
+R193
+R194
+!i113 1
+R13
+R14
+Efull_adder_32
+Z195 w1477618577
+R1
+R2
+R3
+R4
+R5
+Z196 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/full_adder_32.vhd
+Z197 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/full_adder_32.vhd
+l0
+L9
+VAS^ee<eXbzD=QB3Al51Q03
+!s100 Wi>PjnFk0B:XFGMCW`GP?3
+R8
+32
+Z198 !s110 1481068568
+!i10b 1
+Z199 !s108 1481068568.000000
+Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/full_adder_32.vhd|
+Z201 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/full_adder_32.vhd|
+!i113 1
+R13
+R14
+Astructral
+R1
+R2
+R3
+R4
+DEx4 work 13 full_adder_32 0 22 AS^ee<eXbzD=QB3Al51Q03
+l72
+L19
+Vj4ESVPLBhf1<joK;Jdk3c3
+!s100 NV]WJ@72mM:@d?TQg[^dZ0
+R8
+32
+R198
+!i10b 1
+R199
+R200
+R201
+!i113 1
+R13
+R14
+Ehazard_unit
+Z202 w1481082164
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z203 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/harzard_unit.vhd
+Z204 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/harzard_unit.vhd
+l0
+L8
+VIDUL]DRmPXK3^j:2]Onk[1
+!s100 6f?@0VDd>R47k=Ho>P>B:2
+R8
+32
+Z205 !s110 1481082208
+!i10b 1
+Z206 !s108 1481082208.000000
+Z207 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/harzard_unit.vhd|
+Z208 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/harzard_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 11 hazard_unit 0 22 IDUL]DRmPXK3^j:2]Onk[1
+l71
+L20
+V:1LX<7KcaRAJQoN]]?4K_1
+!s100 5?:Z[0BN>ZIFX4COGo=4N0
+R8
+32
+R205
+!i10b 1
+R206
+R207
+R208
+!i113 1
+R13
+R14
+Einstr_fetch_unit
+Z209 w1481057125
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z210 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/instr_fetch_unit.vhd
+Z211 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/instr_fetch_unit.vhd
+l0
+L10
+Vd9GgbBfT8QKNWjS;H^nXK1
+!s100 SmIS0@FeNeMj>6Fegm5Bc3
+R8
+32
+R198
+!i10b 1
+R199
+Z212 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/instr_fetch_unit.vhd|
+Z213 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/instr_fetch_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 16 instr_fetch_unit 0 22 d9GgbBfT8QKNWjS;H^nXK1
+l80
+L21
+ViS3`>B864le9QC?X04S@42
+!s100 oR8?oE8Ab9Ada1HF`>@dU3
+R8
+32
+R198
+!i10b 1
+R199
+R212
+R213
+!i113 1
+R13
+R14
+Einstr_memory
+Z214 w1481068538
+Z215 DEx4 work 4 sram 0 22 G0A[[68GR2^;>NcVogAVf2
+R116
+R89
+R90
+R91
+R3
+R4
+R5
+Z216 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instr_memory.vhd
+Z217 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instr_memory.vhd
+l0
+L11
+VLAXED:9Og8ehP0baH^1o80
+!s100 A6Nh6kijHjf_HJ2^K74n^0
+R8
+32
+R122
+!i10b 1
+R126
+Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instr_memory.vhd|
+Z219 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instr_memory.vhd|
+!i113 1
+R13
+R14
+Astructural
+R116
+R89
+R90
+R91
+R3
+R4
+DEx4 work 12 instr_memory 0 22 LAXED:9Og8ehP0baH^1o80
+l31
+L17
+VD=<=;0CK6kiZ>70nBiY2i0
+!s100 hjfDYAN37<TRlWnB;:UNz1
+R8
+32
+R122
+!i10b 1
+R126
+R218
+R219
+!i113 1
+R13
+R14
+Einstruction_fetch
+Z220 w1479599358
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z221 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instruction_fetch.vhd
+Z222 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instruction_fetch.vhd
+l0
+L10
+VEoL_Sgco>GOCAY:UijkQ=2
+!s100 Q`>CdgCe6^Ei6]=ka<:S50
+R8
+32
+Z223 !s110 1481068573
+!i10b 1
+Z224 !s108 1481068573.000000
+Z225 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instruction_fetch.vhd|
+Z226 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/instruction_fetch.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 17 instruction_fetch 0 22 EoL_Sgco>GOCAY:UijkQ=2
+l89
+L21
+V;:bPVbX2M>AlST4<HKM_E0
+!s100 UgQb?199FaCRnXoBbDEoc0
+R8
+32
+R223
+!i10b 1
+R224
+R225
+R226
+!i113 1
+R13
+R14
+Eload_unit
+Z227 w1481063784
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z228 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/load_unit.vhd
+Z229 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/load_unit.vhd
+l0
+L8
+V0Io4mCTV@fIEB9>B]?aKK1
+!s100 g^gdnZJMSCI7zMAAHhB1@3
+R8
+32
+R62
+!i10b 1
+R63
+Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/load_unit.vhd|
+Z231 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/load_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 9 load_unit 0 22 0Io4mCTV@fIEB9>B]?aKK1
+l28
+L13
+VLhH`UDkiQzkDC0ESOJ4P33
+!s100 ]z5`U]ZZmB@]A]EQMO6_Q1
+R8
+32
+R62
+!i10b 1
+R63
+R230
+R231
+!i113 1
+R13
+R14
+Elogic_unit
+R0
+Z232 DEx4 work 11 mux_32_4to1 0 22 JWTV4Nf:^0_6aE0ojWhdO1
+R1
+R2
+R3
+R4
+R5
+Z233 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Logic_Unit.vhd
+Z234 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Logic_Unit.vhd
+l0
+L10
+VJi`mnST`0BCSbL9]_K7mZ2
+!s100 <n1Oa:MF3fHD5fhIfGN9O0
+R8
+32
+R223
+!i10b 1
+R224
+Z235 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Logic_Unit.vhd|
+Z236 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/Logic_Unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 10 logic_unit 0 22 Ji`mnST`0BCSbL9]_K7mZ2
+l55
+L19
+VoAe<84A3H5bJVO[VFA8;P3
+!s100 Tz<BE>^P4ckDZ:zGWD<bR2
+R8
+32
+R223
+!i10b 1
+R224
+R235
+R236
+!i113 1
+R13
+R14
+Emain_control
+R26
+R2
+R3
+R4
+R5
+Z237 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control.vhd
+Z238 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control.vhd
+l0
+L6
+Vg7VfD[nYD7?<Cf8l0Xn`D3
+!s100 [K:`^X_Ck35H@Ol68S8F00
+R8
+32
+R223
+!i10b 1
+R224
+Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control.vhd|
+Z240 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control.vhd|
+!i113 1
+R13
+R14
+Adataflows
+R2
+R3
+R4
+DEx4 work 12 main_control 0 22 g7VfD[nYD7?<Cf8l0Xn`D3
+l56
+L18
+V;5HgGi>mn9OemJUFSW]Rd3
+!s100 [dGQBFR=M[:Lf7l6gIDnk2
+R8
+32
+R223
+!i10b 1
+R224
+R239
+R240
+!i113 1
+R13
+R14
+Emain_control_test
+R26
+R2
+R3
+R4
+R5
+Z241 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control_test.vhd
+Z242 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control_test.vhd
+l0
+L5
+VmlzLO4;[^JJn1RnM1Q;BT3
+!s100 1HM]emkCGXzECQD8kfR[D0
+R8
+32
+R223
+!i10b 1
+R224
+Z243 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control_test.vhd|
+Z244 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/main_control_test.vhd|
+!i113 1
+R13
+R14
+Abehave
+R2
+R3
+R4
+DEx4 work 17 main_control_test 0 22 mlzLO4;[^JJn1RnM1Q;BT3
+l31
+L8
+VTEUzORhU3;06D?>G7Kk?h1
+!s100 z1oA3;]D:lceW?2Tk5WYJ1
+R8
+32
+R223
+!i10b 1
+R224
+R243
+R244
+!i113 1
+R13
+R14
+Emem_unit
+Z245 w1481080213
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z246 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mem_unit.vhd
+Z247 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mem_unit.vhd
+l0
+L10
+V@z]ozXVS2SLTif9N3fXkP1
+!s100 :9Wj0?RGfgT8f]7j6;>Q?3
+R8
+32
+Z248 !s110 1481080242
+!i10b 1
+Z249 !s108 1481080242.000000
+Z250 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mem_unit.vhd|
+Z251 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mem_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 8 mem_unit 0 22 @z]ozXVS2SLTif9N3fXkP1
+l109
+L42
+VX<V[WZ6_<6aR]NOd<Efc`3
+!s100 ICzej0hj`ZX1z?oh1I<_@2
+R8
+32
+R248
+!i10b 1
+R249
+R250
+R251
+!i113 1
+R13
+R14
+Emux
+R49
+R2
+R1
+R3
+R4
+R5
+Z252 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux.vhd
+Z253 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux.vhd
+l0
+L5
+VzB3mFn]^WO1Q5f;oa5<:i1
+!s100 R7SGh1UNzgRXkDgUzi0Dn0
+R8
+32
+R171
+!i10b 1
+R172
+Z254 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux.vhd|
+Z255 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R1
+R3
+R4
+DEx4 work 3 mux 0 22 zB3mFn]^WO1Q5f;oa5<:i1
+l15
+L14
+V>1PeESFaHClS=zBGFdF772
+!s100 TMbaX=C3aUF9Pl?TK_bl20
+R8
+32
+R171
+!i10b 1
+R172
+R254
+R255
+!i113 1
+R13
+R14
+Emux_18
+Z256 w1481057663
+R2
+R1
+R3
+R4
+R5
+Z257 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_18.vhd
+Z258 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_18.vhd
+l0
+L5
+Vll8^^knm4SP6mIPWE:O;K2
+!s100 _K=dI38PN:9h0;YZ2[NYE0
+R8
+32
+Z259 !s110 1481061059
+!i10b 1
+Z260 !s108 1481061059.000000
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_18.vhd|
+Z262 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_18.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R1
+R3
+R4
+DEx4 work 6 mux_18 0 22 ll8^^knm4SP6mIPWE:O;K2
+l15
+L14
+VUHoKcZ7J6]5H9UEj1m4cJ0
+!s100 De^f7R@CeGh`2m`WiedWn3
+R8
+32
+R259
+!i10b 1
+R260
+R261
+R262
+!i113 1
+R13
+R14
+Emux_22
+Z263 w1481065394
+R2
+R1
+R3
+R4
+R5
+Z264 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_22.vhd
+Z265 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_22.vhd
+l0
+L5
+V0h2gZ5ShM8bTVzm_9eO4E3
+!s100 6?E8ARP538Dh;Og8dDCR30
+R8
+32
+R62
+!i10b 1
+R63
+Z266 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_22.vhd|
+Z267 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_22.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R1
+R3
+R4
+DEx4 work 6 mux_22 0 22 0h2gZ5ShM8bTVzm_9eO4E3
+l15
+L14
+V^S5VK2E<dEW;eaGO7k12=0
+!s100 R_43k1IB]V3@ZBINjFH[D3
+R8
+32
+R62
+!i10b 1
+R63
+R266
+R267
+!i113 1
+R13
+R14
+Emux_30
+Z268 w1479318335
+R2
+R1
+R3
+R4
+R5
+Z269 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_30.vhd
+Z270 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_30.vhd
+l0
+L5
+VWXNM<RF3SSDIof1<kKnYN1
+!s100 `_dZD_eMED3aXGIL<A[@P2
+R8
+32
+R223
+!i10b 1
+R224
+Z271 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_30.vhd|
+Z272 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_30.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R1
+R3
+R4
+DEx4 work 6 mux_30 0 22 WXNM<RF3SSDIof1<kKnYN1
+l15
+L14
+VlNH8gJ0ON7DoW14az`UKO0
+!s100 NUoPPP:HVX2b6mC:W]Vd]3
+R8
+32
+R223
+!i10b 1
+R224
+R271
+R272
+!i113 1
+R13
+R14
+Emux_32
+R49
+R2
+R1
+R3
+R4
+R5
+Z273 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_32.vhd
+Z274 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_32.vhd
+l0
+L5
+VOlZhk[`?`GZQTV3Y4L@ZX0
+!s100 ciE_BzZP_7gaALUfNcf3V2
+R8
+32
+R171
+!i10b 1
+R172
+Z275 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_32.vhd|
+Z276 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_32.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R1
+R3
+R4
+DEx4 work 6 mux_32 0 22 OlZhk[`?`GZQTV3Y4L@ZX0
+l15
+L14
+V7UHP=BdYn]NVWnMkCOB[F3
+!s100 iiT]gRaJ0BGA@1c7lKGZ;1
+R8
+32
+R171
+!i10b 1
+R172
+R275
+R276
+!i113 1
+R13
+R14
+Emux_32_3to1
+R0
+R1
+R2
+R3
+R4
+R5
+Z277 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_32_3to1.vhd
+Z278 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_32_3to1.vhd
+l0
+L6
+VEkgBlXRKNFOf3?U74Dbi`1
+!s100 g:XWoNE_VSTf^Fd@i_]Wm1
+R8
+32
+R62
+!i10b 1
+R63
+Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_32_3to1.vhd|
+Z280 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/mux_32_3to1.vhd|
+!i113 1
+R13
+R14
+Astructral
+R1
+R2
+R3
+R4
+DEx4 work 11 mux_32_3to1 0 22 EkgBlXRKNFOf3?U74Dbi`1
+l29
+L16
+V@o;V04Uf1hj3[h`AzVF3M1
+!s100 >bNQ44lNZjcE[aG?6]bF;2
+R8
+32
+R62
+!i10b 1
+R63
+R279
+R280
+!i113 1
+R13
+R14
+Emux_32_4to1
+R0
+R1
+R2
+R3
+R4
+R5
+Z281 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_4to1.vhd
+Z282 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_4to1.vhd
+l0
+L6
+VJWTV4Nf:^0_6aE0ojWhdO1
+!s100 P@YS8FP9;m=69BTO1`HCX3
+R8
+32
+Z283 !s110 1481068574
+!i10b 1
+Z284 !s108 1481068574.000000
+Z285 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_4to1.vhd|
+Z286 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_32_4to1.vhd|
+!i113 1
+R13
+R14
+Astructral
+R1
+R2
+R3
+R4
+R232
+l30
+L17
+Vgfl71HjCLNQC]<TdR@P<o0
+!s100 0GYY`g^QJRZee3OVQ`fQj2
+R8
+32
+R283
+!i10b 1
+R284
+R285
+R286
+!i113 1
+R13
+R14
+Emux_32to1
+Z287 w1480995018
+R2
+R1
+R3
+R4
+R5
+Z288 8C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/mux_32to1.vhd
+Z289 FC:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/mux_32to1.vhd
+l0
+L5
+Vb_Sm<ZaZQaVmF_ih5nibI3
+!s100 n?EV_a4^7dkG3D46m]YE40
+R8
+32
+R94
+!i10b 1
+R95
+Z290 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/mux_32to1.vhd|
+Z291 !s107 C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/mux_32to1.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R1
+R3
+R4
+DEx4 work 9 mux_32to1 0 22 b_Sm<ZaZQaVmF_ih5nibI3
+l30
+L13
+VEaa5_6Rd;bb9ZY8?kI8]Q0
+!s100 K0NQF4V8zKdb;mYS56L^X1
+R8
+32
+R94
+!i10b 1
+R95
+R290
+R291
+!i113 1
+R13
+R14
+Emux_3to1
+Z292 w1479698702
+R1
+R2
+R3
+R4
+R5
+Z293 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_3to1.vhd
+Z294 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_3to1.vhd
+l0
+L6
+Vm<Z?50m0ni<`eBVO:lMIP2
+!s100 6MGzRQ:`zC`>]TAmUSni]3
+R8
+32
+R223
+!i10b 1
+R224
+Z295 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_3to1.vhd|
+Z296 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_3to1.vhd|
+!i113 1
+R13
+R14
+Astructral
+R1
+R2
+R3
+R4
+DEx4 work 8 mux_3to1 0 22 m<Z?50m0ni<`eBVO:lMIP2
+l26
+L15
+Vaznz70@iG=TkR_>:f;F1X2
+!s100 U6mjmN:a1Ih32bIMBmmY]3
+R8
+32
+R223
+!i10b 1
+R224
+R295
+R296
+!i113 1
+R13
+R14
+Emux_5
+Z297 w1479487175
+R3
+R4
+R5
+Z298 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_5.vhd
+Z299 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_5.vhd
+l0
+L4
+VV`GC6:3[DG=W<Ui>jQA1a0
+!s100 dG8h^dD<Z6ZLPZhSMiQ6H0
+R8
+32
+R223
+!i10b 1
+R224
+Z300 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_5.vhd|
+Z301 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_5.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 5 mux_5 0 22 V`GC6:3[DG=W<Ui>jQA1a0
+l17
+L16
+V0KO5>;D__>QGzSd5:n]F[3
+!s100 BmjGa1lgdCd5IclgLg1N_1
+R8
+32
+R223
+!i10b 1
+R224
+R300
+R301
+!i113 1
+R13
+R14
+Emux_n
+R49
+R3
+R4
+R5
+Z302 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_n.vhd
+Z303 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_n.vhd
+l0
+L4
+V?KK90]`1?K3cYmaZ@2ZiU2
+!s100 DhH_dWUkhZScmPX0PShL>1
+R8
+32
+R171
+!i10b 1
+R172
+Z304 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_n.vhd|
+Z305 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/mux_n.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 5 mux_n 0 22 ?KK90]`1?K3cYmaZ@2ZiU2
+l17
+L16
+Vc:nT1[O:OUd7C:kd0;RQm2
+!s100 VOPJAGmKhfQ>L9L:P_FXf0
+R8
+32
+R171
+!i10b 1
+R172
+R304
+R305
+!i113 1
+R13
+R14
+Emux_reg_file
+R133
+Z306 DPx4 work 9 data_type 0 22 5=02[`<[m@:z^W>IUL86c2
+R2
+R3
+R4
+R5
+Z307 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file.vhd
+Z308 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file.vhd
+l0
+L7
+VEESnklE6`boYPFifeDD?70
+!s100 eP6[2nR[:gmP:cQZ9XNl@1
+R8
+32
+R283
+!i10b 1
+R284
+Z309 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file.vhd|
+Z310 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file.vhd|
+!i113 1
+R13
+R14
+Adataflows
+R306
+R2
+R3
+R4
+DEx4 work 12 mux_reg_file 0 22 EESnklE6`boYPFifeDD?70
+l29
+L13
+VGMYR?iNg]dW@Z0jkA96Ma2
+!s100 B94I>8URW1`>CaMdA]3mO3
+R8
+32
+R283
+!i10b 1
+R284
+R309
+R310
+!i113 1
+R13
+R14
+Emux_reg_file_test
+Z311 w1479587508
+R306
+R90
+R2
+R3
+R4
+R5
+Z312 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file_test.vhd
+Z313 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file_test.vhd
+l0
+L8
+V>T9_BBoZN3@eA5:f7h5e90
+!s100 I3:_D2PE_Ah0F@AF4n7M01
+R8
+32
+R283
+!i10b 1
+R284
+Z314 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file_test.vhd|
+Z315 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/mux_reg_file_test.vhd|
+!i113 1
+R13
+R14
+Abehave
+R306
+R90
+R2
+R3
+R4
+DEx4 work 17 mux_reg_file_test 0 22 >T9_BBoZN3@eA5:f7h5e90
+l23
+L11
+VgY5A`6CmJo1>QRKcKQ4R=2
+!s100 Gi7?I]VO_fnB^^h<cnYk?3
+R8
+32
+R283
+!i10b 1
+R284
+R314
+R315
+!i113 1
+R13
+R14
+Enand_gate
+R49
+R3
+R4
+R5
+Z316 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate.vhd
+Z317 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate.vhd
+l0
+L5
+VUJRIU4Oo2bb833MR;8eeK0
+!s100 `;YoNjg98=RO3KEUJb?JH2
+R8
+32
+R171
+!i10b 1
+R172
+Z318 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate.vhd|
+Z319 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 9 nand_gate 0 22 UJRIU4Oo2bb833MR;8eeK0
+l14
+L13
+Vmc;dGB9PFB8Va]cJiKPnA3
+!s100 DdgXSJTenGYMFNYGk^j2^2
+R8
+32
+R171
+!i10b 1
+R172
+R318
+R319
+!i113 1
+R13
+R14
+Enand_gate_32
+R49
+R3
+R4
+R5
+Z320 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_32.vhd
+Z321 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_32.vhd
+l0
+L5
+VQ7HWC=HJVfdNKlmLIkMma2
+!s100 d7`oU3cRhD_iz]OR?aJbM0
+R8
+32
+R171
+!i10b 1
+R172
+Z322 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_32.vhd|
+Z323 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 12 nand_gate_32 0 22 Q7HWC=HJVfdNKlmLIkMma2
+l14
+L13
+VK]`eXcoP?:P;fL`IZDg_33
+!s100 5L7`cY6bRPYMYkmEYAg871
+R8
+32
+R171
+!i10b 1
+R172
+R322
+R323
+!i113 1
+R13
+R14
+Enand_gate_n
+R49
+R3
+R4
+R5
+Z324 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_n.vhd
+Z325 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_n.vhd
+l0
+L5
+Vd^AhAU01S^7Y4JlPiBl:g3
+!s100 LMidV?0i^0NCQXjDDfE0j1
+R8
+32
+R171
+!i10b 1
+R172
+Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_n.vhd|
+Z327 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nand_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 11 nand_gate_n 0 22 d^AhAU01S^7Y4JlPiBl:g3
+l17
+L16
+VhPSaT<<CzCS1C=bQ>Y:zY1
+!s100 5mzmEVJ8`Ol]kLAA1ADTS0
+R8
+32
+R171
+!i10b 1
+R172
+R326
+R327
+!i113 1
+R13
+R14
+Enor_32_to_1
+R0
+R2
+R3
+R4
+R5
+Z328 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/nor_32_to_1.vhd
+Z329 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/nor_32_to_1.vhd
+l0
+L7
+V3Mb8DlB_aa^oUNR_X5Cnc0
+!s100 Yij@[3nEW@WTRK6>Jz>[H2
+R8
+32
+R283
+!i10b 1
+R284
+Z330 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/nor_32_to_1.vhd|
+Z331 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/nor_32_to_1.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+DEx4 work 11 nor_32_to_1 0 22 3Mb8DlB_aa^oUNR_X5Cnc0
+l62
+L15
+VWAQg:58DFRJHmGM>jnaUL1
+!s100 N`QC[hW@ESLXP:Z2VMWVV0
+R8
+32
+R283
+!i10b 1
+R284
+R330
+R331
+!i113 1
+R13
+R14
+Enor_gate
+R49
+R3
+R4
+R5
+Z332 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate.vhd
+Z333 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate.vhd
+l0
+L5
+Vl4NcfXKNiThldYNcnP5;o2
+!s100 Uz[KW04m>JL2N=<Ae_26A3
+R8
+32
+Z334 !s110 1481068583
+!i10b 1
+Z335 !s108 1481068583.000000
+Z336 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate.vhd|
+Z337 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 8 nor_gate 0 22 l4NcfXKNiThldYNcnP5;o2
+l14
+L13
+VKa[[7jgRMIb1_iK<QKz2R3
+!s100 kE2E`N:jBl`5f7h@CAkLc3
+R8
+32
+R334
+!i10b 1
+R335
+R336
+R337
+!i113 1
+R13
+R14
+Enor_gate_32
+R49
+R3
+R4
+R5
+Z338 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_32.vhd
+Z339 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_32.vhd
+l0
+L5
+V]Ta:lVnBf>1l]Wn18fddR1
+!s100 3mdJRKLJ_1Z1ih<o1WC>A3
+R8
+32
+R334
+!i10b 1
+R335
+Z340 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_32.vhd|
+Z341 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 11 nor_gate_32 0 22 ]Ta:lVnBf>1l]Wn18fddR1
+l14
+L13
+VO2Pz=mOESO?_VkSnX;2[h1
+!s100 4C[N[o;dbNU?^;JAFz8P@0
+R8
+32
+R334
+!i10b 1
+R335
+R340
+R341
+!i113 1
+R13
+R14
+Enor_gate_n
+R49
+R3
+R4
+R5
+Z342 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_n.vhd
+Z343 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_n.vhd
+l0
+L5
+V<g@BZYRAl27b0zBj]hAQA3
+!s100 WOgXHNaOaa3V@ZQR9[dBF2
+R8
+32
+R334
+!i10b 1
+R335
+Z344 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_n.vhd|
+Z345 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/nor_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 10 nor_gate_n 0 22 <g@BZYRAl27b0zBj]hAQA3
+l17
+L16
+VhDFW?hDGVTc>S8Vj5`kMU0
+!s100 LLY;[lESSHQFLXI0BM0Lk2
+R8
+32
+R334
+!i10b 1
+R335
+R344
+R345
+!i113 1
+R13
+R14
+Enot_gate
+R49
+R3
+R4
+R5
+Z346 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate.vhd
+Z347 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate.vhd
+l0
+L5
+Va2jU0gU?ahMAOCzX>hcie3
+!s100 ZFL^eh?^CT8f=9?@;fY^P1
+R8
+32
+R334
+!i10b 1
+R335
+Z348 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate.vhd|
+Z349 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 8 not_gate 0 22 a2jU0gU?ahMAOCzX>hcie3
+l13
+L12
+VSd>_hU>oSoTbK=><35n<J1
+!s100 0K4o_`::YhV<`CcAlY38V3
+R8
+32
+R334
+!i10b 1
+R335
+R348
+R349
+!i113 1
+R13
+R14
+Enot_gate_30
+Z350 w1479318392
+R3
+R4
+R5
+Z351 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/not_gate_30.vhd
+Z352 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/not_gate_30.vhd
+l0
+L5
+V?ZV9boKeG]kzUCMUn2Q6@1
+!s100 5MX0SE[<bc>e0J60G<T<F2
+R8
+32
+R283
+!i10b 1
+R284
+Z353 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/not_gate_30.vhd|
+Z354 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/not_gate_30.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 11 not_gate_30 0 22 ?ZV9boKeG]kzUCMUn2Q6@1
+l13
+L12
+VU@8RD29XW0[<5I``7TJL?1
+!s100 zBEM=H0V1OhdJV2R17C4R2
+R8
+32
+R283
+!i10b 1
+R284
+R353
+R354
+!i113 1
+R13
+R14
+Enot_gate_32
+R49
+R3
+R4
+R5
+Z355 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_32.vhd
+Z356 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_32.vhd
+l0
+L5
+Vbc@1G6Pn;1QIPj9N?dX;R3
+!s100 MlQa>L3D?j3YTME?WDA^I3
+R8
+32
+R334
+!i10b 1
+R335
+Z357 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_32.vhd|
+Z358 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 11 not_gate_32 0 22 bc@1G6Pn;1QIPj9N?dX;R3
+l13
+L12
+Vi3iP4D6`igl`ehm^d4^co2
+!s100 SZ]KSd]7=<``cT7UO3c^32
+R8
+32
+R334
+!i10b 1
+R335
+R357
+R358
+!i113 1
+R13
+R14
+Enot_gate_n
+R49
+R3
+R4
+R5
+Z359 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_n.vhd
+Z360 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_n.vhd
+l0
+L5
+VkY>E^h@zmf?^JH:]<>5jN0
+!s100 IMo29cac8Wo2jk<h1@>Y41
+R8
+32
+R334
+!i10b 1
+R335
+Z361 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_n.vhd|
+Z362 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/not_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 10 not_gate_n 0 22 kY>E^h@zmf?^JH:]<>5jN0
+l16
+L15
+V[?@bjFlkW]?Eigeec4`<]1
+!s100 f1R?C4QOI1W16^[L00fF`1
+R8
+32
+R334
+!i10b 1
+R335
+R361
+R362
+!i113 1
+R13
+R14
+Eor_gate
+R49
+R3
+R4
+R5
+Z363 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate.vhd
+Z364 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate.vhd
+l0
+L5
+VI0bn=1KP2N19:Qz72M5BR3
+!s100 P4NBKo^c]hz<z`LINQA5?3
+R8
+32
+R334
+!i10b 1
+R335
+Z365 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate.vhd|
+Z366 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 7 or_gate 0 22 I0bn=1KP2N19:Qz72M5BR3
+l14
+L13
+VMWOz`KXoz4S7hV@cG3bY]1
+!s100 imjaYVkITBGK@1]KZ;:O?1
+R8
+32
+R334
+!i10b 1
+R335
+R365
+R366
+!i113 1
+R13
+R14
+Eor_gate_16
+R0
+R3
+R4
+R5
+Z367 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_16.vhd
+Z368 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_16.vhd
+l0
+L5
+VZBhdMP;b2106U3k<C[M7>3
+!s100 aIng<;DBGPg=D==Rom0<?3
+R8
+32
+Z369 !s110 1481068575
+!i10b 1
+Z370 !s108 1481068575.000000
+Z371 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_16.vhd|
+Z372 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_16.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 10 or_gate_16 0 22 ZBhdMP;b2106U3k<C[M7>3
+l14
+L13
+VggnN`IckDbQ1E0K@miVD23
+!s100 XTAe?mBQV4d7`S<i18X6W2
+R8
+32
+R369
+!i10b 1
+R370
+R371
+R372
+!i113 1
+R13
+R14
+Eor_gate_2
+R0
+R3
+R4
+R5
+Z373 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_2.vhd
+Z374 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_2.vhd
+l0
+L5
+Vk4>dhSD7:U[A]OTE24IH<1
+!s100 BD6CII0aIGI_Wmbd^<=Lb1
+R8
+32
+R283
+!i10b 1
+R284
+Z375 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_2.vhd|
+Z376 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_2.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 9 or_gate_2 0 22 k4>dhSD7:U[A]OTE24IH<1
+l14
+L13
+VYIDZL]?m=QjCf4Lk]]3f82
+!s100 Dig94>7W5z0f4<iP>KLo10
+R8
+32
+R283
+!i10b 1
+R284
+R375
+R376
+!i113 1
+R13
+R14
+Eor_gate_32
+R49
+R3
+R4
+R5
+Z377 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_32.vhd
+Z378 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_32.vhd
+l0
+L5
+V62h?8Mlfl`WN<[W?cCkTI0
+!s100 XkkR6QF?Vl4ZJYEZjo;0l2
+R8
+32
+R157
+!i10b 1
+R335
+Z379 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_32.vhd|
+Z380 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 10 or_gate_32 0 22 62h?8Mlfl`WN<[W?cCkTI0
+l14
+L13
+Vl1M<aAZJ1D^S3_3^W_^IR3
+!s100 K:BE?onG;^0[1Z5dkfcRR0
+R8
+32
+R157
+!i10b 1
+R335
+R379
+R380
+!i113 1
+R13
+R14
+Eor_gate_3to1
+R26
+R2
+R3
+R4
+R5
+Z381 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_3to1.vhd
+Z382 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_3to1.vhd
+l0
+L5
+VOlm9j6R:Fh828d?fQdYK81
+!s100 MFTHlfcV<JbIgWMjR1H0>2
+R8
+32
+R283
+!i10b 1
+R284
+Z383 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_3to1.vhd|
+Z384 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_3to1.vhd|
+!i113 1
+R13
+R14
+Adataflows
+R2
+R3
+R4
+DEx4 work 12 or_gate_3to1 0 22 Olm9j6R:Fh828d?fQdYK81
+l21
+L10
+V0[emWmzJ[0J3>WQM_X88B2
+!s100 0TlOzZ`X9cz;D_YkY>X3W2
+R8
+32
+R283
+!i10b 1
+R284
+R383
+R384
+!i113 1
+R13
+R14
+Eor_gate_4
+R0
+R3
+R4
+R5
+Z385 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4.vhd
+Z386 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4.vhd
+l0
+L5
+V^>nO=_a:WVclVkSIUF]Qg3
+!s100 ifaRMPfI=Wa_[VDK6nZkc0
+R8
+32
+R369
+!i10b 1
+R370
+Z387 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4.vhd|
+Z388 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 9 or_gate_4 0 22 ^>nO=_a:WVclVkSIUF]Qg3
+l14
+L13
+VoP`^8k6XPziSLef;VDcC<0
+!s100 b8bF<<nXDCd`H0EK>Ki4L1
+R8
+32
+R369
+!i10b 1
+R370
+R387
+R388
+!i113 1
+R13
+R14
+Eor_gate_4to1
+R26
+R2
+R3
+R4
+R5
+Z389 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4to1.vhd
+Z390 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4to1.vhd
+l0
+L7
+Vl?;o8U<e]=<jdd3Un9>nP0
+!s100 :bW0GES0l;c3n9WF?NkOn1
+R8
+32
+R369
+!i10b 1
+R370
+Z391 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4to1.vhd|
+Z392 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_4to1.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+R34
+l26
+L14
+VXA0:Io<@lEW_6_S217cBS2
+!s100 AUQgiQ3UZbTekoXh1cYFz0
+R8
+32
+R369
+!i10b 1
+R370
+R391
+R392
+!i113 1
+R13
+R14
+Eor_gate_6to1
+R26
+R2
+R3
+R4
+R5
+Z393 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_6to1.vhd
+Z394 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_6to1.vhd
+l0
+L7
+V8k9A<i[8LT4`AV[7G;Qbj0
+!s100 LeJ21a8d25O6kQBlmn>PZ2
+R8
+32
+R369
+!i10b 1
+R370
+Z395 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_6to1.vhd|
+Z396 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_6to1.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+DEx4 work 12 or_gate_6to1 0 22 8k9A<i[8LT4`AV[7G;Qbj0
+l26
+L14
+VB7ZC[^AYn]bBcB?kKeFNa1
+!s100 0_MR3S^nb>U=PnV^BoSZ13
+R8
+32
+R369
+!i10b 1
+R370
+R395
+R396
+!i113 1
+R13
+R14
+Eor_gate_8
+R0
+R3
+R4
+R5
+Z397 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_8.vhd
+Z398 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_8.vhd
+l0
+L5
+VQo[YCnP;5Wk<dV5`P3iKl3
+!s100 Vf>1=b5bl_N@g;`o@0E=<2
+R8
+32
+R369
+!i10b 1
+R370
+Z399 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_8.vhd|
+Z400 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/or_gate_8.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 9 or_gate_8 0 22 Qo[YCnP;5Wk<dV5`P3iKl3
+l14
+L13
+ViPRiS?n;ONc];EbZALj>;3
+!s100 LE9lO9;]B=zWH>J@6j7j?3
+R8
+32
+R369
+!i10b 1
+R370
+R399
+R400
+!i113 1
+R13
+R14
+Eor_gate_n
+R49
+R3
+R4
+R5
+Z401 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_n.vhd
+Z402 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_n.vhd
+l0
+L5
+Vzn[6N]nRC@T4X2TN[5l?_0
+!s100 Y[01iFT>714d^L[KJ4VM82
+R8
+32
+R157
+!i10b 1
+R158
+Z403 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_n.vhd|
+Z404 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/or_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 9 or_gate_n 0 22 zn[6N]nRC@T4X2TN[5l?_0
+l17
+L16
+V92IH<JT]B^;>eHZBo@=fg0
+!s100 X0T0eOJ7Mi7@HZjHoZO6:3
+R8
+32
+R157
+!i10b 1
+R158
+R403
+R404
+!i113 1
+R13
+R14
+Epc_32
+Z405 w1480970659
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z406 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/pc_32.vhd
+Z407 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/pc_32.vhd
+l0
+L11
+VTV>T=B8hGOh<aVXoBS1nW0
+!s100 =Wk5eTTSmZoNDBGJW2A[>0
+R8
+32
+R198
+!i10b 1
+R199
+Z408 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/pc_32.vhd|
+Z409 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/pc_32.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 5 pc_32 0 22 TV>T=B8hGOh<aVXoBS1nW0
+l43
+L21
+V]01:Y:IoOi7?UX[A_oXh62
+!s100 R_kBzLP]eOQGmXJJN3EQo2
+R8
+32
+R198
+!i10b 1
+R199
+R408
+R409
+!i113 1
+R13
+R14
+Epipeline
+Z410 w1481082827
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z411 8C:\Users\Shuyue\Desktop\Fall 2016\EECS 361\Group5_2\codes2\pipeline.vhd
+Z412 FC:\Users\Shuyue\Desktop\Fall 2016\EECS 361\Group5_2\codes2\pipeline.vhd
+l0
+L8
+Vf;KfG^2L2KADLzhioX5[z3
+!s100 SlO[Be?Ygo7VbO@Ieb9Be1
+R8
+32
+Z413 !s110 1481083922
+!i10b 1
+Z414 !s108 1481083922.000000
+Z415 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Shuyue\Desktop\Fall 2016\EECS 361\Group5_2\codes2\pipeline.vhd|
+Z416 !s107 C:\Users\Shuyue\Desktop\Fall 2016\EECS 361\Group5_2\codes2\pipeline.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+Z417 DEx4 work 8 pipeline 0 22 f;KfG^2L2KADLzhioX5[z3
+l306
+L15
+Z418 VReiJQn[j<1?IInLkd3dOB1
+Z419 !s100 ;]TkcF[N[cY:XPiaZWX0o1
+R8
+32
+R413
+!i10b 1
+R414
+R415
+R416
+!i113 1
+R13
+R14
+Eprocessor
+Z420 w1479678072
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z421 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor.vhd
+Z422 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor.vhd
+l0
+L10
+VNn1n<cBGKmlLzHaH9HePR2
+!s100 QC0aFLUBW55:Pg0TIlhRl0
+R8
+32
+R369
+!i10b 1
+R370
+Z423 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor.vhd|
+Z424 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 9 processor 0 22 Nn1n<cBGKmlLzHaH9HePR2
+l68
+L23
+V5XBWzD<1M8G:3hMK6mREI3
+!s100 EAXJUz8Fo5cOU6PRKFF`_3
+R8
+32
+R369
+!i10b 1
+R370
+R423
+R424
+!i113 1
+R13
+R14
+Eprocessor_to_mem
+Z425 w1479702589
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z426 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor_to_mem.vhd
+Z427 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor_to_mem.vhd
+l0
+L10
+VLX<GaKn>Ge7Sa>BQQ6AX21
+!s100 BW[nioUnHY7_F8Nnf7F1C2
+R8
+32
+R369
+!i10b 1
+R370
+Z428 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor_to_mem.vhd|
+Z429 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/processor_to_mem.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 16 processor_to_mem 0 22 LX<GaKn>Ge7Sa>BQQ6AX21
+l73
+L16
+Va1gZ4I_jVk^RmkT19WF1L0
+!s100 DdE5G5YQ<JDS0^5<786OU1
+R8
+32
+R369
+!i10b 1
+R370
+R428
+R429
+!i113 1
+R13
+R14
+Ereg_dec_unit
+Z430 w1481066005
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z431 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/reg_dec_unit.vhd
+Z432 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/reg_dec_unit.vhd
+l0
+L10
+V0zDiRCgNc4[F;ShHdH9h63
+!s100 InzzZ^Y>PLQ]PJf4;ARG52
+R8
+32
+R198
+!i10b 1
+R199
+Z433 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/reg_dec_unit.vhd|
+Z434 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/reg_dec_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 12 reg_dec_unit 0 22 0zDiRCgNc4[F;ShHdH9h63
+l114
+L37
+VKN1[R?HZeNMig0He7?kWh1
+!s100 ]UB<PJK7=A5O;1Y7FNCR`3
+R8
+32
+R198
+!i10b 1
+R199
+R433
+R434
+!i113 1
+R13
+R14
+Eregfile
+R154
+R2
+R3
+R4
+R5
+Z435 8C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/RegFile.vhd
+Z436 FC:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/RegFile.vhd
+l0
+L4
+VL0Y4_l2XE:AiajH1Rz99I1
+!s100 gbUAmC:Z1fiYWO3BDbQLL3
+R8
+32
+R94
+!i10b 1
+R95
+Z437 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/RegFile.vhd|
+Z438 !s107 C:/GitHub/EECS361-Group-Project/GroupProject2/SingleCycleProcessor/RegFile.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+DEx4 work 7 regfile 0 22 L0Y4_l2XE:AiajH1Rz99I1
+l90
+L19
+VTT;5Z9kP47b7m3RmjK7?T1
+!s100 N=aGl?On]Il8jM3Pf<mQP2
+R8
+32
+R94
+!i10b 1
+R95
+R437
+R438
+!i113 1
+R13
+R14
+Eregister_basic_128
+Z439 w1480873134
+R166
+R3
+R4
+R5
+Z440 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_128.vhd
+Z441 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_128.vhd
+l0
+L5
+VkQ=d0m4kPMUI5__Hh6O>M2
+!s100 `SCoBW@eC?M707K2XB]7d1
+R8
+32
+R9
+!i10b 1
+R10
+Z442 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_128.vhd|
+Z443 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_128.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 18 register_basic_128 0 22 kQ=d0m4kPMUI5__Hh6O>M2
+l29
+L15
+VDddF=dNj0S]7zD1QVZ_MM2
+!s100 cT]W_UAeO`[a[efzSdNUL2
+R8
+32
+R9
+!i10b 1
+R10
+R442
+R443
+!i113 1
+R13
+R14
+Eregister_basic_144
+Z444 w1480983865
+R166
+R3
+R4
+R5
+Z445 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_144.vhd
+Z446 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_144.vhd
+l0
+L5
+VCo2WgkhI8C^gE7bAUaa7z0
+!s100 :Ekk`F_:o`9eFem[mFLWG1
+R8
+32
+Z447 !s110 1481041901
+!i10b 1
+Z448 !s108 1481041901.000000
+Z449 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_144.vhd|
+Z450 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_144.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 18 register_basic_144 0 22 Co2WgkhI8C^gE7bAUaa7z0
+l29
+L15
+V>lDi0kCHW0=i5Y]HcK9ZM2
+!s100 WBITCM<lBXT;hmZam>n030
+R8
+32
+R447
+!i10b 1
+R448
+R449
+R450
+!i113 1
+R13
+R14
+Eregister_basic_145
+Z451 w1481059059
+R166
+R3
+R4
+R5
+Z452 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_145.vhd
+Z453 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_145.vhd
+l0
+L5
+V1SzM;M>:H:0KmP^7aK9Li1
+!s100 Sbn^o]`EbZE8Y;o[W:i@X3
+R8
+32
+R259
+!i10b 1
+R260
+Z454 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_145.vhd|
+Z455 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_145.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 18 register_basic_145 0 22 1SzM;M>:H:0KmP^7aK9Li1
+l29
+L15
+V88JAmL2FhXm`RzD0]BP]W1
+!s100 dI`A__nUEf6@6]jAjeNh^3
+R8
+32
+R259
+!i10b 1
+R260
+R454
+R455
+!i113 1
+R13
+R14
+Eregister_basic_16
+Z456 w1480873335
+R166
+R3
+R4
+R5
+Z457 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_16.vhd
+Z458 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_16.vhd
+l0
+L5
+VDzVNj4_cWlWklDQUXJK4S0
+!s100 c`kkdkQA@;VJEQ6D]KbJ;3
+R8
+32
+R198
+!i10b 1
+R199
+Z459 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_16.vhd|
+Z460 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_16.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 17 register_basic_16 0 22 DzVNj4_cWlWklDQUXJK4S0
+l29
+L15
+V:k9a4Az@<dL[cQdB3H25^2
+!s100 zc_fUAilkTBPQ?4gYJ`5f1
+R8
+32
+R198
+!i10b 1
+R199
+R459
+R460
+!i113 1
+R13
+R14
+Eregister_basic_160
+Z461 w1481065502
+R166
+R3
+R4
+R5
+Z462 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_160.vhd
+Z463 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_160.vhd
+l0
+L5
+VJzGalVeLMVC9VJRLgjlaE2
+!s100 D[4P[_0>7gmZfRWU:@L9^0
+R8
+32
+R62
+!i10b 1
+R63
+Z464 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_160.vhd|
+Z465 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_160.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 18 register_basic_160 0 22 JzGalVeLMVC9VJRLgjlaE2
+l29
+L15
+V5C:OZH[2;g@;ffmD`]R;<2
+!s100 g857=FR^^Ajobf]:TYeCl0
+R8
+32
+R62
+!i10b 1
+R63
+R464
+R465
+!i113 1
+R13
+R14
+Eregister_basic_32
+R133
+R166
+R3
+R4
+R5
+Z466 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32.vhd
+Z467 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32.vhd
+l0
+L7
+VbG<UBeIP2nGL;9hkMW=b>2
+!s100 ZP56m1@KlYR^TNX0Y`KSd0
+R8
+32
+R369
+!i10b 1
+R370
+Z468 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32.vhd|
+Z469 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 17 register_basic_32 0 22 bG<UBeIP2nGL;9hkMW=b>2
+l31
+L17
+VJ_j8^M>i@i=aiJHZQ7k4?3
+!s100 6H]8fz>K2;B<b^7_k[enF1
+R8
+32
+R369
+!i10b 1
+R370
+R468
+R469
+!i113 1
+R13
+R14
+Eregister_basic_32_test
+R0
+R166
+R3
+R4
+R5
+Z470 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32_test.vhd
+Z471 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32_test.vhd
+l0
+L7
+V3D9glDJzo;X7YBoL<8Xf]1
+!s100 lHzam7b^0^[o:8A_TTRl61
+R8
+32
+Z472 !s110 1481068576
+!i10b 1
+Z473 !s108 1481068576.000000
+Z474 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32_test.vhd|
+Z475 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_basic_32_test.vhd|
+!i113 1
+R13
+R14
+Abehave
+R3
+R4
+DEx4 work 22 register_basic_32_test 0 22 3D9glDJzo;X7YBoL<8Xf]1
+l27
+L10
+V]R_c=zMmI_`b`1EVcX@cY1
+!s100 GP:5]Gm8Ul0>BN7[Cjk7F3
+R8
+32
+R472
+!i10b 1
+R473
+R474
+R475
+!i113 1
+R13
+R14
+Eregister_basic_64
+Z476 w1480870491
+R166
+R3
+R4
+R5
+Z477 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_64.vhd
+Z478 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_64.vhd
+l0
+L7
+V?=_j?FiFTe<doGe`6j::;2
+!s100 LndiIUGWF>X=AZWd?mM3j3
+R8
+32
+R9
+!i10b 1
+R10
+Z479 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_64.vhd|
+Z480 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/register_basic_64.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 17 register_basic_64 0 22 ?=_j?FiFTe<doGe`6j::;2
+l31
+L17
+V4_65SZoh[W[>W3`N^>hmY0
+!s100 3<nRV[[67i?zg>N>W7D4E3
+R8
+32
+R9
+!i10b 1
+R10
+R479
+R480
+!i113 1
+R13
+R14
+Eregister_file
+R0
+R166
+R306
+R2
+R3
+R4
+R5
+Z481 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file.vhd
+Z482 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file.vhd
+l0
+L8
+Vm8fB=[[OBa`8]zDkn3zXY3
+!s100 ;o4XYkKZC8]K@^6f[X1j^3
+R8
+32
+R472
+!i10b 1
+R473
+Z483 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file.vhd|
+Z484 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file.vhd|
+!i113 1
+R13
+R14
+Astructural
+R306
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 m8fB=[[OBa`8]zDkn3zXY3
+l68
+L21
+V1PDKFXR>h=z7<5W`P^^UC1
+!s100 9T8D4k=9mNEVnVdiBSz:;2
+R8
+32
+R472
+!i10b 1
+R473
+R483
+R484
+!i113 1
+R13
+R14
+Eregister_file_test
+R133
+R166
+R306
+R2
+R3
+R4
+R5
+Z485 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file_test.vhd
+Z486 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file_test.vhd
+l0
+L9
+V4^Whj@leJG@X2ThS:z:`=1
+!s100 D=SAH:lih[QlbKR;lEPc31
+R8
+32
+R472
+!i10b 1
+R473
+Z487 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file_test.vhd|
+Z488 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/register_file_test.vhd|
+!i113 1
+R13
+R14
+Abehave
+R306
+R2
+R3
+R4
+DEx4 work 18 register_file_test 0 22 4^Whj@leJG@X2ThS:z:`=1
+l36
+L12
+V66SBI46nOMbD]5@UTLGY50
+!s100 _0AUecAKQ_A2GjWL:XDzO1
+R8
+32
+R472
+!i10b 1
+R473
+R487
+R488
+!i113 1
+R13
+R14
+Eset_lt_sgn
+R0
+R1
+R2
+R3
+R4
+R5
+Z489 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_sgn.vhd
+Z490 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_sgn.vhd
+l0
+L6
+V2iVoEka:3o]F5U[jT11[C3
+!s100 RUUjSOH_zB2f7=i83T26i1
+R8
+32
+R472
+!i10b 1
+R473
+Z491 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_sgn.vhd|
+Z492 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_sgn.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 10 set_lt_sgn 0 22 2iVoEka:3o]F5U[jT11[C3
+l55
+L14
+VVPg8X1=?;[;IMOS=aA69G1
+!s100 eJf>FTn2^BjnUXLcR==J50
+R8
+32
+R472
+!i10b 1
+R473
+R491
+R492
+!i113 1
+R13
+R14
+Eset_lt_usgn
+R0
+R3
+R4
+R5
+Z493 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_usgn.vhd
+Z494 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_usgn.vhd
+l0
+L4
+V<PNhQeKPml4k@c0aaih1K0
+!s100 e@R8UdLUn:YG?oVa]z=4n0
+R8
+32
+R472
+!i10b 1
+R473
+Z495 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_usgn.vhd|
+Z496 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/set_lt_usgn.vhd|
+!i113 1
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 11 set_lt_usgn 0 22 <PNhQeKPml4k@c0aaih1K0
+l36
+L12
+VZJ?`4_o?<S>^Zoe7Ub_7Q0
+!s100 i3JUKa4X_zm>LQlPX28QL2
+R8
+32
+R472
+!i10b 1
+R473
+R495
+R496
+!i113 1
+R13
+R14
+Esll_32
+R0
+R2
+R3
+R4
+R5
+Z497 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/sll_32.vhd
+Z498 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/sll_32.vhd
+l0
+L5
+VGCfTo;4XekNcKjL=NAI1D1
+!s100 dMc<Lb4J6<RGzIDoJ`1<o2
+R8
+32
+R472
+!i10b 1
+R473
+Z499 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/sll_32.vhd|
+Z500 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/sll_32.vhd|
+!i113 1
+R13
+R14
+Adataflows
+R2
+R3
+R4
+DEx4 work 6 sll_32 0 22 GCfTo;4XekNcKjL=NAI1D1
+l27
+L11
+VNeSi[gdBY`TRz]?eSnbe50
+!s100 VE][_eINO9NCBMZfnYod_3
+R8
+32
+R472
+!i10b 1
+R473
+R499
+R500
+!i113 1
+R13
+R14
+Esram
+Z501 w1479322395
+R116
+R89
+R90
+R91
+R3
+R4
+R5
+Z502 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/sram.vhd
+Z503 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/sram.vhd
+l0
+L15
+VG0A[[68GR2^;>NcVogAVf2
+!s100 T]eQ2F5;<=]0ZNa0_94Xi0
+R8
+32
+Z504 !s110 1481068580
+!i10b 1
+Z505 !s108 1481068580.000000
+Z506 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/sram.vhd|
+Z507 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/sram.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R116
+R89
+R90
+R91
+R3
+R4
+R215
+l30
+L29
+V2R3gc?WC]=nALV9B:c2fe2
+!s100 7N5=eXdZlQZ;]3bE@<GDm1
+R8
+32
+R504
+!i10b 1
+R505
+R506
+R507
+!i113 1
+R13
+R14
+Esyncram
+Z508 w1479485040
+R116
+R89
+R90
+R91
+R3
+R4
+R5
+Z509 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/syncram.vhd
+Z510 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/syncram.vhd
+l0
+L12
+V9SF6a]cFn[EkodD;4OT_h0
+!s100 aFnLlL1@m415d6em?MG^21
+R8
+32
+R504
+!i10b 1
+R505
+Z511 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/syncram.vhd|
+Z512 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_cpu/eecs361/lib/syncram.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R116
+R89
+R90
+R91
+R3
+R4
+R117
+l28
+L27
+V`V1W?_S89^YMz7nNZIMVB1
+!s100 W:<cVUTVPgIfz60fOOgQ20
+R8
+32
+R504
+!i10b 1
+R505
+R511
+R512
+!i113 1
+R13
+R14
+Etest_data_memory
+Z513 w1479608171
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z514 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd
+Z515 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd
+l0
+L10
+Vi2ANzWolN[9gZIN44^Az71
+!s100 oVJ_`cC<ioI8nSNoD9mEP3
+R8
+32
+R472
+!i10b 1
+R473
+Z516 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd|
+Z517 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_data_memory.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 16 test_data_memory 0 22 i2ANzWolN[9gZIN44^Az71
+l31
+L13
+VD`YY47ll1g=Ig@;b9`YXW2
+!s100 MGdM>G<<KTa?1n74eODm^0
+R8
+32
+R472
+!i10b 1
+R473
+R516
+R517
+!i113 1
+R13
+R14
+Etest_datapath
+Z518 w1479603188
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z519 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd
+Z520 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd
+l0
+L10
+V5eZgEAj?_R_DeW2`jQZJl2
+!s100 ZRlMTE2`YaJBJ=P=]h>3N2
+R8
+32
+R472
+!i10b 1
+R473
+Z521 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd|
+Z522 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_datapath.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 13 test_datapath 0 22 5eZgEAj?_R_DeW2`jQZJl2
+l50
+L13
+V[cddf]lj4Tm1S^:[cjSG_3
+!s100 o`PIg=HAW`P<]m>nD6D6`1
+R8
+32
+R472
+!i10b 1
+R473
+R521
+R522
+!i113 1
+R13
+R14
+Etest_extender
+Z523 w1479159091
+R1
+R2
+R3
+R4
+R5
+Z524 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd
+Z525 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd
+l0
+L8
+VG0c[Th[XXgQKd21k7INMI3
+!s100 JJ=T=8N;883>ZCP@S59`C0
+R8
+32
+Z526 !s110 1481068577
+!i10b 1
+Z527 !s108 1481068577.000000
+Z528 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd|
+Z529 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_extender.vhd|
+!i113 1
+R13
+R14
+Atest
+R1
+R2
+R3
+R4
+DEx4 work 13 test_extender 0 22 G0c[Th[XXgQKd21k7INMI3
+l23
+L11
+VIg65?Uj106X]77eGofS[o0
+!s100 Z2I@QS=]_2XQ0HzoVS@jf0
+R8
+32
+R526
+!i10b 1
+R527
+R528
+R529
+!i113 1
+R13
+R14
+Etest_instr_memory
+Z530 w1479437767
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z531 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd
+Z532 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd
+l0
+L10
+V6GMSNkRLkRNKI@AAk4<Xz2
+!s100 UIeRF__N]C>68X[miB`mD2
+R8
+32
+R526
+!i10b 1
+R527
+Z533 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd|
+Z534 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instr_memory.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 17 test_instr_memory 0 22 6GMSNkRLkRNKI@AAk4<Xz2
+l23
+L13
+VQ;f7>^m5GH348DgRBe3HU3
+!s100 Md<nEnFeECO5iXdHODBTz0
+R8
+32
+R526
+!i10b 1
+R527
+R533
+R534
+!i113 1
+R13
+R14
+Etest_instruction_fetch
+Z535 w1479599218
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z536 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd
+Z537 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd
+l0
+L10
+V]8nN@XT[2^Z][6NgzZBW53
+!s100 LZHQ1GCe1CS?[K5fT@o]:3
+R8
+32
+R526
+!i10b 1
+R527
+Z538 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd|
+Z539 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_instruction_fetch.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 22 test_instruction_fetch 0 22 ]8nN@XT[2^Z][6NgzZBW53
+l32
+L13
+V2`V8gj>hifT7H=knU1OZ90
+!s100 O4QPLWn;jAfSC<jP;hM372
+R8
+32
+R526
+!i10b 1
+R527
+R538
+R539
+!i113 1
+R13
+R14
+Etest_processor
+Z540 w1479605748
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z541 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd
+Z542 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd
+l0
+L10
+VSId6N;mig^eWfaf^c8g<m2
+!s100 ?FO8gmR;ML63KZ6_Ig6Ah2
+R8
+32
+R526
+!i10b 1
+R527
+Z543 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd|
+Z544 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_processor.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 14 test_processor 0 22 SId6N;mig^eWfaf^c8g<m2
+l34
+L13
+VFA:QdCKM>N:<Km57NR?Li0
+!s100 E;Nkj?EY8=G4]e:S6L[8C0
+R8
+32
+R526
+!i10b 1
+R527
+R543
+R544
+!i113 1
+R13
+R14
+Etest_ptom
+Z545 w1479613286
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z546 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd
+Z547 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd
+l0
+L10
+V^Sj;mVcRO3nE5I?BCn:2P1
+!s100 m9H6J=>:O<fE`H3FfhmC33
+R8
+32
+R526
+!i10b 1
+R527
+Z548 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd|
+Z549 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes/test_ptom.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 9 test_ptom 0 22 ^Sj;mVcRO3nE5I?BCn:2P1
+l23
+L13
+Vi^0O2FlMnoYO=MB2ce><20
+!s100 U0cDB@jc]@[9UoKX;FNjX2
+R8
+32
+R526
+!i10b 1
+R527
+R548
+R549
+!i113 1
+R13
+R14
+Ewb_unit
+Z550 w1480979767
+R2
+R89
+R90
+R91
+R3
+R4
+R5
+Z551 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/wb_unit.vhd
+Z552 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/wb_unit.vhd
+l0
+L8
+Vf^14PcDVP0Y1V37L^dg;>0
+!s100 aL]QKc>cSLde;23n1?:D`3
+R8
+32
+R9
+!i10b 1
+R10
+Z553 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/wb_unit.vhd|
+Z554 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/Group5_2/codes2/wb_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R89
+R90
+R91
+R3
+R4
+DEx4 work 7 wb_unit 0 22 f^14PcDVP0Y1V37L^dg;>0
+l28
+L18
+VUN9[M_e35EOY31z5abd_l0
+!s100 aAna71A2I>E>Yl30mUJY@3
+R8
+32
+R9
+!i10b 1
+R10
+R553
+R554
+!i113 1
+R13
+R14
+Exnor_gate
+R49
+R3
+R4
+R5
+Z555 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate.vhd
+Z556 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate.vhd
+l0
+L5
+V64cWg<O7h^DkP_G;TSfFb3
+!s100 VMF9C>DP[5;VOiN5[aESd3
+R8
+32
+R157
+!i10b 1
+R158
+Z557 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate.vhd|
+Z558 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 9 xnor_gate 0 22 64cWg<O7h^DkP_G;TSfFb3
+l14
+L13
+VQi:Iak;D@9C9]:NzK;74n0
+!s100 ]_>oDFZN:PJ[HJie3IcK81
+R8
+32
+R157
+!i10b 1
+R158
+R557
+R558
+!i113 1
+R13
+R14
+Exnor_gate_32
+R49
+R3
+R4
+R5
+Z559 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_32.vhd
+Z560 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_32.vhd
+l0
+L5
+Vb;[YHU0[33T3iW>0faTEM1
+!s100 7TK64^z14nVXPK]cWgS3=0
+R8
+32
+R157
+!i10b 1
+R158
+Z561 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_32.vhd|
+Z562 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 12 xnor_gate_32 0 22 b;[YHU0[33T3iW>0faTEM1
+l14
+L13
+Vj6oobg=Md_S?TNUXnEgQS1
+!s100 l]IKGhY:hL2aDUPV;>SB?0
+R8
+32
+R157
+!i10b 1
+R158
+R561
+R562
+!i113 1
+R13
+R14
+Exnor_gate_n
+R49
+R3
+R4
+R5
+Z563 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_n.vhd
+Z564 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_n.vhd
+l0
+L5
+V4EA6^j0IRIDB16NETgY=Y2
+!s100 UCY45ZALOU6@I^4jz3eW33
+R8
+32
+R157
+!i10b 1
+R158
+Z565 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_n.vhd|
+Z566 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xnor_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 11 xnor_gate_n 0 22 4EA6^j0IRIDB16NETgY=Y2
+l17
+L16
+VN80JhF1hQ^[dBKNd[M=fT3
+!s100 dDail5hL?0zna@N:=D@8b2
+R8
+32
+R157
+!i10b 1
+R158
+R565
+R566
+!i113 1
+R13
+R14
+Exor_gate
+R49
+R3
+R4
+R5
+Z567 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate.vhd
+Z568 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate.vhd
+l0
+L5
+V>:0of;3?<Db:J2P]bLRRE1
+!s100 K_6H3f?zAK@4`dnkC2j[K2
+R8
+32
+R157
+!i10b 1
+R158
+Z569 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate.vhd|
+Z570 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 8 xor_gate 0 22 >:0of;3?<Db:J2P]bLRRE1
+l14
+L13
+V?CjQI0YRXW2fDDWch@MCZ2
+!s100 e;mL^F4ENl;O2f_Ae@3MU2
+R8
+32
+R157
+!i10b 1
+R158
+R569
+R570
+!i113 1
+R13
+R14
+Exor_gate_32
+R49
+R3
+R4
+R5
+Z571 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_32.vhd
+Z572 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_32.vhd
+l0
+L5
+VGbk[]dcIS]^URh4W`1n2k2
+!s100 IY:zIdH0EdL@PUV4ISe5M0
+R8
+32
+R157
+!i10b 1
+R158
+Z573 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_32.vhd|
+Z574 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 11 xor_gate_32 0 22 Gbk[]dcIS]^URh4W`1n2k2
+l14
+L13
+VzI^J^MZ^38iCSSjiao;;]1
+!s100 [@^nmEj?djZ;8jS41JD]@3
+R8
+32
+R157
+!i10b 1
+R158
+R573
+R574
+!i113 1
+R13
+R14
+Exor_gate_n
+R49
+R3
+R4
+R5
+Z575 8C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_n.vhd
+Z576 FC:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_n.vhd
+l0
+L5
+VM9]8CicZMP;K]3l`m2zdS3
+!s100 LPoPXbzH8=CBB]^6S5Unf1
+R8
+32
+R157
+!i10b 1
+R158
+Z577 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_n.vhd|
+Z578 !s107 C:/Users/Shuyue/Desktop/Fall 2016/EECS 361/eecs361lib_alu/eecs361/lib/xor_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 10 xor_gate_n 0 22 M9]8CicZMP;K]3l`m2zdS3
+l17
+L16
+V_NK2YA8924hnGVNBI=DYK3
+!s100 29oXRe`]fm02Bce^Do[3m2
+R8
+32
+R157
+!i10b 1
+R158
+R577
+R578
+!i113 1
+R13
+R14

@@ -29,7 +29,7 @@ port(  instr  : in std_logic_vector(31 downto 0);
       branch   : out std_logic;
       Extop    : out std_logic;
       ALUctr   : out std_logic_vector(3 downto 0);
-      Op       : out std_logic_vector(1 downto 0);
+      Op       : out std_logic_vector(5 downto 0);
       shift    : out std_logic_vector(4 downto 0)	  
 );
 end reg_dec_unit;
@@ -138,7 +138,7 @@ imm <= instr(15 downto 0);
 Rt <= instr(20 downto 16);
 Rd <= instr(15 downto 11);	
 shift <= instr(10 downto 6);
-Op <= instr(27 downto 26);	  
+Op <= instr(31 downto 26);	  
 pc_add4_out <= pc_add4_in;
 -- register128_map: register_basic_128 port map( clk => clkn, arst => arst, write_enable => '1',
                -- data_in(127 downto 96) => pc_add4_in, data_in(95 downto 64) => sig_BusA,
